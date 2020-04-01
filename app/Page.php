@@ -35,6 +35,8 @@ class Page extends Model
     {
         preg_match_all("/\[([^\]]*)\]/", $this->text, $matches);
 
+        if (!$matches[1]) return false;
+
         foreach ($matches[1] as $item) {
             $block = Block::where('slug',$item)->firstOrFail();
             $find[] = '['.$item.']';

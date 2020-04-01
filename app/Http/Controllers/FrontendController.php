@@ -11,8 +11,12 @@ class FrontendController extends Controller
 {
     public function index()
     {
+        $page = Page::first();
+        if (!$page) {
+            $page = new Page;
+        }
         return view('front.home', [
-            'page' => Page::first()
+            'page' => $page
         ]);
     }
 
