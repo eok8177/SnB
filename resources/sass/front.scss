@@ -1,8 +1,304 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import 'fonts';
 
 // Variables
 @import 'variables';
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+@media (min-width: 1440px) {
+    .container {max-width: 1410px;}
+}
+
+html {
+    font-size: 14px;
+}
+
+button:focus {
+    outline: none;
+}
+
+body.bots {
+    background: $black;
+    color: #FFF;
+}
+
+.navbar {
+    margin-bottom: 30px;
+    .logo {
+        width: 110px;
+        height: 55px;
+        background: url('../images/logo_black.svg') no-repeat center;
+        background-size: contain;
+        margin: 12px 0;
+    }
+    .dropdown-menu {
+        min-width: auto;
+    }
+    .nav-item {
+        .nav-link {
+            display: inline-block;
+            font-size: 14px;
+            line-height: 17px;
+            color: $black;
+            padding: 11px 10px;
+            &:hover {color: #000;}
+        }
+    }
+    .navbar-nav {
+        @media (max-width: 767px) {
+            text-align: right;
+        }
+    }
+}
+.bots {
+    .navbar {
+        .logo {
+            background-image: url('../images/logo_white.svg');
+        }
+        .navbar-toggler {
+            color: rgba(255, 255, 255, 0.5);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+        .navbar-toggler-icon {
+            background-image: escape-svg($navbar-dark-toggler-icon-bg);
+        }
+    }
+}
+
+.btn-gradient {
+    transition: all 0.2s;
+    background: linear-gradient(270deg, #255CD1 0%, #3C9BEB 100%);
+    border-radius: 30px;
+    border: none;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    margin: 0 10px;
+    padding: 2px;
+    text-transform: uppercase;
+    cursor: pointer;
+    span {
+        display: inline-block;
+        width: 100%;
+        height: 100%;
+        padding: 8px 30px;
+        border-radius: 30px;
+    }
+    &:hover {
+        text-decoration: none;
+        color: #3C9BEB;
+        span {background: #D4D4D4;}
+    }
+}
+.btn-black-round {
+    transition: all 0.2s;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 20px;
+    color: $black;
+    padding: 6px 18px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    &:hover, &.active {
+        background-color: $black;
+        border-color: #C4C4C4;
+        color: #FFF;
+        text-decoration: none;
+    }
+}
+.bots {
+    .btn-gradient:hover {
+        span {background: $black;}
+    }
+    .btn-black-round {
+        color: #FFF;
+        &:hover, &.active {
+            background-color: #FFF;
+            border-color: #C4C4C4;
+            color: $black;
+            text-decoration: none;
+        }
+    }
+}
+
+.btn-more, .btn-hide {
+    transition: all 0.2s;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    background: transparent;
+    border:none;
+    outline: none;
+    cursor: pointer;
+    padding: 0;
+    margin-top: 6px;
+    &:hover {color: #000;}
+}
+
+.dashed {
+    margin: 20px 0;
+    border-top: 2px dashed $black;
+}
+.bots {
+    .btn-more, .btn-hide {
+        color: #FFF;
+        &:hover {color: #AAA;}
+    }
+    .dashed {border-color: #FFF;}
+}
+
+.title {
+    font-weight: 600;
+    font-size: 4.1em;
+    line-height: 0.9;
+    margin-top: 40px;
+    @media (max-width: 767px) {
+        margin-top: 20px;
+        font-size: 40px;
+    }
+}
+.main-page-text p {
+    margin-top: 70px;
+    font-weight: 600;
+    font-size: 3.5em;
+    line-height: 1;
+    @media (max-width: 767px) {
+        margin-top: 20px;
+        font-size: 18px;
+    }
+}
+
+.work-block {
+    padding-bottom: 60px;
+    @media (max-width: 767px) {padding-bottom: 20px;}
+}
+
+.work-title {
+    font-size: 4.2em;
+    font-weight: 600;
+    .small {
+        display: block;
+        font-weight: 300;
+    }
+    @media (max-width: 767px) {font-size: 40px;}
+}
+
+.block-more {
+    max-height: 0px;
+    overflow: hidden;
+    transition: max-height 0.2s;
+    &.open {max-height: 1600px;}
+}
+
+.uppercase {text-transform: uppercase;}
+
+.owl-carousel {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.list-desc {
+    list-style: none;
+    padding-left: 60px;
+    li {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 1;
+        margin-bottom: 40px;
+        position: relative;
+        &:before {
+            content: '';
+            position: absolute;
+            left: -35px;
+            top: 0; bottom: 0;
+            margin: auto;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+            background: $black;
+        }
+    }
+}
+
+footer {
+    margin-top: 20px;
+    padding: 80px 0 66px;
+    background: $black;
+    text-align: center;
+    color: #FFF;
+    @media (max-width: 767px) {
+        margin-top: 0;
+        padding: 30px 0;
+    }
+
+    hr.dashed {
+        max-width: 890px;
+        margin: 30px auto;
+        border-color: #FFF;
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 0.9;
+        @media (max-width: 767px) {font-size: 32px;}
+    }
+
+    .copryright {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    .btn-gradient {
+        margin-top: 40px;
+        margin-bottom: 160px;
+        @media (max-width: 767px) {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+    }
+}
+
+
+.bots {
+    .navbar .nav-item .nav-link {
+        color: #FFF;
+    }
+    .list-desc li:before {background: #FFF;}
+    footer {
+        background: #D4D4D4;
+        color: $black;
+        hr.dashed {border-color: $black;}
+        .btn-gradient:hover {
+            color: #3C9BEB;
+            span {background: #D4D4D4;}
+        }
+    }
+}
+
+.image-bot {
+    padding: 40px 0;
+    background: linear-gradient(270deg, #255CD1 0%, #3C9BEB 100%);
+    text-align: center;
+}
+.bot-title {
+    font-size: 3.8em;
+    font-weight: 600;
+    .small {
+        font-weight: 300;
+    }
+    @media (max-width: 767px) {font-size: 36px;}
+}
+
+.mb-80 {
+    @media (min-width: 768px) {margin-bottom: 80px;}
+}

@@ -20,4 +20,15 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function bots()
+    {
+        $page = Page::first();
+        if (!$page) {
+            $page = new Page;
+        }
+        return view('front.bots', [
+            'page' => $page
+        ]);
+    }
+
 }
