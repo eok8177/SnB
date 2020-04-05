@@ -31,4 +31,14 @@ class FrontendController extends Controller
         ]);
     }
 
+    public function about()
+    {
+        return view('front.about');
+    }
+
+    public function contact()
+    {
+        return view('front.contact');
+    }
+
 }

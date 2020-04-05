@@ -29,8 +29,8 @@
           <ul class="navbar-nav ml-auto">
             <li class="nav-item"><a class="nav-link" href="/">@lang('msg.sites')</a></li>
             <li class="nav-item"><a class="nav-link" href="/bots"><i>@lang('msg.boots')</i></a></li>
-            <li class="nav-item"><a class="nav-link" href="#">@lang('msg.about')</a></li>
-            <li class="nav-item"><a class="nav-link" href="#">@lang('msg.contacts')</a></li>
+            <li class="nav-item"><a class="nav-link" href="/about">@lang('msg.about')</a></li>
+            <li class="nav-item"><a class="nav-link" href="contact">@lang('msg.contacts')</a></li>
             <li class="nav-item"><a class="btn-gradient" href="#"><span>@lang('msg.calc')</span></a></li>
             <li class="nav-item">
               <div class="dropdown">

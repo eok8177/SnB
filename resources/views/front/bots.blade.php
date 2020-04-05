@@ -105,7 +105,7 @@
         бот пересылает благодарности в виде SMS-сообщений, которые открываются даже 
         на чудом дожившей до наших дней Nokia 1100.</p>
 
-        <a href="https://annafoxy.com" class="btn-gradient" target="_blank"><span> ОПРОБОВАТЬ</span></a>
+        <a href="https://annafoxy.com" class="btn-gradient mt-4" target="_blank"><span> ОПРОБОВАТЬ</span></a>
       </div>
     </div>
   </div>
@@ -131,7 +131,7 @@
         <p>Когда дело сделано, передает данные об успешной оплате в CRM-систему 
         и админ-панель компании.</p>
 
-        <a href="https://annafoxy.com" class="btn-gradient" target="_blank"><span> ОПРОБОВАТЬ</span></a>
+        <a href="https://annafoxy.com" class="btn-gradient mt-4" target="_blank"><span> ОПРОБОВАТЬ</span></a>
       </div>
     </div>
   </div>
@@ -155,7 +155,7 @@
        <p><b>Не “Мальчик, водочки нам принеси”, а заместитель владельца ресторана, пусть и виртуальный.</b></p>
        <p>Расскажет гостям, сколько есть свободных мест в заведении, покажет меню, поможет выбрать еду и напитки. Забронирует самый лучший столик или даже все заведение для большого праздника. Развеселит шуткой, примет отзыв о работе коллег, подскажет странички заведения в социальных сетях. Заменяет администратора, официанта, менеджера и одного ленивого маркетолога.</p>
 
-        <a href="https://annafoxy.com" class="btn-gradient" target="_blank"><span> ОПРОБОВАТЬ</span></a>
+        <a href="https://annafoxy.com" class="btn-gradient mt-4" target="_blank"><span> ОПРОБОВАТЬ</span></a>
       </div>
     </div>
   </div>
