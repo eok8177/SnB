@@ -7,7 +7,7 @@
 </div>
 
 <div class="container">
-  <div class="border-trb">
+  <div class="border-tr">
     <div class="slogan">
       <p>Мы не любим дописывать чужой код. </p>
       <p>Но можем, если того потребуют обстоятельства.</p>
@@ -62,7 +62,7 @@
 
   </div>
 
-  <div class="border-l">
+  <div class="border-tl">
     <p class="how-work">Как мы работаем</p>
     
 
@@ -175,7 +175,7 @@
       </p>
     </div>
 
-    <p>Or leave your credentials and we will reach you in any convenient way</p>
+    <p class="small">Or leave your credentials and we will reach you in any convenient way</p>
     <button class="btn-gradient"><span>GET STARTED</span></button>
 
     <p class="copryright">Sites&Bots, 2020</p>

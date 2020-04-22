@@ -19,13 +19,15 @@ button:focus {
     outline: none;
 }
 
+p {margin-bottom: 20px;}
+
 body.bots {
     background: $black;
     color: #FFF;
 }
 
 .navbar {
-    margin-bottom: 30px;
+    margin-bottom: 80px;
     .logo {
         width: 110px;
         height: 55px;
@@ -43,7 +45,18 @@ body.bots {
             line-height: 17px;
             color: $black;
             padding: 11px 10px;
-            &:hover {color: #000;}
+            &.active, &:hover {
+                color: #000;
+                font-style: italic;
+            }
+            &:before {
+                display: block;
+                content: attr(title);
+                font-style: normal;
+                height: 0;
+                overflow: hidden;
+                visibility: hidden;
+            }
         }
     }
     .navbar-nav {
@@ -51,6 +64,7 @@ body.bots {
             text-align: right;
         }
     }
+    .btn-gradient {margin: 0 10px;}
 }
 .bots {
     .navbar {
@@ -77,21 +91,35 @@ body.bots {
     font-size: 16px;
     font-weight: 600;
     line-height: 16px;
-    margin: 0 10px;
+    margin: 0;
     padding: 2px;
     text-transform: uppercase;
     cursor: pointer;
+    position: relative;
+    z-index: 0;
     span {
         display: inline-block;
-        width: 100%;
-        height: 100%;
-        padding: 8px 30px;
-        border-radius: 30px;
+        padding: 10px 30px;
+        &:before {
+            content: '';
+            position: absolute;
+            left: 2px; right: 2px;
+            top: 2px;
+            bottom: 2px;
+            border-radius: 30px;
+            z-index: -1;
+            transition: all 0.2s;
+        }
     }
+
     &:hover {
         text-decoration: none;
-        color: #3C9BEB;
-        span {background: #D4D4D4;}
+        span {
+            background: linear-gradient(to right, #3C9AEB 0%, #255CD1 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        span:before {background: #D4D4D4;}
     }
 }
 .btn-black-round {
@@ -106,6 +134,7 @@ body.bots {
     margin-top: 20px;
     border: 1px solid transparent;
     border-radius: 30px;
+    text-transform: uppercase;
     &:hover, &.active {
         background-color: $black;
         border-color: #C4C4C4;
@@ -113,9 +142,15 @@ body.bots {
         text-decoration: none;
     }
 }
+footer .btn-gradient:hover {
+    span:before {background: $black;}
+}
 .bots {
     .btn-gradient:hover {
-        span {background: $black;}
+        span:before {background: $black;}
+    }
+    footer .btn-gradient:hover {
+        span:before {background: #D4D4D4;}
     }
     .btn-black-round {
         color: #FFF;
@@ -140,13 +175,18 @@ body.bots {
     outline: none;
     cursor: pointer;
     padding: 0;
-    margin-top: 6px;
+    margin-top: 20px;
     &:hover {color: #000;}
 }
 
 .dashed {
     margin: 20px 0;
-    border-top: 2px dashed $black;
+    border: none;
+    background-image: linear-gradient(to right, $black 50%, rgba(255,255,255,0) 0%);
+    background-position: bottom;
+    background-size: 40px 2px;
+    background-repeat: repeat-x;
+    height: 2px;
 }
 .bots {
     .btn-more, .btn-hide {
@@ -159,6 +199,7 @@ body.bots {
 .title {
     font-weight: 600;
     font-size: 4.1em;
+    letter-spacing: -0.02em;
     line-height: 0.9;
     margin-top: 40px;
     @media (max-width: 767px) {
@@ -167,12 +208,15 @@ body.bots {
     }
 }
 .main-page-text p {
-    margin-top: 70px;
+    margin-top: 115px;
+    margin-bottom: 100px;
     font-weight: 600;
-    font-size: 3.5em;
+    font-size: 54px;
     line-height: 1;
+    letter-spacing: -0.05em;
     @media (max-width: 767px) {
         margin-top: 20px;
+        margin-bottom: 20px;
         font-size: 18px;
     }
 }
@@ -180,17 +224,28 @@ body.bots {
 .work-block {
     padding-bottom: 60px;
     @media (max-width: 767px) {padding-bottom: 20px;}
+    p {
+        margin: 0;
+        letter-spacing: -0.03em;
+        line-height: 17px;
+    }
+
+    .work-title {
+        font-size: 60px;
+        font-weight: 600;
+        letter-spacing: -0.03em;
+        line-height: 60px;
+        .small {
+            display: block;
+            font-weight: 300;
+            font-size: 100%;
+            letter-spacing: -0.08em;
+        }
+        @media (max-width: 767px) {font-size: 40px;}
+    }
 }
 
-.work-title {
-    font-size: 4.2em;
-    font-weight: 600;
-    .small {
-        display: block;
-        font-weight: 300;
-    }
-    @media (max-width: 767px) {font-size: 40px;}
-}
+
 
 .block-more {
     max-height: 0px;
@@ -199,90 +254,50 @@ body.bots {
     &.open {max-height: 1600px;}
 }
 
-.uppercase {text-transform: uppercase;}
+.uppercase {
+    text-transform: uppercase;
+    letter-spacing: -0.03em;
+}
+.semi-bold {
+    font-weight: 600;
+    letter-spacing: -0.03em;
+}
 
 .owl-carousel {
     margin-top: 40px;
     margin-bottom: 40px;
 }
 
-.list-desc {
-    list-style: none;
-    padding-left: 60px;
-    li {
-        font-weight: 600;
-        font-size: 20px;
-        line-height: 1;
-        margin-bottom: 40px;
-        position: relative;
-        &:before {
-            content: '';
-            position: absolute;
-            left: -35px;
-            top: 0; bottom: 0;
-            margin: auto;
-            width: 15px;
-            height: 15px;
-            border-radius: 50%;
-            background: $black;
-        }
-    }
-}
-
-.copryright {
+.list-item {
     font-weight: 600;
-    font-size: 14px;
-    line-height: 1.4;
-}
-
-footer {
-    margin-top: 20px;
-    padding: 80px 0 66px;
-    background: $black;
-    text-align: center;
-    color: #FFF;
-    @media (max-width: 767px) {
-        margin-top: 0;
-        padding: 30px 0;
-    }
-
-    hr.dashed {
-        max-width: 890px;
-        margin: 30px auto;
-        border-color: #FFF;
-    }
-
-    .title {
-        font-weight: 600;
-        font-size: 60px;
-        line-height: 0.9;
-        @media (max-width: 767px) {font-size: 32px;}
-    }
-
-    .btn-gradient {
-        margin-top: 40px;
-        margin-bottom: 120px;
-        @media (max-width: 767px) {
-            margin-top: 20px;
-            margin-bottom: 40px;
-        }
+    font-size: 20px;
+    line-height: 1;
+    letter-spacing: -0.05em;
+    margin-bottom: 40px;
+    position: relative;
+    padding-left: 50px;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 15px;
+        top: 0; bottom: 0;
+        margin: auto;
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background: $black;
     }
 }
-
 
 .bots {
     .navbar .nav-item .nav-link {
         color: #FFF;
     }
-    .list-desc li:before {background: #FFF;}
+    .list-item:before {background: #FFF;}
     footer {
         background: #D4D4D4;
         color: $black;
-        hr.dashed {border-color: $black;}
-        .btn-gradient:hover {
-            color: #3C9BEB;
-            span {background: #D4D4D4;}
-        }
+        hr.dashed {background-image: linear-gradient(to right, $black 50%, rgba(255,255,255,0) 0%);}
     }
 }
 
@@ -291,10 +306,11 @@ footer {
     background: linear-gradient(270deg, #255CD1 0%, #3C9BEB 100%);
     text-align: center;
 }
-.bot-title {
+.work-block .bot-title {
     font-size: 3.8em;
     font-weight: 600;
     .small {
+        display: block;
         font-weight: 300;
     }
     @media (max-width: 767px) {font-size: 36px;}
@@ -305,22 +321,106 @@ footer {
 }
 
 .title-about {
-    font-size: 4.3em;
+    font-size: 60px;
     font-weight: 600;
     line-height: 0.9;
+    letter-spacing: -0.05em;
     margin: 40px 0;
     @media (max-width: 767px) {
         margin-top: 0;
         font-size: 26px;
     }
+    @media (min-width: 768px) {
+        padding-left: 30px;
+        margin-top: -18px;
+    }
 }
+
+.border-tr, .border-tl {
+    position: relative;
+    &:before {
+        content: '';
+        position: absolute;
+        left: 0; right: 0;
+        top: 0;
+        background-image: linear-gradient(to right, $black 50%, rgba(255,255,255,0) 0%);
+        background-position: bottom;
+        background-size: 40px 2px;
+        background-repeat: repeat-x;
+        height: 2px;
+    }
+}
+.border-tr {
+    @media (min-width: 768px) {
+        &:after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 0; bottom: 0;
+            background-image: linear-gradient($black 50%, rgba(255,255,255,0) 0%);
+            background-position: right;
+            background-size: 2px 40px;
+            background-repeat: repeat-y;
+            width: 2px;
+        }
+    }
+}
+.border-tl {
+    @media (min-width: 768px) {
+        &:after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0; bottom: 0;
+            background-image: linear-gradient($black 50%, rgba(255,255,255,0) 0%);
+            background-position: right;
+            background-size: 2px 40px;
+            background-repeat: repeat-y;
+            width: 2px;
+        }
+    }
+}
+.border-lb {
+    position: relative;
+    &:after {
+        content: '';
+        position: absolute;
+        left: 0; right: 0;
+        bottom: 0;
+        background-image: linear-gradient(to right, #D4D4D4 50%, rgba(255,255,255,0) 0%);
+        background-position: bottom;
+        background-size: 40px 2px;
+        background-repeat: repeat-x;
+        height: 2px;
+        width: 84%;
+    }
+    @media (max-width: 767px) {
+        &:after {width: 100%;}
+    }
+    @media (min-width: 768px) {
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0; bottom: 0;
+            background-image: linear-gradient(#D4D4D4 50%, rgba(255,255,255,0) 0%);
+            background-position: right;
+            background-size: 2px 40px;
+            background-repeat: repeat-y;
+            width: 2px;
+        }
+    }
+}
+
+
 .about {
-    p { margin: 0; }
-    .border-trb {
-        border-top: 2px dashed $black;
-        border-bottom: 2px dashed $black;
+    p {
+        margin: 0;
+        letter-spacing: -0.03em;
+        font-size: 18px;
+    }
+    .border-tr {
         @media (min-width: 768px) {
-            border-right: 2px dashed $black;
             padding-left: 30px;
             padding-right: 60px;
         }
@@ -331,13 +431,10 @@ footer {
         border-bottom: 1px solid #2C2D2E;
         width: 100%;
         margin: 15px;
-        @media (min-width: 768px) {margin: 40px 15px;}
+        @media (min-width: 768px) {margin: 24px 15px;}
     }
-    .border-l {
-        @media (min-width: 768px) {
-            padding-left: 60px;
-            border-left: 2px dashed $black;
-        }
+    .border-tl {
+        @media (min-width: 768px) {padding-left: 60px;}
         padding-top: 60px;
         padding-bottom: 70px;
     }
@@ -345,6 +442,7 @@ footer {
         margin-bottom: 80px;
         p {
             margin: 0;
+            letter-spacing: -0.03em;
             @media (min-width: 768px) {
                 font-size: 18px;
                 line-height: 1.2;
@@ -353,15 +451,20 @@ footer {
     }
     .bravo-team {
         margin-bottom: 20px;
-        p {font-weight: 600;}
+        p {
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+        }
     }
     .sub-title {
         font-size: 2.8em;
-        font-weight: 600;
+        font-weight: 500;
         line-height: 1;
+        letter-spacing: -0.05em;
         margin-bottom: 20px;
         @media (min-width: 768px) {
-            font-size: 4.3em;
+            font-size: 60px;
             line-height: 0.9;
             margin: 0;
         }
@@ -369,6 +472,9 @@ footer {
 
     .how-work {
         font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: -0.03em;
+        font-size: 14px;
         @media (max-width: 767px) {
             margin-bottom: 20px;
         }
@@ -386,10 +492,11 @@ footer {
     .how-work-title {
         font-weight: 500;
         font-size: 26px;
+        letter-spacing: -0.05em;
+        line-height: 0.9;
         @media (min-width: 768px) {
             padding-left: 40px;
-            font-size: 4.3em;
-            line-height: 1.1;
+            font-size: 60px;
         }
     }
 
@@ -397,24 +504,11 @@ footer {
         margin-top: 0;
         padding-top: 0;
         .border-lb {
-            padding-top: 80px;
+            padding-top: 100px;
             position: relative;
-            padding-bottom: 20px;
+            padding-bottom: 30px;
             margin-bottom: 20px;
-            @media (min-width: 768px) {
-                border-left: 2px dashed #FFF;
-                &:after {
-                    content: '';
-                    position: absolute;
-                    left: 0;
-                    bottom: 0;
-                    width: 80%;
-                    border-bottom: 2px dashed #FFF;
-                }
-            }
-            @media (max-width: 767px) {
-                border-bottom: 2px dashed #FFF;
-            }
+            @media (max-width: 767px) {}
         }
     }
 }
@@ -452,5 +546,52 @@ footer {
     }
     @media (max-width: 767px) {
         .copryright {margin-top: 60px;}
+    }
+}
+
+
+
+footer {
+    margin-top: 20px;
+    padding: 80px 0 66px;
+    background: $black;
+    text-align: center;
+    color: #FFF;
+    @media (max-width: 767px) {
+        margin-top: 0;
+        padding: 30px 0;
+    }
+
+    .small {
+        font-size: 14px;
+        letter-spacing: -0.03em;
+    }
+
+    hr.dashed {
+        max-width: 875px;
+        margin: 30px auto;
+        background-image: linear-gradient(to right, #D4D4D4 50%, rgba(255, 255, 255, 0) 0%);
+    }
+
+    .title {
+        font-weight: 600;
+        font-size: 60px;
+        line-height: 0.9;
+        letter-spacing: -0.05em;
+        @media (max-width: 767px) {font-size: 32px;}
+    }
+
+    .btn-gradient {
+        margin-top: 40px;
+        margin-bottom: 120px;
+        @media (max-width: 767px) {
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+    }
+    .copryright {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 1.4;
     }
 }

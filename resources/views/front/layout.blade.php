@@ -27,10 +27,10 @@
 
           <!-- Right Side Of Navbar -->
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item"><a class="nav-link" href="/">@lang('msg.sites')</a></li>
-            <li class="nav-item"><a class="nav-link" href="/bots"><i>@lang('msg.boots')</i></a></li>
-            <li class="nav-item"><a class="nav-link" href="/about">@lang('msg.about')</a></li>
-            <li class="nav-item"><a class="nav-link" href="contact">@lang('msg.contacts')</a></li>
+            <li class="nav-item"><a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="/" title="@lang('msg.sites')">@lang('msg.sites')</a></li>
+            <li class="nav-item"><a class="nav-link {{ Request::is('bots') ? 'active' : '' }}" href="/bots" title="@lang('msg.boots')">@lang('msg.boots')</a></li>
+            <li class="nav-item"><a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about" title="@lang('msg.about')">@lang('msg.about')</a></li>
+            <li class="nav-item"><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="contact" title="@lang('msg.contacts')">@lang('msg.contacts')</a></li>
             <li class="nav-item"><a class="btn-gradient" href="#"><span>@lang('msg.calc')</span></a></li>
             <li class="nav-item">
               <div class="dropdown">
