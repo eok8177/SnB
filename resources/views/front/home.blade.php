@@ -48,7 +48,13 @@
 {{-- Second screen --}}
 <div class="work-block">
   <div class="container">
-    <div class="image mt-5 mb-4"><img src="/images/annafoxy_1.jpg" alt="" class="img-fluid"></div>
+    {{-- <div class="image mt-5 mb-4"><img src="/images/annafoxy_1.jpg" alt="" class="img-fluid"></div> --}}
+    <div class="image mt-5 mb-4">
+      <video width="1400" controls style="max-width: 100%;">
+        <source src="/annafoxy_screencast_.mov">
+        Your browser does not support HTML5 video.
+      </video>
+    </div>
     <div class="row">
       <div class="col-md-6">
         <p class="work-title">
