@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
+use Mail;
+
 use App\Page;
 
 class FrontendController extends Controller
@@ -40,5 +42,19 @@ class FrontendController extends Controller
     {
         return view('front.contact');
     }
+
+    public function email(Request $request)
+    {
+        $text = $request->get('msg', false);
+
+        Mail::send('email.callme', ['text' => $text], function ($m) use ($text) {
+          $m->from('eok1877@gmail.com', 'snb.ks.ua');
+
+          $m->to('eok8177@gmail.com')->subject('S&B обращение клиента');
+        });
+
+        return 'success';
+    }
+
 
 }
