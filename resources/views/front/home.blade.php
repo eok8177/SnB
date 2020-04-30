@@ -30,7 +30,7 @@
         </div>
       </div>
 
-      <button class="btn-gradient mt-4"><span>рассчитать проект</span></button>
+      <button class="btn-gradient mt-4" data-toggle="modal" data-target="#contactModal"><span>рассчитать проект</span></button>
     </div>
   </div>
 
@@ -48,11 +48,10 @@
 {{-- Second screen --}}
 <div class="work-block">
   <div class="container">
-    {{-- <div class="image mt-5 mb-4"><img src="/images/annafoxy_1.jpg" alt="" class="img-fluid"></div> --}}
     <div class="image mt-5 mb-4">
-      <video width="1400" controls style="max-width: 100%;">
-        <source src="/annafoxy_screencast_.mov">
-        Your browser does not support HTML5 video.
+      <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+        <source src="/video/annafoxy.mov">
+          <img src="/images/annafoxy_1.jpg" alt="" class="img-fluid">
       </video>
     </div>
     <div class="row">
@@ -73,31 +72,34 @@
 
   <div class="block-more">
     <div class="owl-carousel owl-theme">
-      <div class="item"><img src="/images/annafoxy_1.jpg" alt="" class="img-fluid"></div>
-      <div class="item"><img src="/images/annafoxy_1.jpg" alt="" class="img-fluid"></div>
-      <div class="item"><img src="/images/annafoxy_1.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_1.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_2.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_3.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_4.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_5.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_6.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_7.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_8.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_9.jpg" alt="" class="img-fluid"></div>
+      <div class="item"><img src="/images/annafoxy/af_10.jpg" alt="" class="img-fluid"></div>
     </div>
     <div class="container">
-      <div class="row align-items-center">
-        <div class="list-item col-md-6">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</div>
-
-        <div class="list-item col-md-6">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</div>
-
-        <div class="list-item col-md-6">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</div>
-
-        <div class="list-item col-md-6">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</div>
-
-        <div class="list-item col-md-6">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </div>
-
-        <div class="list-item col-md-6">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</div>
-
-        <div class="list-item col-md-6">Интеграция с AmoCRM для эффективной обработки заказов.</div>
-
-        <div class="list-item col-md-6">Интеграция с AmoCRM для эффективной обработки заказов.</div>
-      </div>
-
       <div class="row">
-        <div class="col-md-6 offset-md-6">
+        <div class="col-md-6">
+          <img src="/images/sites_logo.png" alt="Sites" class="img-fluid mb-4">
+        </div>
+        <div class="col-md-6 pl-xl-5">
+          <div class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</div>
+          <div class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</div>
+          <div class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</div>
+          <div class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</div>
+          <div class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </div>
+          <div class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</div>
+          <div class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-6 pl-xl-5">
           <a href="https://annafoxy.com" class="btn-gradient" target="_blank"><span>Перейти на сайт</span></a>
               <button class="ml-4 btn-hide">СКРЫТЬ</button>
         </div>
@@ -108,13 +110,18 @@
 </div>
 
 <div class="container">
-  <hr class="dashed mb-5">
+  <hr class="dashed reverse mb-5">
 </div>
 
   {{-- Third screen --}}
 <div class="work-block">
   <div class="container">
-    <div class="image mt-5 mb-4"><img src="/images/ermolaev_1.jpg" alt="" class="img-fluid"></div>
+    <div class="image mt-5 mb-4">
+      <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+        <source src="/video/iermolaiev.mov">
+          <img src="/images/ermolaev_1.jpg" alt="" class="img-fluid">
+      </video>
+    </div>
     <div class="row">
       <div class="col-md-6">
         <p class="work-title">
@@ -133,25 +140,32 @@
 
   <div class="block-more">
     <div class="owl-carousel owl-theme">
-      <div class="item"><img src="/images/ermolaev_1.jpg"></div>
-      <div class="item"><img src="/images/ermolaev_1.jpg"></div>
-      <div class="item"><img src="/images/ermolaev_1.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_01.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_02.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_03.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_04.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_05.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_06.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_07.jpg"></div>
+      <div class="item"><img src="/images/iermolaiev/Ie_08.jpg"></div>
     </div>
     <div class="container">
-      <div class="row align-items-center">
-
-        <div class="list-item col-md-6">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</div>
-        <div class="list-item col-md-6">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</div>
-        <div class="list-item col-md-6">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</div>
-        <div class="list-item col-md-6">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</div>
-        <div class="list-item col-md-6">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </div>
-        <div class="list-item col-md-6">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</div>
-        <div class="list-item col-md-6">Интеграция с AmoCRM для эффективной обработки заказов.</div>
-        <div class="list-item col-md-6">Интеграция с AmoCRM для эффективной обработки заказов.</div>
-
-      </div>
       <div class="row">
-        <div class="col-md-6 offset-md-6">
+        <div class="col-md-6">
+          <img src="/images/sites_logo.png" alt="Sites" class="img-fluid mb-4">
+        </div>
+        <div class="col-md-6 pl-xl-5">
+          <div class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</div>
+          <div class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</div>
+          <div class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</div>
+          <div class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</div>
+          <div class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </div>
+          <div class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</div>
+          <div class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</div>
+        </div>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-6 offset-md-6 pl-xl-5">
           <a href="https://vadymiermolaiev.info" class="btn-gradient" target="_blank"><span>Перейти на сайт</span></a>
           <button class="ml-4 btn-hide">СКРЫТЬ</button>
         </div>
@@ -169,7 +183,7 @@
     </p>
     <hr class="dashed">
     <p class="small">Or leave your credentials and we will reach you in any convenient way</p>
-    <button class="btn-gradient"><span>GET STARTED</span></button>
+    <button class="btn-gradient" data-toggle="modal" data-target="#contactModal"><span>GET STARTED</span></button>
 
     <p class="copryright">Sites&Bots, 2020</p>
   </div>
@@ -181,15 +195,6 @@
 <script src="{{ asset('vendor/owlcarousel/owl.carousel.min.js') }}"></script>
 <script>
   $(function () {
-    $('.btn-more').on('click', function(){
-      $(this).closest('.work-block').find('.block-more').addClass('open');
-      $(this).hide();
-    });
-    $('.btn-hide').on('click', function(){
-      $(this).closest('.block-more').removeClass('open');
-      $(this).closest('.work-block').find('.btn-more').show();
-    });
-
     $('.owl-carousel').owlCarousel({
         loop:true,
         center: true,

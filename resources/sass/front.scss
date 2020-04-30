@@ -7,6 +7,23 @@
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 
+@keyframes dash-move-right {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 40px 0px;
+  }
+}
+@keyframes dash-move-down {
+  0% {
+    background-position: 0px 0px;
+  }
+  100% {
+    background-position: 0px 40px;
+  }
+}
+
 @media (min-width: 1440px) {
     .container {max-width: 1410px;}
 }
@@ -92,6 +109,7 @@ body.bots {
     font-weight: 600;
     line-height: 16px;
     margin: 0;
+    min-width: 126px;
     padding: 2px;
     text-transform: uppercase;
     cursor: pointer;
@@ -191,10 +209,18 @@ footer .btn-gradient:hover {
     margin: 20px 0;
     border: none;
     background-image: linear-gradient(to right, $black 50%, rgba(255,255,255,0) 0%);
-    background-position: bottom;
+    background-position: 0 0;
     background-size: 40px 2px;
     background-repeat: repeat-x;
     height: 2px;
+    animation-name: dash-move-right;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: normal;
+    &.reverse {
+        animation-direction: reverse;
+    }
 }
 .bots {
     .btn-more, .btn-hide {
@@ -277,21 +303,19 @@ footer .btn-gradient:hover {
 }
 
 .list-item {
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 1;
-    letter-spacing: -0.05em;
-    margin-bottom: 40px;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: -0.03em;
+    margin-bottom: 4px;
     position: relative;
-    padding-left: 50px;
+    padding-left: 10px;
     &:before {
         content: '';
         position: absolute;
-        left: 15px;
-        top: 0; bottom: 0;
-        margin: auto;
-        width: 15px;
-        height: 15px;
+        left: 0;
+        top: 4px;
+        width: 5px;
+        height: 5px;
         border-radius: 50%;
         background: $black;
     }
@@ -356,6 +380,11 @@ footer .btn-gradient:hover {
         background-size: 40px 2px;
         background-repeat: repeat-x;
         height: 2px;
+        animation-name: dash-move-right;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: normal;
     }
 }
 .border-tr {
@@ -370,6 +399,11 @@ footer .btn-gradient:hover {
             background-size: 2px 40px;
             background-repeat: repeat-y;
             width: 2px;
+            animation-name: dash-move-down;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: normal;
         }
     }
 }
@@ -385,7 +419,15 @@ footer .btn-gradient:hover {
             background-size: 2px 40px;
             background-repeat: repeat-y;
             width: 2px;
+            animation-name: dash-move-down;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: normal;
         }
+    }
+    &:before {
+        animation-direction: reverse;
     }
 }
 .border-lb {
@@ -401,6 +443,11 @@ footer .btn-gradient:hover {
         background-repeat: repeat-x;
         height: 2px;
         width: 84%;
+        animation-name: dash-move-right;
+        animation-duration: 1.5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        animation-direction: normal;
     }
     @media (max-width: 767px) {
         &:after {width: 100%;}
@@ -416,6 +463,11 @@ footer .btn-gradient:hover {
             background-size: 2px 40px;
             background-repeat: repeat-y;
             width: 2px;
+            animation-name: dash-move-down;
+            animation-duration: 1.5s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            animation-direction: normal;
         }
     }
 }
@@ -525,10 +577,36 @@ footer .btn-gradient:hover {
     margin-top: 120px;
     @media (max-width: 767px) {margin-top: 20px;}
 }
-.title-contact {
+.contact-title {
     font-weight: 600;
-    font-size: 4.3em;
+    font-size: 60px;
     line-height: 0.9;
+}
+.contact-links {
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 0.9;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    li, a {
+        display: inline-block;
+    }
+    a {
+        color: $black;
+        &:hover {
+            font-style: italic;
+            text-decoration: none;
+        }
+        &:before {
+            display: block;
+            content: attr(title);
+            font-style: normal;
+            height: 0;
+            overflow: hidden;
+            visibility: hidden;
+        }
+    }
     @media (max-width: 767px) {
         font-size: 40px;
         margin: 20px 0;
@@ -539,6 +617,7 @@ footer .btn-gradient:hover {
     margin-bottom: 40px;
 }
 .input-control {
+    background: transparent;
     border: none;
     border-bottom: 1px solid $black;
     width: 100%;
@@ -554,6 +633,22 @@ footer .btn-gradient:hover {
     }
     @media (max-width: 767px) {
         .copryright {margin-top: 60px;}
+    }
+}
+
+
+.modal-content {
+    background: #C4C4C4;
+    border-radius: 8px;
+    padding-bottom: 80px;
+    .modal-header {border: none;}
+    .modal-title {
+        font-size: 60px;
+        font-weight: 600;
+        line-height: 0.9;
+        @media (max-width: 767px) {
+            font-size: 30px;
+        }
     }
 }
 
