@@ -50,11 +50,18 @@ class FrontendController extends Controller
         Mail::send('email.callme', ['text' => $text], function ($m) use ($text) {
           $m->from('eok1877@gmail.com', 'snb.ks.ua');
 
-          $m->to('eok8177@gmail.com')->subject('S&B обращение клиента');
+          $m->to('sitesnbotssocial@gmail.com')->subject('S&B обращение клиента');
         });
 
         return 'success';
     }
 
 
+    public function page(Request $request, $slug)
+    {
+        $page = Page::where('slug',$slug)->firstOrFail();
+        return view('front.page', [
+            'page' => $page
+        ]);
+    }
 }

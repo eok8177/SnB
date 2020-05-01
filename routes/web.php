@@ -43,4 +43,5 @@ Route::get('/contact', ['as' => 'front.contact', 'uses' => 'FrontendController@c
 
 Route::post('/email', ['as' => 'front.email', 'uses' => 'FrontendController@email']);
 
+Route::get('/page/{slug}', ['as' => 'front.page', 'uses' => 'FrontendController@page']);
 
