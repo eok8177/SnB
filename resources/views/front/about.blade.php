@@ -175,8 +175,8 @@
       </p>
     </div>
 
-    <p class="small">Or leave your credentials and we will reach you in any convenient way</p>
-    <button class="btn-gradient" data-toggle="modal" data-target="#contactModal"><span>GET STARTED</span></button>
+    <p class="small">напишите нам и мы обсудим подробности по вашему проекту</p>
+    <button class="btn-gradient" data-toggle="modal" data-target="#contactModal"><span>НАПИСАТЬ</span></button>
 
     <p class="copryright">Sites&Bots, 2020</p>
   </div>

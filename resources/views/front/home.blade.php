@@ -2,8 +2,6 @@
 
 @section('content')
 <div class="container">
-  {{-- {!! $page->html !!} --}}
-
   {{-- First screen --}}
   <div class="row align-items-center">
     <div class="col-md-6">
@@ -49,15 +47,15 @@
 <div class="work-block">
   <div class="container">
     <div class="image mt-5 mb-4">
-      <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
-        <source src="/video/annafoxy.mov">
+      <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+        <source src="/video/annafoxy.mp4">
           <img src="/images/annafoxy_1.jpg" alt="" class="img-fluid">
       </video>
     </div>
     <div class="row">
       <div class="col-md-6">
         <p class="work-title">
-          <span class="small">Luxury brand by</span>
+          <span class="small">Luxury brand by</span><br>
           ANNAFOXY
         </p>
       </div>
@@ -117,15 +115,15 @@
 <div class="work-block">
   <div class="container">
     <div class="image mt-5 mb-4">
-      <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
-        <source src="/video/iermolaiev.mov">
+      <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+        <source src="/video/iermolaiev.mp4">
           <img src="/images/ermolaev_1.jpg" alt="" class="img-fluid">
       </video>
     </div>
     <div class="row">
       <div class="col-md-6">
         <p class="work-title">
-          <span class="small">Personal Blog</span>
+          <span class="small">Personal Blog</span><br>
           VADYM IERMOLAIEV
         </p>
       </div>
@@ -182,8 +180,8 @@
       Расскажите нам о своем проекте! <br> Будем рады пообщаться и ответить <br> на все вопросы.
     </p>
     <hr class="dashed">
-    <p class="small">Or leave your credentials and we will reach you in any convenient way</p>
-    <button class="btn-gradient" data-toggle="modal" data-target="#contactModal"><span>GET STARTED</span></button>
+    <p class="small">напишите нам и мы обсудим подробности по вашему проекту</p>
+    <button class="btn-gradient" data-toggle="modal" data-target="#contactModal"><span>написать</span></button>
 
     <p class="copryright">Sites&Bots, 2020</p>
   </div>
@@ -201,10 +199,16 @@
         margin:40,
         stagePadding: 100,
         items: 1,
+        slideTransition: 'linear',
         // autoWidth: true,
         nav: false,
         dots: false,
-        autoplay: true
+        // autoplayHoverPause: true,
+        autoplay: true,
+        autoplayTimeout: 10000,
+        // autoplaySpeed: 10000,
+        smartSpeed: 10000
+        // fluidSpeed: 25000
     })
   });
 </script>

@@ -32,7 +32,7 @@
             <li class="nav-item"><a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about" title="@lang('msg.about')">@lang('msg.about')</a></li>
             <li class="nav-item"><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="contact" title="@lang('msg.contacts')">@lang('msg.contacts')</a></li>
             <li class="nav-item"><a class="btn-gradient" href="#" data-toggle="modal" data-target="#contactModal"><span>@lang('msg.calc')</span></a></li>
-            <li class="nav-item">
+            {{-- <li class="nav-item">
               <div class="dropdown">
                 <button class="nav-link border-0 bg-transparent" type="button" id="selectLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   en
@@ -41,7 +41,7 @@
                   <a class="nav-link" href="#">Ru</a>
                 </div>
               </div>
-            </li>
+            </li> --}}
 
           </ul>
         </div>
@@ -60,16 +60,16 @@
 
       <div class="modal-content request-form">
         <div class="modal-header p-2 p-md-4">
-          <h5 class="modal-title" id="contactModalLabel">Leave us your contact info and we will reach you in any possible view</h5>
+          <h5 class="modal-title" id="contactModalLabel">Оставьте нам свою контактную информацию и мы свяжемся с Вами в ближайшее время</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
         <div class="modal-body p-2 p-md-4">
           <form action="/email" method="POST" class="feedback-form">
-            <input type="text" name="msg" class="input-control" required placeholder="Phone, Email, Messenger, Anything">
+            <input type="text" name="msg" class="input-control" required placeholder="Телефон, Почта, Мессенджер или что угодно на ваш вкус">
 
-            <button type="submit" class="btn-gradient"><span>GET STARTED</span></button>
+            <button type="submit" class="btn-gradient"><span>Отправить</span></button>
           </form>
         </div>
       </div>

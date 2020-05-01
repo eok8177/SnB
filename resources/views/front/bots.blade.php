@@ -23,13 +23,13 @@
           <p>Ускоряют формирование отчетов, выгружают данные в 1С или CRM-систему, собирают обратную связь от сотрудников компании.</p>
         </div>
         <div class="col-sm-6">
-          <p class="uppercase"><b>Которые помогают обслуживать <br> клиентов в привычной среде общения.</b></p>
+          <p class="uppercase"><b>Которые обслуживают клиентов <br> в привычной среде общения.</b></p>
 
-          <p>Принимают заказы и оплаты, отвечают на часто задаваемые вопросы, помогают лучше узнать продукт.Собирают отзывы клиентов, рассылают им специальные предложения и акции.</p>
+          <p>Принимают заказы и оплаты, отвечают на часто задаваемые вопросы, помогают лучше узнать продукт.</p>
         </div>
       </div>
 
-      <button class="btn-gradient mt-4" data-toggle="modal" data-target="#contactModal"><span>GET STARTED</span></button>
+      <button class="btn-gradient mt-4" data-toggle="modal" data-target="#contactModal"><span>@lang('msg.calc')</span></button>
     </div>
   </div>
 
@@ -47,7 +47,7 @@
 {{-- Second screen --}}
 <div class="work-block">
   <div class="container">
-    <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+    <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
       <source src="/video/charlie.mov">
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
@@ -92,13 +92,13 @@
 </div>
 
 <div class="container">
-  <hr class="dashed mb-80">
+  <hr class="dashed reverse mb-80">
 </div>
 
 {{-- Third screen --}}
 <div class="work-block">
   <div class="container">
-    <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+    <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
       <source src="/video/misslora.mov">
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
@@ -147,7 +147,7 @@
 {{-- Fourth screen --}}
 <div class="work-block">
   <div class="container">
-    <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+    <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
       <source src="/video/restbot.mov">
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
@@ -189,13 +189,13 @@
 </div>
 
 <div class="container">
-  <hr class="dashed mb-80">
+  <hr class="dashed reverse mb-80">
 </div>
 
 {{-- Fivth screen --}}
 <div class="work-block">
   <div class="container">
-    <video autoplay width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+    <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
       <source src="/video/bridgestoun.mov">
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>

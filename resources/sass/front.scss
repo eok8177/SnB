@@ -227,7 +227,7 @@ footer .btn-gradient:hover {
         color: #FFF;
         &:hover {color: #AAA;}
     }
-    .dashed {border-color: #FFF;}
+    .dashed {background-image: linear-gradient(to right, #FFF 50%, rgba(255,255,255,0) 0%);}
 }
 
 .title {
@@ -270,7 +270,7 @@ footer .btn-gradient:hover {
         letter-spacing: -0.03em;
         line-height: 60px;
         .small {
-            display: block;
+            // display: block;
             font-weight: 300;
             font-size: 100%;
             letter-spacing: -0.08em;
