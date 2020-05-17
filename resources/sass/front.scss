@@ -261,7 +261,9 @@ footer .btn-gradient:hover {
     p {
         margin: 0;
         letter-spacing: -0.03em;
-        line-height: 17px;
+        line-height: 1.2;
+        margin-bottom: 5px;
+        font-size: 16px;
     }
 
     .work-title {
@@ -303,17 +305,17 @@ footer .btn-gradient:hover {
 }
 
 .list-item {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.2;
     letter-spacing: -0.03em;
-    margin-bottom: 4px;
+    margin-bottom: 9px;
     position: relative;
-    padding-left: 10px;
+    padding-left: 12px;
     &:before {
         content: '';
         position: absolute;
         left: 0;
-        top: 4px;
+        top: 6px;
         width: 5px;
         height: 5px;
         border-radius: 50%;

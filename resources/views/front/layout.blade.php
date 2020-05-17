@@ -60,7 +60,7 @@
 
       <div class="modal-content request-form">
         <div class="modal-header p-2 p-md-4">
-          <h5 class="modal-title" id="contactModalLabel">Оставьте нам свою контактную информацию и мы свяжемся с Вами в ближайшее время</h5>
+          <h5 class="modal-title" id="contactModalLabel">Оставьте нам свою контактную информацию и мы свяжемся с вами в ближайшее время</h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
