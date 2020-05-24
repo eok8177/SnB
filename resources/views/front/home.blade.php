@@ -4,10 +4,10 @@
 <div class="container">
   {{-- First screen --}}
   <div class="row align-items-center">
-    <div class="col-md-6">
+    <div class="col-lg-6 d-none d-md-block">
       <div class="image"><img src="/images/main_sites.jpg" alt="" class="img-fluid"></div>
     </div>
-    <div class="col-md-6 pl-xl-5">
+    <div class="col-lg-6 pl-xl-5">
       <a href="/" class="btn-black-round active">Сайты</a>
       <a href="/bots" class="btn-black-round">Боты</a>
 
@@ -46,20 +46,20 @@
 {{-- Second screen --}}
 <div class="work-block">
   <div class="container">
-    <div class="image mt-5 mb-4">
-      <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+    <div class="image mt-md-5 mb-md-4">
+      <video autoplay muted width="1400" class="image mt-md-5 mb-4" controls style="max-width: 100%;">
         <source src="/video/annafoxy.mp4">
           <img src="/images/annafoxy_1.jpg" alt="" class="img-fluid">
       </video>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <p class="work-title">
           <span class="small">Luxury brand by</span><br>
           ANNAFOXY
         </p>
       </div>
-      <div class="col-md-6 pl-xl-5">
+      <div class="col-lg-6 pl-xl-5">
         <p>Полноценный монобрендовый интернет-магазин для ценителей уникальных предметов одежды и аксессуаров, ориентированный в основном на европейскую аудиторию. Его дизайн необычный и вызывающий, он подчеркивает аутентичность бренда и передает его настроение покупателям.</p>
         <p>Магазин разработан на базе  фреймворка Symfony. В нем есть админ-панель для приема заказов и добавления товаров, интегрирована система уведомлений для менеджера, подключена платежная платформа для приема оплат в 120 валютах. </p>
 
@@ -83,10 +83,10 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <img src="/images/sites_logo.png" alt="Sites" class="img-fluid mb-4">
         </div>
-        <div class="col-md-6 pl-xl-5">
+        <div class="col-lg-6 pl-xl-5">
           <div class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</div>
           <div class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</div>
           <div class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</div>
@@ -97,7 +97,7 @@
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-md-6 offset-md-6 pl-xl-5">
+        <div class="col-lg-6 offset-lg-6 pl-xl-5">
           <a href="https://annafoxy.com" class="btn-gradient" target="_blank"><span>Перейти на сайт</span></a>
               <button class="ml-4 btn-hide">СКРЫТЬ</button>
         </div>
@@ -114,20 +114,20 @@
   {{-- Third screen --}}
 <div class="work-block">
   <div class="container">
-    <div class="image mt-5 mb-4">
-      <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
+    <div class="image mt-md-5 mb-md-4">
+      <video autoplay muted width="1400" class="image mt-md-5 mb-4" controls style="max-width: 100%;">
         <source src="/video/iermolaiev.mp4">
           <img src="/images/ermolaev_1.jpg" alt="" class="img-fluid">
       </video>
     </div>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <p class="work-title">
           <span class="small">Personal Blog</span><br>
           VADYM IERMOLAIEV
         </p>
       </div>
-      <div class="col-md-6 pl-xl-5">
+      <div class="col-lg-6 pl-xl-5">
         <p>Вадим Владимирович —  известный украинский бизнесмен, инвестор и основатель корпорации «Алеф». </p>
         <p>Мы разработали сайт, на котором он охотно делится интересными мыслями, новостями бизнес-проектов своей компании и видеороликами с общественностью. Сайт помогает предпринимателю укреплять свой имидж, налаживать коммуникации и привлекать новых партнеров по бизнесу.</p>
 
@@ -149,21 +149,20 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <img src="/images/sites_logo.png" alt="Sites" class="img-fluid mb-4">
         </div>
-        <div class="col-md-6 pl-xl-5">
-          <div class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</div>
-          <div class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</div>
-          <div class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</div>
-          <div class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</div>
-          <div class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </div>
-          <div class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</div>
-          <div class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</div>
+        <div class="col-lg-6 pl-xl-5">
+          <div class="list-item">Мультиязычный (UA, RU, ENG)  сайт-блог на платформе WordPress</div>
+          <div class="list-item">Уникальный, строгий и современный дизайн</div>
+          <div class="list-item">Легкий и быстрый сайт для информирования и коммуникации с общественностью</div>
+          <div class="list-item">Размещение статей с посторонних ресурсов для сохранения авторства контента</div>
+          <div class="list-item">Удобная административная панель</div>
+          <div class="list-item">Коммуникация по обратной связи</div>
         </div>
       </div>
       <div class="row mt-5">
-        <div class="col-md-6 offset-md-6 pl-xl-5">
+        <div class="col-lg-6 offset-lg-6 pl-xl-5">
           <a href="https://vadymiermolaiev.info" class="btn-gradient" target="_blank"><span>Перейти на сайт</span></a>
           <button class="ml-4 btn-hide">СКРЫТЬ</button>
         </div>

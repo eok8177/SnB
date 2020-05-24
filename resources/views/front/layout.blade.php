@@ -31,7 +31,7 @@
             <li class="nav-item"><a class="nav-link {{ Request::is('bots') ? 'active' : '' }}" href="/bots" title="@lang('msg.boots')">@lang('msg.boots')</a></li>
             <li class="nav-item"><a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about" title="@lang('msg.about')">@lang('msg.about')</a></li>
             <li class="nav-item"><a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="contact" title="@lang('msg.contacts')">@lang('msg.contacts')</a></li>
-            <li class="nav-item"><a class="btn-gradient" href="#" data-toggle="modal" data-target="#contactModal"><span>@lang('msg.calc')</span></a></li>
+            <li class="nav-item hide-sm"><a class="btn-gradient" href="#" data-toggle="modal" data-target="#contactModal"><span>@lang('msg.calc')</span></a></li>
             {{-- <li class="nav-item">
               <div class="dropdown">
                 <button class="nav-link border-0 bg-transparent" type="button" id="selectLang" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

@@ -4,10 +4,10 @@
 {{-- First screen --}}
 <div class="container">
   <div class="row contact-main">
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <h1 class="contact-title">Рады будем связаться с вами в различных социальных сетях.</h1>
     </div>
-    <div class="col-md-6">
+    <div class="col-lg-6">
       <ul class="contact-links">
         <li><a href="https://www.facebook.com/groups/250822842966466/" title="Facebook">Facebook</a></li>, 
         <li><a href="#" title="Twitter">Twitter</a></li>, 

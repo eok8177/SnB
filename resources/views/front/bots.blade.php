@@ -5,10 +5,10 @@
 
   {{-- First screen --}}
   <div class="row align-items-center">
-    <div class="col-md-6">
+    <div class="col-lg-6 d-none d-md-block">
       <div class="image"><img src="/images/main_bots.jpg" alt="" class="img-fluid"></div>
     </div>
-    <div class="col-md-6 pl-xl-5">
+    <div class="col-lg-6 pl-xl-5">
       <a href="/" class="btn-black-round">Сайты</a>
       <a href="/bots" class="btn-black-round active">Боты</a>
 
@@ -52,12 +52,12 @@
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <p class="work-title mb-md-5">
           <span class="small">Бухгалтер</span> Чарли
         </p>
       </div>
-      <div class="col-md-6 mb-4 pl-xl-5">
+      <div class="col-lg-6 mb-4 pl-xl-5">
         <p><b>Чат-бот фирмы, которая занимается пошивом шуб.</b></p>
         <p>Бот-бухгалтер для ведения отчетности о заказах и продажах.</p>
         <p>Даёт возможность вносить новые продажи и заказы поставок товаров во все магазины компании, ежедневно формирует отчеты для 1С.</p>
@@ -70,10 +70,10 @@
   <div class="block-more">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <img src="/images/bots_logo.png" alt="Bots" class="img-fluid mb-4">
         </div>
-        <div class="col-md-6 pl-xl-5">
+        <div class="col-lg-6 pl-xl-5">
           <p class="mb-2">Возможности</p>
           <div class="list-item">платформа: Telegram</div>
           <div class="list-item">передача информации сотрудникам и дублирование сообщений в чат компании для сбора отчета о полученных отзывах.</div>
@@ -103,12 +103,12 @@
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <p class="work-title">
           <span class="small">Бот</span> «Благодарности»
         </p>
       </div>
-      <div class="col-md-6 mb-4 pl-xl-5">
+      <div class="col-lg-6 mb-4 pl-xl-5">
         <p><b>Второй виртуальный сотрудник компании Miss Lora.</b></p>
         <p>Он собирает у клиентов отзывы, предлагая им пройти детальный опрос 
         и приложить фотографии. Полученные благодарности автоматически 
@@ -122,10 +122,10 @@
   <div class="block-more">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <img src="/images/bots_logo.png" alt="Bots" class="img-fluid mb-4">
         </div>
-        <div class="col-md-6 pl-xl-5">
+        <div class="col-lg-6 pl-xl-5">
           <p class="mb-2">Возможности</p>
           <div class="list-item">платформа: Telegram</div>
           <div class="list-item">передача информации сотрудникам и дублирование сообщений в чат компании для сбора отчета о полученных отзывах.</div>
@@ -155,12 +155,12 @@
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <p class="work-title">
           <span class="small">Бот</span> «RestBot»
         </p>
       </div>
-      <div class="col-md-6 mb-4 pl-xl-5">
+      <div class="col-lg-6 mb-4 pl-xl-5">
         <p><b>Виртуальный менеджер ресторана.</b></p>
         <p>Рассказывает гостям, сколько есть свободных мест в заведении, покажет меню, поможет выбрать еду и напитки. Имеет возможность зарезервировать любой столик на ваш выбор или даже все заведение для большого праздника. Принимает отзывы о работе ресторана.</p>
 
@@ -172,10 +172,10 @@
   <div class="block-more">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <img src="/images/bots_logo.png" alt="Bots" class="img-fluid mb-4">
         </div>
-        <div class="col-md-6 pl-xl-5">
+        <div class="col-lg-6 pl-xl-5">
           <p class="mb-2">Возможности</p>
           <div class="list-item">платформа: Telegram</div>
           <div class="list-item">передача данных клиента из telegram-профиля (имя, фамилия, номер телефона) в админ панель сервиса в один клик </div>
@@ -206,12 +206,12 @@
         <img src="/images/bot_1.jpg" alt="" class="img-fluid">
     </video>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-lg-6">
         <p class="work-title">
           <span class="small">Бот</span> Программы Лояльности
         </p>
       </div>
-      <div class="col-md-6 mb-4 pl-xl-5">
+      <div class="col-lg-6 mb-4 pl-xl-5">
         <p><b>Закрытый чат-бот для компании-производителя автомобильных шин.</b></p>
         <p>Основной целью бота является внеднерение программы лояльности для поощрения трудолюбивых сотрудников компании. Помогает сотруднику вывести бонусные баллы от продаж шин методом сканирование QR-кодов с физических чеков. Так же, имеем интеграцию с апи клиента, которая позволяет вести в диалоги в тех поддержке, оставлять заявки на коммуникацию, уточнять свой статус и баланс по программе лояльности.</p>
 
@@ -223,10 +223,10 @@
   <div class="block-more">
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-lg-6 d-none d-lg-block">
           <img src="/images/bots_logo.png" alt="Bots" class="img-fluid mb-4">
         </div>
-        <div class="col-md-6 pl-xl-5">
+        <div class="col-lg-6 pl-xl-5">
           <p class="mb-2">Возможности</p>
           <div class="list-item">платформа: Telegram</div>
           <div class="list-item">интегрированное взаимодействие с техподдержкой в формате «вопрос-ответ» и возможностью вложения закодированных файлов в любом формате</div>
