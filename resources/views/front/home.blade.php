@@ -99,7 +99,7 @@
       <div class="row mt-5">
         <div class="col-lg-6 offset-lg-6 pl-xl-5">
           <a href="https://annafoxy.com" class="btn-gradient" target="_blank"><span>Перейти на сайт</span></a>
-              <button class="ml-4 btn-hide">СКРЫТЬ</button>
+              <button class="btn-hide">СКРЫТЬ</button>
         </div>
       </div>
 
@@ -164,7 +164,7 @@
       <div class="row mt-5">
         <div class="col-lg-6 offset-lg-6 pl-xl-5">
           <a href="https://vadymiermolaiev.info" class="btn-gradient" target="_blank"><span>Перейти на сайт</span></a>
-          <button class="ml-4 btn-hide">СКРЫТЬ</button>
+          <button class="btn-hide">СКРЫТЬ</button>
         </div>
       </div>
     </div>
@@ -176,7 +176,7 @@
 <footer>
   <div class="container">
     <p class="title">
-      Расскажите нам о своем проекте! <br> Будем рады пообщаться и ответить <br> на все вопросы.
+      Расскажите нам о своем проекте! Будем рады пообщаться и ответить на все вопросы.
     </p>
     <hr class="dashed">
     <p class="small">напишите нам и мы обсудим подробности по вашему проекту</p>
@@ -195,8 +195,6 @@
     $('.owl-carousel').owlCarousel({
         loop:true,
         center: true,
-        margin:40,
-        stagePadding: 100,
         items: 1,
         slideTransition: 'linear',
         // autoWidth: true,
@@ -206,8 +204,24 @@
         autoplay: true,
         autoplayTimeout: 10000,
         // autoplaySpeed: 10000,
-        smartSpeed: 10000
+        smartSpeed: 10000,
         // fluidSpeed: 25000
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+              stagePadding: 10,
+              margin:10
+            },
+            // breakpoint from 480 up
+            480 : {
+
+            },
+            // breakpoint from 768 up
+            768 : {
+              stagePadding: 100,
+              margin:40
+            }
+        }
     })
   });
 </script>

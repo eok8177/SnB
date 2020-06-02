@@ -86,7 +86,7 @@ body.bots {
                 border-bottom: 1px solid #000;
                 padding: 20px 0;
                 .nav-link {
-                    font-size: 40px;
+                    font-size: 30px;
                     font-weight: 600;
                     line-height: 1;
                     letter-spacing: -0.05em;
@@ -121,6 +121,16 @@ body.bots {
         }
         .navbar-toggler-icon {
             background-image: escape-svg($navbar-dark-toggler-icon-bg);
+        }
+        .nav-item .nav-link {
+            color: #FFF;
+        }
+        .navbar-nav {
+            @media (max-width: 767px) {
+                .nav-item {
+                    border-bottom: 1px solid #FFF;
+                }
+            }
         }
     }
 }
@@ -168,6 +178,7 @@ body.bots {
     }
     @media (max-width: 767px) {
         font-size: 16px;
+        span {padding: 9px 12px;}
     }
 }
 .btn-black-round {
@@ -237,6 +248,13 @@ footer .btn-gradient:hover {
     padding: 0;
     margin-top: 20px;
     &:hover {color: #000;}
+    @media (max-width: 767px) {
+        font-size: 12px;
+        padding: 4px 8px;
+    }
+}
+.btn-hide {
+    margin-left: 40px;
 }
 
 .dashed {
@@ -291,7 +309,7 @@ footer .btn-gradient:hover {
 
 .work-block {
     padding-bottom: 60px;
-    @media (max-width: 767px) {padding-bottom: 20px;}
+    @media (max-width: 767px) {padding-bottom: 40px;}
     p {
         margin: 0;
         letter-spacing: -0.03em;
@@ -360,9 +378,6 @@ footer .btn-gradient:hover {
 }
 
 .bots {
-    .navbar .nav-item .nav-link {
-        color: #FFF;
-    }
     .list-item:before {background: #FFF;}
     footer {
         background: #D4D4D4;
@@ -727,6 +742,8 @@ footer {
         font-size: 60px;
         line-height: 0.9;
         letter-spacing: -0.05em;
+        max-width: 930px;
+        margin: 0 auto;
         @media (max-width: 767px) {
             font-size: 26px;
             line-height: 1;

@@ -84,7 +84,7 @@
           <p class="mt-4"><b>Результат:</b> значительный рост мотивации сотрудников и уровня их удовлетворенности проделанной работой за счет получения благодарностей от клиентов напрямую.</p>
 
           <a href="https://annafoxy.com" class="btn-gradient mt-5" target="_blank"><span> ОПРОБОВАТЬ</span></a>
-          <button class="ml-4 btn-hide">СКРЫТЬ</button>
+          <button class="btn-hide">СКРЫТЬ</button>
         </div>
       </div>
     </div>
@@ -136,7 +136,7 @@
           <p class="mt-4"><b>Результат:</b> значительный рост мотивации сотрудников и уровня их удовлетворенности проделанной работой за счет получения благодарностей от клиентов напрямую.</p>
 
           <a href="https://annafoxy.com" class="btn-gradient mt-5" target="_blank"><span> ОПРОБОВАТЬ</span></a>
-          <button class="ml-4 btn-hide">СКРЫТЬ</button>
+          <button class="btn-hide">СКРЫТЬ</button>
         </div>
       </div>
     </div>
@@ -187,7 +187,7 @@
           <p class="mt-4"><b>Результат:</b> повысилась скорость обработки заказов — каждый шестой заказ ресторан получает через бота. Данные клиентов передаются в CRM-систему для последующих рассылок об акциях и предложениях ресторана.</p>
 
           <a href="https://annafoxy.com" class="btn-gradient mt-5" target="_blank"><span> ОПРОБОВАТЬ</span></a>
-          <button class="ml-4 btn-hide">СКРЫТЬ</button>
+          <button class="btn-hide">СКРЫТЬ</button>
         </div>
       </div>
     </div>
@@ -238,7 +238,7 @@
           <p class="mt-4"><b>Результат:</b> прозрачная система лояльности для продавцов компании работает на более чем 500-та торговых точках по всей стране. Выросла мотивация продавцов, появился соревновательный элемент, средний чек по городу увеличился на 15%.</p>
 
           <a href="https://annafoxy.com" class="btn-gradient mt-5" target="_blank"><span> ОПРОБОВАТЬ</span></a>
-          <button class="ml-4 btn-hide">СКРЫТЬ</button>
+          <button class="btn-hide">СКРЫТЬ</button>
         </div>
       </div>
     </div>
