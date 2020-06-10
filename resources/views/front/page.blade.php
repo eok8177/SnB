@@ -12,14 +12,33 @@
     $('.owl-carousel').owlCarousel({
         loop:true,
         center: true,
-        margin:40,
-        stagePadding: 100,
         items: 1,
+        slideTransition: 'linear',
         // autoWidth: true,
         nav: false,
         dots: false,
+        // autoplayHoverPause: true,
         autoplay: true,
-        autoplayTimeout: 10000
+        autoplayTimeout: 10000,
+        // autoplaySpeed: 10000,
+        smartSpeed: 10000,
+        // fluidSpeed: 25000
+        responsive : {
+            // breakpoint from 0 up
+            0 : {
+              stagePadding: 10,
+              margin:10
+            },
+            // breakpoint from 480 up
+            480 : {
+
+            },
+            // breakpoint from 768 up
+            768 : {
+              stagePadding: 100,
+              margin:40
+            }
+        }
     })
   });
 </script>

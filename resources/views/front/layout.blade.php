@@ -67,7 +67,12 @@
         </div>
         <div class="modal-body p-2 p-md-4">
           <form action="/email" method="POST" class="feedback-form">
-            <input type="text" name="msg" class="input-control" required placeholder="Телефон, Почта, Мессенджер или что угодно на ваш вкус">
+
+            <input type="text" name="name" class="input-control" required placeholder="Имя">
+
+            <input type="text" name="phone" class="input-control" required placeholder="Телефон">
+
+            <input type="text" name="email" class="input-control" required placeholder="Почта">
 
             <button type="submit" class="btn-gradient"><span>Отправить</span></button>
           </form>

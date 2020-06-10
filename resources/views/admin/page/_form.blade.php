@@ -15,6 +15,13 @@
   </div>
 </div>
 
+<hr>
+
+<div class="form-group">
+  <label>{{Lang::get('message.slug')}}</label>
+  {!! Form::text('slug', $page->slug, ['class' => 'form-control']) !!}
+</div>
+
 
 <div class="form-group">
   <input type="submit" value="{{Lang::get('message.save')}}" class="btn btn-secondary">

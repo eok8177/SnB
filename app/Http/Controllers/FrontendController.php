@@ -45,7 +45,7 @@ class FrontendController extends Controller
 
     public function email(Request $request)
     {
-        $text = $request->get('msg', false);
+        $text = implode(', ', $request->all());
 
         Mail::send('email.callme', ['text' => $text], function ($m) use ($text) {
           $m->from('eok1877@gmail.com', 'snb.ks.ua');
