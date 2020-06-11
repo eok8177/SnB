@@ -48,8 +48,8 @@
 <div class="work-block">
   <div class="container">
     <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
-      <source src="/video/charlie.mov">
-        <img src="/images/bot_1.jpg" alt="" class="img-fluid">
+      <source src="/video/charlie.mp4">
+        <img src="/images/bot_1.png" alt="" class="img-fluid">
     </video>
     <div class="row">
       <div class="col-lg-6">
@@ -99,8 +99,8 @@
 <div class="work-block">
   <div class="container">
     <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
-      <source src="/video/misslora.mov">
-        <img src="/images/bot_1.jpg" alt="" class="img-fluid">
+      <source src="/video/misslora.mp4">
+        <img src="/images/bot_1.png" alt="" class="img-fluid">
     </video>
     <div class="row">
       <div class="col-lg-6">
@@ -151,8 +151,8 @@
 <div class="work-block">
   <div class="container">
     <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
-      <source src="/video/restbot.mov">
-        <img src="/images/bot_1.jpg" alt="" class="img-fluid">
+      <source src="/video/restbot.mp4">
+        <img src="/images/bot_1.png" alt="" class="img-fluid">
     </video>
     <div class="row">
       <div class="col-lg-6">
@@ -202,8 +202,8 @@
 <div class="work-block">
   <div class="container">
     <video autoplay muted width="1400" class="image mt-5 mb-4" controls style="max-width: 100%;">
-      <source src="/video/bridgestoun.mov">
-        <img src="/images/bot_1.jpg" alt="" class="img-fluid">
+      <source src="/video/bridgestoun.mp4">
+        <img src="/images/bot_1.png" alt="" class="img-fluid">
     </video>
     <div class="row">
       <div class="col-lg-6">
