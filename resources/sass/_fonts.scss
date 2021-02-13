@@ -1,65 +1,53 @@
-
 @font-face {
-  font-family: 'Graphik';
-  src: url("../fonts/Graphik-Regular-Web.eot");
-  src: url("../fonts/Graphik-Regular-Web.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Graphik-Regular-Web.woff2") format("woff2"),
-    url("../fonts/Graphik-Regular-Web.woff") format("woff"),
-    url("../fonts/Graphik-Regular-Web.ttf") format("truetype");
-}
-@font-face {
-  font-style: italic;
-  font-weight: normal;
-  font-family: 'Graphik';
-  src: url("../fonts/Graphik-RegularItalic-Web.eot");
-  src: url("../fonts/Graphik-RegularItalic-Web.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Graphik-RegularItalic-Web.woff2") format("woff2"),
-    url("../fonts/Graphik-RegularItalic-Web.woff") format("woff"),
-    url("../fonts/Graphik-RegularItalic-Web.ttf") format("truetype");
-}
-@font-face {
-  font-weight: 500;
-  font-style: normal;
-  font-family: 'Graphik';
-  src: url("../fonts/Graphik-Medium-Web.eot");
-  src: url("../fonts/Graphik-Medium-Web.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Graphik-Medium-Web.woff2") format("woff2"),
-    url("../fonts/Graphik-Medium-Web.woff") format("woff"),
-    url("../fonts/Graphik-Medium-Web.ttf") format("truetype");
-}
-
-@font-face {
-    font-weight: 600;
+    font-family: 'BebasNeue';
+    src: local('Bebas Neue Book'),
+        local('BebasNeueBook'),
+        url('../fonts/bebasneuebook.woff2') format('woff2'),
+        url('../fonts/bebasneuebook.woff') format('woff'),
+        url('../fonts/bebasneuebook.ttf') format('truetype');
+    font-weight: 300;
     font-style: normal;
-    font-family: 'Graphik';
-    src: url('../fonts/GraphikLCG-Semibold.eot');
-    src: url('../fonts/GraphikLCG-Semibold.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/GraphikLCG-Semibold.woff2') format('woff2'),
-        url('../fonts/GraphikLCG-Semibold.woff') format('woff'),
-        url('../fonts/GraphikLCG-Semibold.ttf') format('truetype');
 }
 
-
 @font-face {
+  font-family: 'BebasNeue';
+  src: local('Bebas Neue Bold'),
+    local('BebasNeueBold'),
+    url('../fonts/bebasneuebold.woff2') format('woff2'),
+    url('../fonts/bebasneuebold.woff') format('woff'),
+    url('../fonts/bebasneuebold.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
-  font-family: 'Graphik';
-  src: url("../fonts/Graphik-Bold-Web.eot");
-  src: url("../fonts/Graphik-Bold-Web.eot?#iefix") format("embedded-opentype"),
-    url("../fonts/Graphik-Bold-Web.woff2") format("woff2"),
-    url("../fonts/Graphik-Bold-Web.woff") format("woff"),
-    url("../fonts/Graphik-Bold-Web.ttf") format("truetype");
-  }
+}
 
 
 @font-face {
-  font-weight: 900;
-  font-style: normal;
-  font-family: 'Graphik';
-  src: url("../fonts/Graphik-Black-Web.eot");
-  src: url("../fonts/Graphik-Black-Web.eot?#iefix") format("embedded-opentype"),
-  url("../fonts/Graphik-Black-Web.woff2") format("woff2"),
-  url("../fonts/Graphik-Black-Web.woff") format("woff"),
-  url("../fonts/Graphik-Black-Web.ttf") format("truetype"),
-  url("../fonts/Graphik-Black-Web.svg#Graphik-Black-Web") format("svg");
+    font-family: 'Jura';
+    src: local('Jura Book'), 
+        local('JuraBook'),
+        url('../fonts/jurabook.woff2') format('woff2'), 
+        url('../fonts/jurabook.woff') format('woff'), 
+        url('../fonts/jurabook.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jura';
+    src: local('Jura Medium'), 
+        local('JuraMedium'),
+        url('../fonts/juramedium.woff2') format('woff2'), 
+        url('../fonts/juramedium.woff') format('woff'), 
+        url('../fonts/juramedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Jura';
+    src: local('Jura Demi-Bold'),
+        local('JuraDemiBold'),
+        url('../fonts/jurademi-bold.woff2') format('woff2'), 
+        url('../fonts/jurademi-bold.woff') format('woff'), 
+        url('../fonts/jurademi-bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
 }

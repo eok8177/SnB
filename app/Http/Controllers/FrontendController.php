@@ -13,24 +13,17 @@ class FrontendController extends Controller
 {
     public function index()
     {
-        $page = Page::first();
-        if (!$page) {
-            $page = new Page;
-        }
-        return view('front.home', [
-            'page' => $page
-        ]);
+        return view('front.sites');
+    }
+
+    public function sites()
+    {
+        return view('front.sites');
     }
 
     public function bots()
     {
-        $page = Page::first();
-        if (!$page) {
-            $page = new Page;
-        }
-        return view('front.bots', [
-            'page' => $page
-        ]);
+        return view('front.bots');
     }
 
     public function about()
@@ -50,7 +43,7 @@ class FrontendController extends Controller
         Mail::send('email.callme', ['text' => $text], function ($m) use ($text) {
           $m->from('eok1877@gmail.com', 'snb.ks.ua');
 
-          $m->to('sitesnbotssocial@gmail.com')->subject('S&B обращение клиента');
+          $m->to('eok1877@gmail.com')->subject('S&B обращение клиента');
         });
 
         return 'success';

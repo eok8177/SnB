@@ -17,13 +17,15 @@ $(function () {
 
   // Show/Hide block
   $('.btn-more').on('click', function(){
-    $(this).closest('.work-block').find('.block-more').addClass('open');
-    $(this).hide();
+    $(this).toggleClass('closed');
+    if ($(this).hasClass('closed')) {
+      $(this).text($(this).attr('data-open'));
+    } else {
+      $(this).text($(this).attr('data-close'));
+    }
+    $(this).closest('.work-block').find('.block-more').toggleClass('open');
   });
-  $('.btn-hide').on('click', function(){
-    $(this).closest('.block-more').removeClass('open');
-    $(this).closest('.work-block').find('.btn-more').show();
-  });
+
 
   //Submit ajax form
   $('.feedback-form').submit(function(e){
@@ -36,16 +38,6 @@ $(function () {
     });
     return false;
   }); 
-
-  // $(window).scroll(function() {
-  //     $('video').each(function() {
-  //         if ($(this).is(":in-viewport")) {
-  //             $(this)[0].play();
-  //         } else {
-  //             $(this)[0].pause();
-  //         }
-  //     })
-  // });
 
 
 });
