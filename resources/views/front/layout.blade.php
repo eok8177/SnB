@@ -53,10 +53,64 @@
     </nav>
 
 
-    <main class="">
-      @yield('content')
-    </main>
+
+    @yield('content')
+
   </div>
+
+  {{-- Footer --}}
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2 hide-sm">
+          <form action="">
+            <div class="form-group required">
+              <input type="text" name="name" placeholder="Имя" required>
+              <span class="error-msg">Заполните это поле</span>
+            </div>
+            <div class="form-group required">
+              <input type="text" name="email" placeholder="Почта" required>
+              <span class="error-msg">Заполните это поле</span>
+            </div>
+            <div class="form-group required">
+              <input type="text" name="phone" placeholder="Номер телефона" required>
+              <span class="error-msg">Заполните это поле</span>
+            </div>
+
+            <span class="d-block pt-2 pb-3">Предпочтительный канал связи</span>
+            <div class="radio-list">
+              <div class="custom-input">
+                <input type="radio" name="type" id="type_1" value="Email" required>
+                <label for="type_1">Email</label>
+              </div>
+              <div class="custom-input">
+                <input type="radio" name="type" id="type_2" value="Viber" required>
+                <label for="type_2">Viber</label>
+              </div>
+              <div class="custom-input">
+                <input type="radio" name="type" id="type_3" value="Телефон" required>
+                <label for="type_3">Телефон</label>
+              </div>
+              <div class="custom-input">
+                <input type="radio" name="type" id="type_4" value="Telegram" required>
+                <label for="type_4">Telegram</label>
+              </div>
+            </div>
+            <button type="submit" class="button btn-submit">связаться с нами</button>
+
+          </form>
+        </div>
+        <div class="col-md-6 order-1">
+          <div class="text-block">
+            <h2>расскажите нам о своем проекте!</h2>
+            <p>Будем рады пообщаться и обсудить подробности по вашему проекту</p>
+            <button class="button d-md-none btn-submit" data-toggle="modal" data-target="#contactModal">связаться с нами</button>
+            <p class="copryright">Sites&Bots, 2020</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
 
   {{-- Modal --}}
@@ -65,7 +119,7 @@
 
       <div class="modal-content request-form">
         <div class="modal-header p-2 p-md-4">
-          <h5 class="modal-title" id="contactModalLabel">Оставьте нам свою контактную информацию и мы свяжемся с вами в ближайшее время</h5>
+          <h5 class="modal-title" id="contactModalLabel"></h5>
           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -73,13 +127,28 @@
         <div class="modal-body p-2 p-md-4">
           <form action="/email" method="POST" class="feedback-form">
 
-            <input type="text" name="name" class="input-control" required placeholder="Имя">
+            <div class="form-group required">
+              <input type="text" name="name" placeholder="Имя">
+              <span class="error-msg">Заполните это поле</span>
+            </div>
+            <div class="form-group required">
+              <input type="text" name="email" placeholder="Почта">
+              <span class="error-msg">Заполните это поле</span>
+            </div>
+            <div class="form-group required">
+              <input type="text" name="phone" placeholder="Номер телефона">
+              <span class="error-msg">Заполните это поле</span>
+            </div>
 
-            <input type="text" name="phone" class="input-control" required placeholder="Телефон">
+            <p>Предпочтительный канал связи</p>
+            <div class="radio-list">
+              <div><input type="radio" name="type" id="type_1" value="Email"><label for="type_1">Email</label></div>
+              <div><input type="radio" name="type" id="type_2" value="Viber"><label for="type_2">Viber</label></div>
+              <div><input type="radio" name="type" id="type_3" value="Телефон"><label for="type_3">Телефон</label></div>
+              <div><input type="radio" name="type" id="type_4" value="Telegram"><label for="type_4">Telegram</label></div>
+            </div>
 
-            <input type="text" name="email" class="input-control" required placeholder="Почта">
-
-            <button type="submit" class="btn-gradient"><span>Отправить</span></button>
+            <button type="submit" class="button"><span>Отправить</span></button>
           </form>
         </div>
       </div>
@@ -91,7 +160,7 @@
           </button>
         </div>
         <div class="modal-body p-2 p-md-4 text-center">
-          <h5 class="modal-title">Thank you! <br> We’ll contact you <br> as soon as possible!</h5>
+          <h5 class="modal-title">спасибо за заявку! <br> Мы свяжемся с вами в ближайшее время!</h5>
 
           <button type="button" data-dismiss="modal" class="btn-gradient mt-5"><span>OK</span></button>
         </div>

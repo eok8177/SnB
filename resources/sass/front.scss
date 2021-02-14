@@ -91,8 +91,26 @@ button:focus {
             background: $secondary-text;
         }
     }
+    &.btn-submit {
+        border: 1px solid $main-bg;
+        color: $primary-red;
+        font-weight: 300;
+        &:hover, &:active {
+            background: $primary-red;
+            color: $main-white;
+        }
+    }
 }
-
+body.bots {
+    .button {
+        &.btn-submit {
+            &:hover, &:active {
+                background: $primary-blue;
+                color: $main-white;
+            }
+        }
+    }
+}
 
 p {
     margin: 16px 0 40px;
@@ -345,4 +363,195 @@ ul {
         }
     }
 
+}
+
+
+// Form
+
+
+::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: $main-white;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: $main-white;
+   opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: $main-white;
+   opacity:  1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: $main-white;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: $main-white;
+}
+::placeholder { /* Most modern browsers support this now. */
+   color: $main-white;
+   font-size: 16px;
+}
+
+
+.form-group {
+    margin-bottom: 16px;
+  .error-msg {
+    display: none;
+    color: #f00;
+    margin-top: 6px;
+  }
+  input {
+    background: $primary-blue;
+    border-radius: 0;
+    border: 1px solid $main-white;
+    color: $main-white;
+    display: block;
+    font-size: 16px;
+    height: 36px;
+    padding: 8px;
+    width: 100%;
+    outline: none;
+    &:focus {
+        border-color: $primary-red;
+    }
+  }
+}
+.form-group.error {
+   label {
+    color: #f00;
+  }
+  input {
+    border-color: #f00;
+  }
+  .error-msg {display: block;}
+}
+
+// custom Radio button
+.custom-input {
+  position: relative;
+  margin-bottom: 12px;
+  input {
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+  input + label {
+    position: relative;
+    padding-left: 24px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-weight: normal;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1;
+    text-transform: none;
+  }
+  input + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0px;
+    width: 16px;
+    height: 16px;
+    border: none;
+    border-radius: 0;
+    background: transparent;
+    border: 2px solid $main-white;
+  }
+  input[type="radio"] + label:before,
+  input[type="radio"] + label:after {
+    border-radius: 50%;
+  }
+
+  input:checked + label {
+    &:before {
+      background: transparent;
+      border: 2px solid $main-white;
+      box-shadow: none;
+    }
+    &:after {
+      content: '';
+      position: absolute;
+      left: 4px;
+      top: 4px;
+      width: 8px;
+      height: 8px;
+      background: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' width='10' height='10' viewBox='0 0 8 8'><path fill='white' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26l2.974 2.99L8 2.193z'/></svg>") no-repeat center;
+    }
+  }
+  input[type="radio"] + label:after {
+    left: 4px;
+    top: 4px;
+    width: 8px;
+    height: 8px;
+    background: #fff;
+  }
+}
+.radio-list {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+    column-gap: 30px;
+    margin-bottom: 14px;
+}
+
+
+#app {
+    min-height: calc(100vh - 430px);
+}
+footer {
+    background: $primary-blue;
+    color: $main-white;
+    padding: 50px 0;
+    font-size: 16px;
+    @media (max-width: 767px) {
+        padding-bottom: 0;
+    }
+    form {
+        display: block;
+        max-width: 370px;
+        width: 100%;
+    }
+    .text-block {
+        @media (max-width: 767px) {
+            text-align: center;
+            h2 {
+                font-size: 32px;
+                max-width: 196px;
+                margin: 0 auto 24px;
+            }
+            .copryright {
+                margin: 0 -15px;
+                background: $main-white;
+                color: $main-text;
+                line-height: 68px;
+            }
+            .button {
+                margin-bottom: 50px;
+            }
+        }
+        @media (min-width: 768px) {
+            .copryright {
+                margin-top: 175px;
+                margin-bottom: 0;
+            }
+        }
+        @media (min-width: 1200px) {
+            padding-left: 200px;
+            max-width: 480px;
+        }
+    }
+}
+body.bots footer {
+    background: $primary-red;
+    .form-group {
+      input {
+        background: $primary-red;
+        &:focus {
+            border-color: $primary-blue;
+        }
+      }
+    }
 }

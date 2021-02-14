@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <button class="button fixed">Рассчитать проект</button>
+      <button class="button fixed" data-toggle="modal" data-target="#contactModal">Рассчитать проект</button>
     </div>
 
     <div class="col-lg-6 d-none d-lg-block text-center">
@@ -147,23 +147,6 @@
 
 
 
-
-
-
-
-{{-- Footer --}}
-<footer>
-  <div class="container">
-    <p class="title">
-      Расскажите нам о своем проекте! Будем рады пообщаться и ответить на все вопросы.
-    </p>
-    <hr class="dashed">
-    <p class="small">напишите нам и мы обсудим подробности по вашему проекту</p>
-    <button class="btn-gradient" data-toggle="modal" data-target="#contactModal"><span>написать</span></button>
-
-    <p class="copryright">Sites&Bots, 2020</p>
-  </div>
-</footer>
 @endsection
 
 @push('scripts')
