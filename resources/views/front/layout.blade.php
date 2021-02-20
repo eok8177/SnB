@@ -115,7 +115,7 @@
 
   {{-- Modal --}}
   <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-dialog" role="document">
 
       <div class="modal-content request-form">
         <div class="modal-header p-2 p-md-4">
@@ -140,15 +140,27 @@
               <span class="error-msg">Заполните это поле</span>
             </div>
 
-            <p>Предпочтительный канал связи</p>
-            <div class="radio-list">
-              <div><input type="radio" name="type" id="type_1" value="Email"><label for="type_1">Email</label></div>
-              <div><input type="radio" name="type" id="type_2" value="Viber"><label for="type_2">Viber</label></div>
-              <div><input type="radio" name="type" id="type_3" value="Телефон"><label for="type_3">Телефон</label></div>
-              <div><input type="radio" name="type" id="type_4" value="Telegram"><label for="type_4">Telegram</label></div>
+            <span class="d-block pt-2 pb-3 pl-3">Предпочтительный канал связи</span>
+            <div class="radio-list pl-3">
+              <div class="custom-input">
+                <input type="radio" name="type" id="modal_type_1" value="Email" required>
+                <label for="modal_type_1">Email</label>
+              </div>
+              <div class="custom-input">
+                <input type="radio" name="type" id="modal_type_2" value="Viber" required>
+                <label for="modal_type_2">Viber</label>
+              </div>
+              <div class="custom-input">
+                <input type="radio" name="type" id="modal_type_3" value="Телефон" required>
+                <label for="modal_type_3">Телефон</label>
+              </div>
+              <div class="custom-input">
+                <input type="radio" name="type" id="modal_type_4" value="Telegram" required>
+                <label for="modal_type_4">Telegram</label>
+              </div>
             </div>
 
-            <button type="submit" class="button"><span>Отправить</span></button>
+            <button type="submit" class="button"><span>связаться с нами</span></button>
           </form>
         </div>
       </div>
