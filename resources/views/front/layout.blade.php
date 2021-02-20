@@ -105,8 +105,8 @@
             <h2>расскажите нам о своем проекте!</h2>
             <p>Будем рады пообщаться и обсудить подробности по вашему проекту</p>
             <button class="button d-md-none btn-submit" data-toggle="modal" data-target="#contactModal">связаться с нами</button>
-            <p class="copryright">Sites&Bots, 2020</p>
           </div>
+          <p class="copyright">Sites&Bots, 2020</p>
         </div>
       </div>
     </div>
