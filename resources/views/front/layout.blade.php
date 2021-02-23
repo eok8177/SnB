@@ -21,7 +21,7 @@
   <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
   <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script> --}}
 
-  <link href="{{ asset('css/front.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/front.css') }}?v={{time()}}" rel="stylesheet">
 
   @stack('styles')
 </head>
@@ -203,7 +203,7 @@
     // }
   </script>
 
-  <script src="{{ asset('js/front.js') }}"></script>
+  <script src="{{ asset('js/front.js') }}?v={{time()}}"></script>
   @stack('scripts')
   <script>
 
