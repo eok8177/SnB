@@ -3,9 +3,10 @@ try {
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
-
-    // require('is-in-viewport')
 } catch (e) {}
+
+  const WOW = require('wowjs');
+  window.wow = new WOW.WOW({ live: false });
 
 $(function () {
 
@@ -39,7 +40,7 @@ $(function () {
     return false;
   }); 
 
-
+window.wow.init();
 });
 
 function postForm($form, callback) {

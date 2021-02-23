@@ -45,7 +45,7 @@
         <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about" title="@lang('msg.about')">@lang('msg.about')</a>
         <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="contact" title="@lang('msg.contacts')">@lang('msg.contacts')</a>
 
-        <span class="ml-auto blocks {{ (Request::is('bots') || Request::is('sites')) ? 'single' : 'dual' }}">
+        <span class="ms-auto blocks {{ (Request::is('bots') || Request::is('sites')) ? 'single' : 'dual' }}">
           <a class="nav-link bots {{ Request::is('bots') ? 'd-none' : '' }}" href="/bots" title="@lang('msg.boots')">@lang('msg.boots')</a>
           <a class="nav-link sites {{ Request::is('sites') ? 'd-none' : '' }}" href="/sites" title="@lang('msg.sites')">@lang('msg.sites')</a>
         </span>
@@ -104,7 +104,7 @@
           <div class="text-block">
             <h2>расскажите нам о своем проекте!</h2>
             <p>Будем рады пообщаться и обсудить подробности по вашему проекту</p>
-            <button class="button d-md-none btn-submit" data-toggle="modal" data-target="#contactModal">связаться с нами</button>
+            <button class="button d-md-none btn-submit" data-bs-toggle="modal" data-bs-target="#contactModal">связаться с нами</button>
           </div>
           <p class="copyright">Sites&Bots, 2020</p>
         </div>
@@ -120,9 +120,7 @@
       <div class="modal-content request-form">
         <div class="modal-header p-2 p-md-4">
           <h5 class="modal-title" id="contactModalLabel"></h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-2 p-md-4">
           <form action="/email" method="POST" class="feedback-form">
@@ -167,14 +165,12 @@
 
       <div class="modal-content success" style="display: none;">
         <div class="modal-header p-2 p-md-4">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-2 p-md-4 text-center">
           <h5 class="modal-title">спасибо за заявку! <br> Мы свяжемся с вами в ближайшее время!</h5>
 
-          <button type="button" data-dismiss="modal" class="btn-gradient mt-5"><span>OK</span></button>
+          <button type="button" data-bs-dismiss="modal" class="button mt-5"><span>OK</span></button>
         </div>
       </div>
     </div>

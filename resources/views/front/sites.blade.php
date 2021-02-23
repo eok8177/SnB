@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <button class="button fixed" data-toggle="modal" data-target="#contactModal">Рассчитать проект</button>
+      <button class="button fixed" data-bs-toggle="modal" data-bs-target="#contactModal">Рассчитать проект</button>
     </div>
 
     <div class="col-lg-6 d-none d-lg-block text-center">
@@ -160,18 +160,18 @@
         items: 1,
         slideTransition: 'linear',
         // autoWidth: true,
-        nav: false,
+        nav: true,
         dots: false,
         // autoplayHoverPause: true,
         autoplay: true,
-        autoplayTimeout: 10000,
+        // autoplayTimeout: 10000,
         // autoplaySpeed: 10000,
-        smartSpeed: 10000,
+        // smartSpeed: 10000,
         // fluidSpeed: 25000
         responsive : {
             // breakpoint from 0 up
             0 : {
-              stagePadding: 10,
+              // stagePadding: 10,
               margin:10
             },
             // breakpoint from 480 up
@@ -180,7 +180,7 @@
             },
             // breakpoint from 768 up
             768 : {
-              stagePadding: 100,
+              // stagePadding: 100,
               margin:40
             }
         }

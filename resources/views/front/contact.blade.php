@@ -5,19 +5,27 @@
 <div class="container">
   <div class="row align-items-center">
     <div class="col-lg-4">
-      <h1 class="title">Контакты</h1>
+      <h1 class="title wow slideInLeft">Контакты</h1>
 
-      <h4 class="sub-title-border">Контакты</h4>
-      <a href="" class="link-block">+38 (063) - 012 - 34 - 56</a>
-      <a href="" class="link-block">+38 (099) - 012 - 34 - 56</a>
-      <a href="mailto:sitesnbotssocial@gmail.com" class="link-block">sitesnbotssocial@gmail.com</a>
+      <h4 class="sub-title-border wow slideInLeft" data-wow-delay="0.3s">Контакты</h4>
+      <a href="" class="link-block wow slideInLeft" data-wow-delay="0.6s">+38 (063) - 012 - 34 - 56</a>
+      <a href="" class="link-block wow slideInLeft" data-wow-delay="0.6s">+38 (099) - 012 - 34 - 56</a>
+      <a href="mailto:sitesnbotssocial@gmail.com" class="link-block wow slideInLeft" data-wow-delay="0.6s">sitesnbotssocial@gmail.com</a>
 
-      <h4 class="sub-title-border">Социальные сети</h4>
+      <h4 class="sub-title-border wow slideInLeft" data-wow-delay="0.9s">Социальные сети</h4>
       <div class="contact-links">
-        <a href="https://www.facebook.com/groups/250822842966466/" title="Facebook"><span class="ico-fb"></span></a>
-        <a href="https://www.instagram.com/sites_bots/" title="Instagram"><span class="ico-inst"></span></a>
-        <a href="#" title="LinkedIn"><span class="ico-ln"></span></a>
-        <a href="#" title="Telegram"><span class="ico-send"></span></a>
+        <a href="https://www.facebook.com/groups/250822842966466/" title="Facebook" class=" wow zoomIn" data-wow-delay="1.8s">
+          <span class="ico-fb"></span>
+        </a>
+        <a href="https://www.instagram.com/sites_bots/" title="Instagram" class=" wow zoomIn" data-wow-delay="2s">
+          <span class="ico-inst"></span>
+        </a>
+        <a href="#" title="LinkedIn" class=" wow zoomIn" data-wow-delay="2.2s">
+          <span class="ico-ln"></span>
+        </a>
+        <a href="#" title="Telegram" class=" wow zoomIn" data-wow-delay="2.4s">
+          <span class="ico-send"></span>
+        </a>
       </div>
     </div>
     <div class="col-lg-8">
