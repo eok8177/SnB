@@ -5,14 +5,14 @@
 <div class="container">
   <div class="row align-items-center">
     <div class="col-lg-4">
-      <h1 class="title wow slideInLeft">Контакты</h1>
+      <h1 class="title wow backInLeft">Контакты</h1>
 
-      <h4 class="sub-title-border wow slideInLeft" data-wow-delay="0.3s">Контакты</h4>
-      <a href="" class="link-block wow slideInLeft" data-wow-delay="0.6s">+38 (063) - 012 - 34 - 56</a>
-      <a href="" class="link-block wow slideInLeft" data-wow-delay="0.6s">+38 (099) - 012 - 34 - 56</a>
-      <a href="mailto:sitesnbotssocial@gmail.com" class="link-block wow slideInLeft" data-wow-delay="0.6s">sitesnbotssocial@gmail.com</a>
+      <h4 class="sub-title-border wow backInLeft" data-wow-delay="0.3s">Контакты</h4>
+      <a href="" class="link-block wow backInLeft" data-wow-delay="0.6s">+38 (063) - 012 - 34 - 56</a>
+      <a href="" class="link-block wow backInLeft" data-wow-delay="0.6s">+38 (099) - 012 - 34 - 56</a>
+      <a href="mailto:sitesnbotssocial@gmail.com" class="link-block wow backInLeft" data-wow-delay="0.6s">sitesnbotssocial@gmail.com</a>
 
-      <h4 class="sub-title-border wow slideInLeft" data-wow-delay="0.9s">Социальные сети</h4>
+      <h4 class="sub-title-border wow backInLeft" data-wow-delay="0.9s">Социальные сети</h4>
       <div class="contact-links">
         <a href="https://www.facebook.com/groups/250822842966466/" title="Facebook" class=" wow zoomIn" data-wow-delay="1.8s">
           <span class="ico-fb"></span>
