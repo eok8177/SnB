@@ -25,7 +25,7 @@
 
   @stack('styles')
 </head>
-<body class="{{$bodyClass ?? ''}}">
+<body class="{{$bodyClass ?? ''}}" style="overflow-x: hidden;">
 
   {{-- <video id="preloader" class="video-js" muted autoplay style="opacity: 0;">
     <source src="/video/loader.mp4" type="video/mp4" media="screen and (min-device-width:768px)" />
