@@ -8,7 +8,7 @@
 
     <div class="col-lg-6">
       <h1 class="title">Мы создаем <br> сайты</h1>
-      <div class="image d-lg-none sites-mobile-image" style="overflow-x: hidden;"><img src="/img/m-sites.svg" alt="сайты" class="img-fluid wow backInRight"></div>
+      <div class="image d-lg-none sites-mobile-image" style="overflow-x: hidden;"><img src="/img/m-sites.svg" alt="сайты" class="img-fluid wow backInRight" style="visibility: hidden;"></div>
 
       <div class="row">
         <div class="col-sm-6">
@@ -27,7 +27,7 @@
     </div>
 
     <div class="col-lg-6 d-none d-lg-block text-center">
-      <img src="/img/sites.svg" alt="сайты" class="img-fluid wow backInRight">
+      <img src="/img/sites.svg" alt="сайты" class="img-fluid wow backInRight" style="visibility: hidden;">
     </div>
 
   </div>

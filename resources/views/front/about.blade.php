@@ -8,27 +8,6 @@
     Вместо посредственного инструмента для выполнения множества задач мы предпочитаем создавать специализированный продукт под узкую нишу, который выполнит одну задачу, но идеально.
   </p>
 
-
-
-{{-- <ul class="nav nav-tabs" id="myTab" role="tablist">
-  <li class="nav-item" role="presentation">
-    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Home</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Profile</button>
-  </li>
-  <li class="nav-item" role="presentation">
-    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Contact</button>
-  </li>
-</ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-</div> --}}
-
-
-
   <ul class="nav nav-tabs pills" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
       <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">О НАС</a>
@@ -42,17 +21,17 @@
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
       <div class="row">
-        <div class="col-md-4 wow backInLeft">
+        <div class="col-md-4 wow backInLeft" style="visibility: hidden;">
           <h4 class="sub-title">Кто мы такие</h4>
           <p>Команда профессионалов, у которой есть все, чтобы реализовать ваши смелые идеи. <br>Мы - команда разработчиков, тестировщиков, дизайнеров,аналитиков, seo специалистов и нишевых экспертов, для которых нет нерешаемых задач.</p>
         </div>
 
-        <div class="col-md-4 wow backInLeft" data-wow-delay="0.5s">
+        <div class="col-md-4 wow backInLeft" data-wow-delay="0.5s" style="visibility: hidden;">
           <h4 class="sub-title">Что умеем</h4>
           <p>Создавать самописные интернет-магазины и корпоративные сайты, полностью заточенные под потребности заказчика.  Без мусора и ненужных функций. Делать крутые блоги на Wordpress и промо-страницы на Tilda. <br> Писать ботов для Telegram, Facebook WhatsApp и Viber, со сложными интеграциями с другими сервисами клиента. </p>
         </div>
 
-        <div class="col-md-4 wow backInLeft" data-wow-delay="1s">
+        <div class="col-md-4 wow backInLeft" data-wow-delay="1s" style="visibility: hidden;">
           <h4 class="sub-title">Почему мы</h4>
           <p>Работая с нами, вам не будут нужны другие подрядчики. Мы превратим вашу идею в работающий продукт, будем его поддерживать и дорабатывать, добавлять нужные вашему бизнесу функции.</p>
         </div>
