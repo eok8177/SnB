@@ -1,5 +1,5 @@
 try {
-    window.Popper = require('popper.js').default;
+    // window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
@@ -19,12 +19,16 @@ $(function () {
   // Show/Hide block
   $('.btn-more').on('click', function(){
     $(this).toggleClass('closed');
+    let block  = $(this).closest('.work-block').find('.block-more');
+    let height = block.find('.block-inner').innerHeight();
     if ($(this).hasClass('closed')) {
       $(this).text($(this).attr('data-open'));
+      block.css('max-height', 0);
     } else {
       $(this).text($(this).attr('data-close'));
+      block.css('max-height', height + 90);
     }
-    $(this).closest('.work-block').find('.block-more').toggleClass('open');
+    block.toggleClass('open');
   });
 
 

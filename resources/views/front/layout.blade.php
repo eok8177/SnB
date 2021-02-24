@@ -7,35 +7,12 @@
 
   <title>{{ config('app.name', 'Laravel') }}</title>
 
-{{--   <style>
-    .video-js.vjs-fluid {
-      position: fixed;
-      left: 0; right: 0;
-      top: 0;
-      bottom: 0;
-      height: 100% !important;
-    }
-    .vjs-tech { object-fit: cover; }
-  </style>
-
-  <link href="//vjs.zencdn.net/7.8.2/video-js.min.css" rel="stylesheet">
-  <script src="//vjs.zencdn.net/7.8.2/video.min.js"></script> --}}
-
+  @stack('pre-styles')
   <link href="{{ asset('css/front.css') }}?v={{time()}}" rel="stylesheet">
 
   @stack('styles')
 </head>
-<body class="{{$bodyClass ?? ''}}" style="overflow-x: hidden;">
-
-  {{-- <video id="preloader" class="video-js" muted autoplay style="opacity: 0;">
-    <source src="/video/loader.mp4" type="video/mp4" media="screen and (min-device-width:768px)" />
-    <source src="/video/loader_sm.mp4" type="video/mp4" media="screen and (max-device-width:767px)" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
-    </p>
-  </video> --}}
+<body class="{{$bodyClass ?? ''}}">
 
   <div id="app">
     <nav class="nav">
@@ -177,36 +154,7 @@
   </div>
 
   <!-- Scripts -->
-  <script>
-    var options = {
-      fluid: true,
-      autoplay: true,
-      controls: false,
-      preload: 'auto'
-    };
-
-    // if (localStorage.getItem('snb-visited')) {
-    //   document.getElementById("preloader").remove();
-    //   document.getElementById("app").style.display = 'block';;
-    // } else {
-    //   var player = videojs('preloader', options, function onPlayerReady() {
-    //     // In this context, `this` is the player that was created by Video.js.
-    //     document.getElementById("preloader").style.opacity = 1;
-    //     document.getElementById("preloader_html5_api").style.opacity = 1;
-
-    //     this.on('ended', function() {
-    //       document.getElementById("preloader").remove();
-    //       document.getElementById("app").style.display = 'block';
-    //     });
-    //   });
-    //   localStorage.setItem('snb-visited', true);
-    // }
-  </script>
-
   <script src="{{ asset('js/front.js') }}?v={{time()}}"></script>
   @stack('scripts')
-  <script>
-
-  </script>
 </body>
 </html>

@@ -42,17 +42,17 @@
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
       <div class="row">
-        <div class="col-md-4 wow backInLeft" data-wow-delay="0.4s">
+        <div class="col-md-4 wow backInLeft">
           <h4 class="sub-title">Кто мы такие</h4>
           <p>Команда профессионалов, у которой есть все, чтобы реализовать ваши смелые идеи. <br>Мы - команда разработчиков, тестировщиков, дизайнеров,аналитиков, seo специалистов и нишевых экспертов, для которых нет нерешаемых задач.</p>
         </div>
 
-        <div class="col-md-4 wow backInLeft" data-wow-delay="0.6s">
+        <div class="col-md-4 wow backInLeft" data-wow-delay="0.5s">
           <h4 class="sub-title">Что умеем</h4>
           <p>Создавать самописные интернет-магазины и корпоративные сайты, полностью заточенные под потребности заказчика.  Без мусора и ненужных функций. Делать крутые блоги на Wordpress и промо-страницы на Tilda. <br> Писать ботов для Telegram, Facebook WhatsApp и Viber, со сложными интеграциями с другими сервисами клиента. </p>
         </div>
 
-        <div class="col-md-4 wow backInLeft" data-wow-delay="0.8s">
+        <div class="col-md-4 wow backInLeft" data-wow-delay="1s">
           <h4 class="sub-title">Почему мы</h4>
           <p>Работая с нами, вам не будут нужны другие подрядчики. Мы превратим вашу идею в работающий продукт, будем его поддерживать и дорабатывать, добавлять нужные вашему бизнесу функции.</p>
         </div>

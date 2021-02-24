@@ -8,7 +8,7 @@
 
     <div class="col-lg-6">
       <h1 class="title">Мы создаем <br> сайты</h1>
-      <div class="image d-lg-none sites-mobile-image"><img src="/img/m-sites.svg" alt="сайты" class="img-fluid"></div>
+      <div class="image d-lg-none sites-mobile-image" style="overflow-x: hidden;"><img src="/img/m-sites.svg" alt="сайты" class="img-fluid wow backInRight"></div>
 
       <div class="row">
         <div class="col-sm-6">
@@ -27,7 +27,7 @@
     </div>
 
     <div class="col-lg-6 d-none d-lg-block text-center">
-      <img src="/img/sites.svg" alt="сайты" class="img-fluid">
+      <img src="/img/sites.svg" alt="сайты" class="img-fluid wow backInRight">
     </div>
 
   </div>
@@ -36,7 +36,7 @@
 
 
 
-<section class="wide-text">
+<section class="wide-text wow zoomIn" data-wow-delay="1s">
   <div class="container text-center">
     <h3>Делаем уникальные интернет-магазины, сложные корпоративные сайты с множеством интеграций, блоги на Wordpress и лендинги на Tilda</h3>
   </div>
@@ -52,7 +52,7 @@
 
   <div class="work-block">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-end">
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none">annafoxy</h2>
           
@@ -70,27 +70,30 @@
           </div>
 
         </div>
-        <div class="col-lg-4">
-          <h2 class="d-none d-lg-block">annafoxy</h2>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block">annafoxy</h2>
 
-          <p>Полноценный монобрендовый интернет-магазин для ценителей уникальных предметов одежды и аксессуаров, ориентированный в основном на европейскую аудиторию.</p>
+            <p>Полноценный монобрендовый интернет-магазин для ценителей уникальных предметов одежды и аксессуаров, ориентированный в основном на европейскую аудиторию.</p>
 
-          <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
-
+            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+          </div>
         </div>
       </div>
 
       <div class="block-more">
-        <ul class="list">
-          <li class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</li>
-          <li class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</li>
-          <li class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</li>
-          <li class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</li>
-          <li class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </li>
-          <li class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</li>
-          <li class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</li>
-        </ul>
-        <a href="https://annafoxy.com" class="button more" target="_blank">Перейти на сайт</a>
+        <div class="block-inner">
+          <ul class="list">
+            <li class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</li>
+            <li class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</li>
+            <li class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</li>
+            <li class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</li>
+            <li class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </li>
+            <li class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</li>
+            <li class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</li>
+          </ul>
+          <a href="https://annafoxy.com" class="button more" target="_blank">Перейти на сайт</a>
+        </div>
       </div>
 
       <hr>
@@ -102,7 +105,7 @@
 
   <div class="work-block">
     <div class="container">
-      <div class="row">
+      <div class="row align-items-end">
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none"><span class="">Personal Blog</span><br>VADYM IERMOLAIEV</h2>
           
@@ -118,26 +121,29 @@
           </div>
 
         </div>
-        <div class="col-lg-4">
-          <h2 class="d-none d-lg-block"><span class="">Personal Blog</span><br>VADYM IERMOLAIEV</h2>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block"><span class="">Personal Blog</span><br>VADYM IERMOLAIEV</h2>
 
-          <p>Мы разработали сайт для Вадима Владимировича, известного украинского бизнесмена, на котором он охотно делится интересными мыслями, новостями бизнес-проектов своей компании и видеороликами с обществом.</p>
+            <p>Мы разработали сайт для Вадима Владимировича, известного украинского бизнесмена, на котором он охотно делится интересными мыслями, новостями бизнес-проектов своей компании и видеороликами с обществом.</p>
 
-          <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
-
+            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+          </div>
         </div>
       </div>
 
       <div class="block-more">
-        <ul class="list">
-          <li class="list-item">Мультиязычный (UA, RU, ENG)  сайт-блог на платформе WordPress</li>
-          <li class="list-item">Уникальный, строгий и современный дизайн</li>
-          <li class="list-item">Легкий и быстрый сайт для информирования и коммуникации с общественностью</li>
-          <li class="list-item">Размещение статей с посторонних ресурсов для сохранения авторства контента</li>
-          <li class="list-item">Удобная административная панель</li>
-          <li class="list-item">Коммуникация по обратной связи</li>
-        </ul>
-        <a href="https://vadymiermolaiev.info" class="button more" target="_blank">Перейти на сайт</a>
+        <div class="block-inner">
+          <ul class="list">
+            <li class="list-item">Мультиязычный (UA, RU, ENG)  сайт-блог на платформе WordPress</li>
+            <li class="list-item">Уникальный, строгий и современный дизайн</li>
+            <li class="list-item">Легкий и быстрый сайт для информирования и коммуникации с общественностью</li>
+            <li class="list-item">Размещение статей с посторонних ресурсов для сохранения авторства контента</li>
+            <li class="list-item">Удобная административная панель</li>
+            <li class="list-item">Коммуникация по обратной связи</li>
+          </ul>
+          <a href="https://vadymiermolaiev.info" class="button more" target="_blank">Перейти на сайт</a>
+        </div>
       </div>
 
     </div>
@@ -149,8 +155,10 @@
 
 @endsection
 
-@push('scripts')
+@push('pre-styles')
 <link href="{{ asset('vendor/owlcarousel/assets/owl.carousel.min.css') }}" rel="stylesheet">
+@endpush
+@push('scripts')
 <script src="{{ asset('vendor/owlcarousel/owl.carousel.min.js') }}"></script>
 <script>
   $(function () {
@@ -164,8 +172,8 @@
         dots: false,
         // autoplayHoverPause: true,
         autoplay: true,
-        // autoplayTimeout: 10000,
-        // autoplaySpeed: 10000,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 2000,
         // smartSpeed: 10000,
         // fluidSpeed: 25000
         responsive : {
