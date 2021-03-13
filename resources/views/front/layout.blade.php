@@ -17,7 +17,7 @@
   <div id="app">
     <nav class="nav">
       <div class="container">
-        <a class="logo" href="{{ url('/sites') }}"></a>
+        <a class="logo" href="{{ url('/') }}"></a>
 
         <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about" title="@lang('msg.about')">@lang('msg.about')</a>
         <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="contact" title="@lang('msg.contacts')">@lang('msg.contacts')</a>
