@@ -43,7 +43,7 @@
 </section>
 
 
-<section class="works">
+<section class="works bot-works">
 
   <div class="container">
     <h3 class="text-center text-lg-left">Смотрите, какие проекты мы уже запустили</h3>
@@ -53,22 +53,22 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-lg-8">
-          <h2 class="text-center d-lg-none">Чарли - бухгалтер фирмы</h2>
-          
+          <h2 class="text-center d-lg-none">Бухгалтер Чарли</h2>
+
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/bot-1.jpg" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/bot-1.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/01.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/02.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/03.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/04.png" alt="" class="img-fluid"></div>
           </div>
 
         </div>
         <div class="col-lg-4" style="overflow-x: hidden;">
           <div class="wow backInRight">
-            <h2 class="d-none d-lg-block">Чарли - бухгалтер фирмы</h2>
-
+            <h2 class="d-none d-lg-block">Бухгалтер Чарли</h2>
             <p><b>Чат-бот фирмы, которая занимается пошивом шуб.</b></p>
             <p>Бот-бухгалтер для ведения отчетности о заказах и продажах.</p>
             <p>Даёт возможность вносить новые продажи и заказы поставок товаров во все магазины компании, ежедневно формирует отчеты для 1С.</p>
-
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
         </div>
@@ -79,22 +79,17 @@
           <p>Даёт возможность вносить новые продажи и заказы поставок товаров во все магазины компании, ежедневно формирует отчеты для 1С.</p>
           <p class="mb-2">Возможности</p>
           <ul class="list">
-            <li class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</li>
-            <li class="list-item">Динамичные слайдеры на главной, удобный конструктор для самостоятельного наполнения страниц сайта.</li>
-            <li class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</li>
-            <li class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</li>
-            <li class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </li>
-            <li class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</li>
-            <li class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</li>
+            <li class="list-item">платформа: Telegram</li>
+            <li class="list-item">передача информации сотрудникам и дублирование сообщений в чат компании для сбора отчета о полученных отзывах.</li>
+            <li class="list-item">формирование благодарственного письма одному или нескольким сотрудникам компании</li>
+            <li class="list-item">интеграция с сервисом SMS-Fly для передачи благодарностей в виде SMS-сообщений</li>
+            <li class="list-item">поддержка вложений файлов и изображений в благодарность</li>
           </ul>
           <p>Результат: <br> значительный рост мотивации сотрудников и уровня их удовлетворенности проделанной работой за счет получения благодарностей от клиентов напрямую.</p>
-          <a href="https://annafoxy.com" class="button more mt-4" target="_blank">Посмотреть бота</a>
+          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
         </div>
-
       </div>
-
       <hr>
-
     </div>
   </div>
 
@@ -104,20 +99,20 @@
     <div class="container">
       <div class="row align-items-end">
         <div class="col-lg-8">
-          <h2 class="text-center d-lg-none"><span class="">Бот благодарности</h2>
-          
+          <h2 class="text-center d-lg-none"><span class="">Бот программы лояльности</h2>
+
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/bot-1.jpg" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/bot-1.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/01.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/02.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/03.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/04.png" alt="" class="img-fluid"></div>
           </div>
 
         </div>
         <div class="col-lg-4" style="overflow-x: hidden;">
           <div class="wow backInRight">
-            <h2 class="d-none d-lg-block"><span class="">Бот благодарности</h2>
-
-            <p>Мы разработали сайт для Вадима Владимировича, известного украинского бизнесмена, на котором он охотно делится интересными мыслями, новостями бизнес-проектов своей компании и видеороликами с обществом.</p>
-
+            <h2 class="d-none d-lg-block"><span class="">Бот программы лояльности</h2>
+            <p>Закрытый чат-бот для компании-производителя автомобильных шин.</p>
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
         </div>
@@ -125,15 +120,106 @@
 
       <div class="block-more">
         <div class="block-inner">
+          <p>Основной целью бота является внеднерение программы лояльности для поощрения трудолюбивых сотрудников компании. Помогает сотруднику вывести бонусные баллы от продаж шин методом сканирование QR-кодов с физических чеков. Так же, имеем интеграцию с апи клиента, которая позволяет вести в диалоги в тех поддержке, оставлять заявки на коммуникацию, уточнять свой статус и баланс по программе лояльности.</p>
+          <p class="mb-2">Возможности</p>
           <ul class="list">
-            <li class="list-item">Мультиязычный (UA, RU, ENG)  сайт-блог на платформе WordPress</li>
-            <li class="list-item">Уникальный, строгий и современный дизайн</li>
-            <li class="list-item">Легкий и быстрый сайт для информирования и коммуникации с общественностью</li>
-            <li class="list-item">Размещение статей с посторонних ресурсов для сохранения авторства контента</li>
-            <li class="list-item">Удобная административная панель</li>
-            <li class="list-item">Коммуникация по обратной связи</li>
+            <li class="list-item">платформа: Telegram</li>
+            <li class="list-item">интегрированное взаимодействие с техподдержкой в формате «вопрос-ответ» и возможностью вложения закодированных файлов в любом формате</li>
+            <li class="list-item">интеграция с многофункциональным API</li>
+            <li class="list-item">распознавание QR-кодов и последующая их передача по API</li>
+            <li class="list-item">регистрация и авторизация пользователя с несколькими ступенями верификации и поддержкой редактирования профиля</li>
+            <li class="list-item">проверка баланса по проведенным сканам кодов и общий подсчет бонусных баллов за рабочий квартал</li>
           </ul>
-          <a href="https://vadymiermolaiev.info" class="button more" target="_blank">Посмотреть бота</a>
+          <p>Результат: <br> прозрачная система лояльности для продавцов компании работает на более чем 500-та торговых точках по всей стране. Выросла мотивация продавцов, появился соревновательный элемент, средний чек по городу увеличился на 15%.</p>
+          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+
+  <div class="work-block">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-lg-8">
+          <h2 class="text-center d-lg-none"><span class="">Rest bot</h2>
+          
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="/images/rest/01.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/rest/02.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/rest/03.png" alt="" class="img-fluid"></div>
+          </div>
+
+        </div>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block"><span class="">Rest bot</h2>
+            <p>Виртуальный менеджер ресторана.</p>
+            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-more">
+        <div class="block-inner">
+          <p>Рассказывает гостям, сколько есть свободных мест в заведении, покажет меню, поможет выбрать еду и напитки. Имеет возможность зарезервировать любой столик на ваш выбор или даже все заведение для большого праздника. Принимает отзывы о работе ресторана.</p>
+          <p class="mb-2">Возможности</p>
+          <ul class="list">
+            <li class="list-item">платформа: Telegram</li>
+            <li class="list-item">передача данных клиента из telegram-профиля (имя, фамилия, номер телефона) в админ панель сервиса в один клик</li>
+            <li class="list-item">возможность забронировать столик в ресторане: выбор времени, даты, количества людей</li>
+            <li class="list-item">система информационной рассылки для тех, кто начал диалог с ботом</li>
+            <li class="list-item">удобная и простая административная панель для сбора информации о заказах</li>
+            <li class="list-item">редактирование информации о боте через административную панель</li>
+          </ul>
+          <p>Результат: <br> повысилась скорость обработки заказов — каждый шестой заказ ресторан получает через бота. Данные клиентов передаются в CRM-систему для последующих рассылок об акциях и предложениях ресторана.</p>
+          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
+        </div>
+      </div>
+      <hr>
+    </div>
+  </div>
+
+  <div class="work-block">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-lg-8">
+          <h2 class="text-center d-lg-none"><span class="">Бот по продаже масел Shell</h2>
+          
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="/images/shell/01.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/02.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/03.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/04.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/05.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/06.png" alt="" class="img-fluid"></div>
+          </div>
+
+        </div>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block"><span class="">Бот по продаже масел Shell</h2>
+            <p>Позволяет подобрать и приобрести масло для вашего автомобиля.</p>
+            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-more">
+        <div class="block-inner">
+          <p>Предназначен для помощи в выборе машинного масла для клиентов компании Shell. Позволяет найти нужное масло и приобрести его. Рассылает уведомления и приглашает принимать участие в акциях. Бот работает по функционалу широкого API с получением крупных массивов данных по каждому клиенту.</p>
+          <p class="mb-2">Возможности</p>
+          <ul class="list">
+            <li class="list-item">платформа: Telegram</li>
+            <li class="list-item">Регистрация по номеру телефонов с подтверждением по API</li>
+            <li class="list-item">Глобальный каталог товаров с персональными цена</li>
+            <li class="list-item">Мультифункциональная корзина с возможностью редактирования заказа и просчетом цены</li>
+            <li class="list-item">Оформление заказа на адреса и методы оплаты клиента, передаваемые по API</li>
+            <li class="list-item">Карта масел, предоставляющая возможность подбора оптимального масла для автомобиля по нескольким параметрам</li>
+            <li class="list-item">Административная панель для редактирования наполнения бота</li>
+            <li class="list-item">Система FAQ и поддержки клиента с интеграцией по API</li>
+          </ul>
+          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
         </div>
       </div>
 

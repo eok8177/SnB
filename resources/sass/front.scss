@@ -376,7 +376,9 @@ ul {
     @media (min-width: 992px) {
         -webkit-column-count: 3;
         -moz-column-count: 3;
+        columns: 3;
         column-count: 3;
+        column-fill: balance;
         column-gap: 30px;
     }
     li {
@@ -432,7 +434,11 @@ ul {
     max-width: 100%;
 }
 
-
+.bot-works {
+    .owl-carousel .owl-item img {
+        max-height: 600px;
+    }
+}
 
 // Form
 
