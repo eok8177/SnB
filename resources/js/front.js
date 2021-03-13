@@ -44,6 +44,17 @@ $(function () {
     return false;
   }); 
 
+  $('.footer-form').submit(function(e){
+    e.preventDefault();
+    let form = $(this);
+    postForm(form, function(response) {
+      console.log(response);
+      form.trigger("reset");
+      changeFooterContent(form);
+    });
+    return false;
+  }); 
+
 window.wow.init();
 });
 
@@ -73,4 +84,9 @@ function changeModalContent(form) {
   let block = form.closest('.modal-dialog');
   block.find('.request-form').hide();
   block.find('.success').show();
+}
+
+function changeFooterContent(form) {
+  form.find('.form-block').hide();
+  form.find('.success').show();
 }

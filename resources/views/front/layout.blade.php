@@ -40,40 +40,47 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 order-2 hide-sm">
-          <form action="">
-            <div class="form-group required">
-              <input type="text" name="name" placeholder="Имя" required>
-              <span class="error-msg">Заполните это поле</span>
-            </div>
-            <div class="form-group required">
-              <input type="text" name="email" placeholder="Почта" required>
-              <span class="error-msg">Заполните это поле</span>
-            </div>
-            <div class="form-group required">
-              <input type="text" name="phone" placeholder="Номер телефона" required>
-              <span class="error-msg">Заполните это поле</span>
+          <form action="/email" method="POST" class="footer-form">
+            <div class="form-block">
+              <div class="form-group required">
+                <input type="text" name="name" placeholder="Имя" required>
+                <span class="error-msg">Заполните это поле</span>
+              </div>
+              <div class="form-group required">
+                <input type="text" name="email" placeholder="Почта" required>
+                <span class="error-msg">Заполните это поле</span>
+              </div>
+              <div class="form-group required">
+                <input type="text" name="phone" placeholder="Номер телефона" required>
+                <span class="error-msg">Заполните это поле</span>
+              </div>
+
+              <span class="d-block pt-2 pb-3">Предпочтительный канал связи</span>
+              <div class="radio-list">
+                <div class="custom-input">
+                  <input type="radio" name="type" id="type_1" value="Email" required>
+                  <label for="type_1">Email</label>
+                </div>
+                <div class="custom-input">
+                  <input type="radio" name="type" id="type_2" value="Viber" required>
+                  <label for="type_2">Viber</label>
+                </div>
+                <div class="custom-input">
+                  <input type="radio" name="type" id="type_3" value="Телефон" required>
+                  <label for="type_3">Телефон</label>
+                </div>
+                <div class="custom-input">
+                  <input type="radio" name="type" id="type_4" value="Telegram" required>
+                  <label for="type_4">Telegram</label>
+                </div>
+              </div>
+              <button type="submit" class="button btn-submit">связаться с нами</button>
             </div>
 
-            <span class="d-block pt-2 pb-3">Предпочтительный канал связи</span>
-            <div class="radio-list">
-              <div class="custom-input">
-                <input type="radio" name="type" id="type_1" value="Email" required>
-                <label for="type_1">Email</label>
-              </div>
-              <div class="custom-input">
-                <input type="radio" name="type" id="type_2" value="Viber" required>
-                <label for="type_2">Viber</label>
-              </div>
-              <div class="custom-input">
-                <input type="radio" name="type" id="type_3" value="Телефон" required>
-                <label for="type_3">Телефон</label>
-              </div>
-              <div class="custom-input">
-                <input type="radio" name="type" id="type_4" value="Telegram" required>
-                <label for="type_4">Telegram</label>
-              </div>
+            <div class="success" style="display: none;">
+              <h2>спасибо за заявку!</h2>
+              <p>Мы свяжемся с вами <br> в ближайшее время!</p>
             </div>
-            <button type="submit" class="button btn-submit">связаться с нами</button>
 
           </form>
         </div>
