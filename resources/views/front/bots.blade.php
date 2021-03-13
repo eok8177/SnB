@@ -51,15 +51,15 @@
 
   <div class="work-block">
     <div class="container">
-      <div class="row align-items-center">
+      <div class="row align-items-end">
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none">Бухгалтер Чарли</h2>
 
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/charly/01.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/charly/02.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/charly/03.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/charly/04.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/01.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/02.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/03.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/charly/04.jpg" alt="" class="img-fluid"></div>
           </div>
 
         </div>
@@ -69,6 +69,7 @@
             <p><b>Чат-бот фирмы, которая занимается пошивом шуб.</b></p>
             <p>Бот-бухгалтер для ведения отчетности о заказах и продажах.</p>
             <p>Даёт возможность вносить новые продажи и заказы поставок товаров во все магазины компании, ежедневно формирует отчеты для 1С.</p>
+            <p>Даёт возможность вносить новые продажи и заказы поставок товаров во все магазины компании, ежедневно формирует отчеты для 1С.</p>
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
         </div>
@@ -76,7 +77,6 @@
 
       <div class="block-more">
         <div class="block-inner">
-          <p>Даёт возможность вносить новые продажи и заказы поставок товаров во все магазины компании, ежедневно формирует отчеты для 1С.</p>
           <p class="mb-2">Возможности</p>
           <ul class="list">
             <li class="list-item">платформа: Telegram</li>
@@ -86,7 +86,6 @@
             <li class="list-item">поддержка вложений файлов и изображений в благодарность</li>
           </ul>
           <p>Результат: <br> значительный рост мотивации сотрудников и уровня их удовлетворенности проделанной работой за счет получения благодарностей от клиентов напрямую.</p>
-          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
         </div>
       </div>
       <hr>
@@ -102,10 +101,10 @@
           <h2 class="text-center d-lg-none"><span class="">Бот программы лояльности</h2>
 
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/loyalty/01.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/loyalty/02.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/loyalty/03.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/loyalty/04.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/01.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/02.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/03.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/loyalty/04.jpg" alt="" class="img-fluid"></div>
           </div>
 
         </div>
@@ -113,6 +112,7 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block"><span class="">Бот программы лояльности</h2>
             <p>Закрытый чат-бот для компании-производителя автомобильных шин.</p>
+            <p>Основной целью бота является внеднерение программы лояльности для поощрения трудолюбивых сотрудников компании. Помогает сотруднику вывести бонусные баллы от продаж шин методом сканирование QR-кодов с физических чеков. Так же, имеем интеграцию с апи клиента, которая позволяет вести в диалоги в тех поддержке, оставлять заявки на коммуникацию, уточнять свой статус и баланс по программе лояльности.</p>
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
         </div>
@@ -120,7 +120,6 @@
 
       <div class="block-more">
         <div class="block-inner">
-          <p>Основной целью бота является внеднерение программы лояльности для поощрения трудолюбивых сотрудников компании. Помогает сотруднику вывести бонусные баллы от продаж шин методом сканирование QR-кодов с физических чеков. Так же, имеем интеграцию с апи клиента, которая позволяет вести в диалоги в тех поддержке, оставлять заявки на коммуникацию, уточнять свой статус и баланс по программе лояльности.</p>
           <p class="mb-2">Возможности</p>
           <ul class="list">
             <li class="list-item">платформа: Telegram</li>
@@ -131,7 +130,6 @@
             <li class="list-item">проверка баланса по проведенным сканам кодов и общий подсчет бонусных баллов за рабочий квартал</li>
           </ul>
           <p>Результат: <br> прозрачная система лояльности для продавцов компании работает на более чем 500-та торговых точках по всей стране. Выросла мотивация продавцов, появился соревновательный элемент, средний чек по городу увеличился на 15%.</p>
-          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
         </div>
       </div>
       <hr>
@@ -145,9 +143,9 @@
           <h2 class="text-center d-lg-none"><span class="">Rest bot</h2>
           
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/rest/01.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/rest/02.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/rest/03.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/rest/01.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/rest/02.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/rest/03.jpg" alt="" class="img-fluid"></div>
           </div>
 
         </div>
@@ -155,6 +153,7 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block"><span class="">Rest bot</h2>
             <p>Виртуальный менеджер ресторана.</p>
+            <p>Рассказывает гостям, сколько есть свободных мест в заведении, покажет меню, поможет выбрать еду и напитки. Имеет возможность зарезервировать любой столик на ваш выбор или даже все заведение для большого праздника. Принимает отзывы о работе ресторана.</p>
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
         </div>
@@ -162,7 +161,6 @@
 
       <div class="block-more">
         <div class="block-inner">
-          <p>Рассказывает гостям, сколько есть свободных мест в заведении, покажет меню, поможет выбрать еду и напитки. Имеет возможность зарезервировать любой столик на ваш выбор или даже все заведение для большого праздника. Принимает отзывы о работе ресторана.</p>
           <p class="mb-2">Возможности</p>
           <ul class="list">
             <li class="list-item">платформа: Telegram</li>
@@ -173,7 +171,6 @@
             <li class="list-item">редактирование информации о боте через административную панель</li>
           </ul>
           <p>Результат: <br> повысилась скорость обработки заказов — каждый шестой заказ ресторан получает через бота. Данные клиентов передаются в CRM-систему для последующих рассылок об акциях и предложениях ресторана.</p>
-          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
         </div>
       </div>
       <hr>
@@ -187,12 +184,12 @@
           <h2 class="text-center d-lg-none"><span class="">Бот по продаже масел Shell</h2>
           
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/shell/01.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/shell/02.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/shell/03.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/shell/04.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/shell/05.png" alt="" class="img-fluid"></div>
-            <div class="item"><img src="/images/shell/06.png" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/01.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/02.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/03.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/04.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/05.jpg" alt="" class="img-fluid"></div>
+            <div class="item"><img src="/images/shell/06.jpg" alt="" class="img-fluid"></div>
           </div>
 
         </div>
@@ -200,6 +197,7 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block"><span class="">Бот по продаже масел Shell</h2>
             <p>Позволяет подобрать и приобрести масло для вашего автомобиля.</p>
+            <p>Предназначен для помощи в выборе машинного масла для клиентов компании Shell. Позволяет найти нужное масло и приобрести его. Рассылает уведомления и приглашает принимать участие в акциях. Бот работает по функционалу широкого API с получением крупных массивов данных по каждому клиенту.</p>
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
         </div>
@@ -207,7 +205,6 @@
 
       <div class="block-more">
         <div class="block-inner">
-          <p>Предназначен для помощи в выборе машинного масла для клиентов компании Shell. Позволяет найти нужное масло и приобрести его. Рассылает уведомления и приглашает принимать участие в акциях. Бот работает по функционалу широкого API с получением крупных массивов данных по каждому клиенту.</p>
           <p class="mb-2">Возможности</p>
           <ul class="list">
             <li class="list-item">платформа: Telegram</li>
@@ -219,7 +216,6 @@
             <li class="list-item">Административная панель для редактирования наполнения бота</li>
             <li class="list-item">Система FAQ и поддержки клиента с интеграцией по API</li>
           </ul>
-          <a href="#" class="button more mt-4" target="_blank">Посмотреть бота</a>
         </div>
       </div>
 

@@ -158,10 +158,10 @@
           <h2 class="text-center d-lg-none">Dynasty</h2>
 
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/dinasty/01.png"></div>
-            <div class="item"><img src="/images/dinasty/02.png"></div>
-            <div class="item"><img src="/images/dinasty/03.png"></div>
-            <div class="item"><img src="/images/dinasty/04.png"></div>
+            <div class="item"><img src="/images/dinasty/01.jpg"></div>
+            <div class="item"><img src="/images/dinasty/02.jpg"></div>
+            <div class="item"><img src="/images/dinasty/03.jpg"></div>
+            <div class="item"><img src="/images/dinasty/04.jpg"></div>
           </div>
 
         </div>
@@ -169,7 +169,7 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block">Dynasty</h2>
 
-            <p>Cамописный веб-сайт</p>
+            <p>Cамописный веб-сайт юридической фирмы с мультиролевым кабинетом для хранения и работы с документацией, документооборота, многофункциональной административной панелью и кастомной файловой системой.</p>
 
             <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
           </div>
