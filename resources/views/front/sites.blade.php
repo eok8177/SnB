@@ -55,7 +55,7 @@
       <div class="row align-items-end">
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none">annafoxy</h2>
-          
+
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="/images/annafoxy/af_1.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/annafoxy/af_2.jpg" alt="" class="img-fluid"></div>
@@ -108,7 +108,7 @@
       <div class="row align-items-end">
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none"><span class="">Personal Blog</span><br>VADYM IERMOLAIEV</h2>
-          
+
           <div class="owl-carousel owl-theme">
             <div class="item"><img src="/images/iermolaiev/Ie_01.jpg"></div>
             <div class="item"><img src="/images/iermolaiev/Ie_02.jpg"></div>
@@ -143,6 +143,51 @@
             <li class="list-item">Коммуникация по обратной связи</li>
           </ul>
           <a href="https://vadymiermolaiev.info" class="button more" target="_blank">Перейти на сайт</a>
+        </div>
+      </div>
+
+      <hr>
+    </div>
+  </div>
+
+
+  <div class="work-block">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-lg-8">
+          <h2 class="text-center d-lg-none">Dynasty</h2>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="/images/dinasty/01.png"></div>
+            <div class="item"><img src="/images/dinasty/02.png"></div>
+            <div class="item"><img src="/images/dinasty/03.png"></div>
+            <div class="item"><img src="/images/dinasty/04.png"></div>
+          </div>
+
+        </div>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block">Dynasty</h2>
+
+            <p>Cамописный веб-сайт</p>
+
+            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-more">
+        <div class="block-inner">
+          <ul class="list">
+            <li class="list-item">Мультиязычный (UA, RU, ENG) сайт с расширенным функционалом административной панели и упором на повышение конверсии.</li>
+            <li class="list-item">Фронт-часть сайта с функционалом редактирования страниц и публикаций</li>
+            <li class="list-item">Мультифункциональный кабинет для нескольких типов пользователей: клиент, стажер, юрист, администратор.</li>
+            <li class="list-item">Внутренний функционал файловой системы для работы с документами юристов и клиентов</li>
+            <li class="list-item">Система внутреннего тестирования для стажеров и юристов</li>
+            <li class="list-item">Система просмотра посетителей сайта: юристов, стажеров, клиентов</li>
+            <li class="list-item">Возможность оплаты услуг внутри кабинета.</li>
+          </ul>
+          <a href="https://dynasty.legal" class="button more" target="_blank">Перейти на сайт</a>
         </div>
       </div>
 
