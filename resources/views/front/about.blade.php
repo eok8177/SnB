@@ -21,17 +21,17 @@
     <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
 
       <div class="row">
-        <div class="col-md-4 wow backInLeft" style="visibility: hidden;">
+        <div class="col-md-4">
           <h4 class="sub-title">Кто мы такие</h4>
           <p>Команда профессионалов, у которой есть все, чтобы реализовать ваши смелые идеи. <br>Мы - команда разработчиков, тестировщиков, дизайнеров,аналитиков, seo специалистов и нишевых экспертов, для которых нет нерешаемых задач.</p>
         </div>
 
-        <div class="col-md-4 wow backInLeft" data-wow-delay="0.5s" style="visibility: hidden;">
+        <div class="col-md-4">
           <h4 class="sub-title">Что умеем</h4>
           <p>Создавать самописные интернет-магазины и корпоративные сайты, полностью заточенные под потребности заказчика.  Без мусора и ненужных функций. Делать крутые блоги на Wordpress и промо-страницы на Tilda. <br> Писать ботов для Telegram, Facebook WhatsApp и Viber, со сложными интеграциями с другими сервисами клиента. </p>
         </div>
 
-        <div class="col-md-4 wow backInLeft" data-wow-delay="1s" style="visibility: hidden;">
+        <div class="col-md-4">
           <h4 class="sub-title">Почему мы</h4>
           <p>Работая с нами, вам не будут нужны другие подрядчики. Мы превратим вашу идею в работающий продукт, будем его поддерживать и дорабатывать, добавлять нужные вашему бизнесу функции.</p>
         </div>
@@ -54,17 +54,17 @@
       <div class="row first-line">
         <span class="ico-start"></span>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="1s" data-wow-offset="200">
+        <div class="col-lg-4 item wow backInLeft" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">01</div>
           <div class="text"><span>Встречаем вас, слушаем ваши идеи</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="1.5s" data-wow-offset="200">
+        <div class="col-lg-4 item wow backInLeft" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">02</div>
           <div class="text"><span>Вместе заполняем бриф и план проекта</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="2s" data-wow-offset="200">
+        <div class="col-lg-4 item wow backInLeft" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">03</div>
           <div class="text"><span>Пишем и утверждаем детальное техзадание</span></div>
         </div>

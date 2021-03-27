@@ -217,9 +217,9 @@
         dots: false,
         // autoplayHoverPause: true,
         autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 2000,
-        // smartSpeed: 10000,
+        autoplayTimeout: 10000,
+        // autoplaySpeed: 2000,
+        smartSpeed: 10000,
         // fluidSpeed: 25000
         responsive : {
             // breakpoint from 0 up

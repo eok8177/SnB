@@ -55,7 +55,7 @@
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none">Бухгалтер Чарли</h2>
 
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme" data-pause="0">
             <div class="item"><img src="/images/charly/01.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/charly/02.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/charly/03.jpg" alt="" class="img-fluid"></div>
@@ -100,7 +100,7 @@
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none"><span class="">Бот программы лояльности</h2>
 
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme" data-pause="1000">
             <div class="item"><img src="/images/loyalty/01.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/loyalty/02.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/loyalty/03.jpg" alt="" class="img-fluid"></div>
@@ -142,7 +142,7 @@
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none"><span class="">Rest bot</h2>
           
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme" data-pause="2000">
             <div class="item"><img src="/images/rest/01.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/rest/02.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/rest/03.jpg" alt="" class="img-fluid"></div>
@@ -183,7 +183,7 @@
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none"><span class="">Бот по продаже масел Shell</h2>
           
-          <div class="owl-carousel owl-theme">
+          <div class="owl-carousel owl-theme" data-pause="3000">
             <div class="item"><img src="/images/shell/01.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/shell/02.jpg" alt="" class="img-fluid"></div>
             <div class="item"><img src="/images/shell/03.jpg" alt="" class="img-fluid"></div>
@@ -233,37 +233,46 @@
 <script src="{{ asset('vendor/owlcarousel/owl.carousel.min.js') }}"></script>
 <script>
   $(function () {
-    $('.owl-carousel').owlCarousel({
-        loop:true,
-        center: true,
-        items: 1,
-        slideTransition: 'linear',
-        // autoWidth: true,
-        nav: true,
-        dots: false,
-        // autoplayHoverPause: true,
-        autoplay: true,
-        autoplayTimeout: 5000,
-        autoplaySpeed: 2000,
-        // smartSpeed: 10000,
-        // fluidSpeed: 25000
-        responsive : {
-            // breakpoint from 0 up
-            0 : {
-              // stagePadding: 10,
-              margin:10
-            },
-            // breakpoint from 480 up
-            480 : {
+    let config = {
+      loop:true,
+      center: true,
+      items: 1,
+      slideTransition: 'linear',
+      // autoWidth: true,
+      nav: true,
+      dots: false,
+      // autoplayHoverPause: true,
+      autoplay: true,
+      autoplayTimeout: 5000,
+      autoplaySpeed: 2000,
+      // smartSpeed: 10000,
+      // fluidSpeed: 25000
+      responsive : {
+          // breakpoint from 0 up
+          0 : {
+            // stagePadding: 10,
+            margin:10
+          },
+          // breakpoint from 480 up
+          480 : {
 
-            },
-            // breakpoint from 768 up
-            768 : {
-              // stagePadding: 100,
-              margin:40
-            }
-        }
-    })
+          },
+          // breakpoint from 768 up
+          768 : {
+            // stagePadding: 100,
+            margin:40
+          }
+      }
+    };
+
+    $('.owl-carousel').each(function() {
+      let item = $(this);
+      let timeout = parseInt(item.attr('data-pause'));
+      setTimeout(function() {
+          item.owlCarousel(config);
+      }, timeout);
+    });
+
   });
 </script>
 @endpush
