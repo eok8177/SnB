@@ -37,6 +37,7 @@ Route::group([
 
 // Frontend
 Route::get('/', ['as' => 'front.index', 'uses' => 'FrontendController@index']);
+Route::get('/sites', ['as' => 'front.sites', 'uses' => 'FrontendController@sites']);
 Route::get('/bots', ['as' => 'front.bots', 'uses' => 'FrontendController@bots']);
 Route::get('/about', ['as' => 'front.about', 'uses' => 'FrontendController@about']);
 Route::get('/contact', ['as' => 'front.contact', 'uses' => 'FrontendController@contact']);

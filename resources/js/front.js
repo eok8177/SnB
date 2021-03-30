@@ -1,11 +1,12 @@
 try {
-    window.Popper = require('popper.js').default;
+    // window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
 
     require('bootstrap');
-
-    // require('is-in-viewport')
 } catch (e) {}
+
+  const WOW = require('wowjs');
+  window.wow = new WOW.WOW({ live: false });
 
 $(function () {
 
@@ -17,13 +18,19 @@ $(function () {
 
   // Show/Hide block
   $('.btn-more').on('click', function(){
-    $(this).closest('.work-block').find('.block-more').addClass('open');
-    $(this).hide();
+    $(this).toggleClass('closed');
+    let block  = $(this).closest('.work-block').find('.block-more');
+    let height = block.find('.block-inner').innerHeight();
+    if ($(this).hasClass('closed')) {
+      $(this).text($(this).attr('data-open'));
+      block.css('max-height', 0);
+    } else {
+      $(this).text($(this).attr('data-close'));
+      block.css('max-height', height + 90);
+    }
+    block.toggleClass('open');
   });
-  $('.btn-hide').on('click', function(){
-    $(this).closest('.block-more').removeClass('open');
-    $(this).closest('.work-block').find('.btn-more').show();
-  });
+
 
   //Submit ajax form
   $('.feedback-form').submit(function(e){
@@ -37,17 +44,18 @@ $(function () {
     return false;
   }); 
 
-  // $(window).scroll(function() {
-  //     $('video').each(function() {
-  //         if ($(this).is(":in-viewport")) {
-  //             $(this)[0].play();
-  //         } else {
-  //             $(this)[0].pause();
-  //         }
-  //     })
-  // });
+  $('.footer-form').submit(function(e){
+    e.preventDefault();
+    let form = $(this);
+    postForm(form, function(response) {
+      console.log(response);
+      form.trigger("reset");
+      changeFooterContent(form);
+    });
+    return false;
+  }); 
 
-
+window.wow.init();
 });
 
 function postForm($form, callback) {
@@ -76,4 +84,9 @@ function changeModalContent(form) {
   let block = form.closest('.modal-dialog');
   block.find('.request-form').hide();
   block.find('.success').show();
+}
+
+function changeFooterContent(form) {
+  form.find('.form-block').hide();
+  form.find('.success').show();
 }

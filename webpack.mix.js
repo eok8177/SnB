@@ -19,9 +19,18 @@ mix.webpackConfig({
     },
 });
 
+mix.webpackConfig({ devtool: "inline-source-map" });
+
 mix
-   .js('resources/js/admin.js', 'public/js')
+  .sourceMaps()
+  .options({
+    processCssUrls: false
+  });
+
+mix
+   // .js('resources/js/admin.js', 'public/js')
    .js('resources/js/front.js', 'public/js')
    .sass('resources/sass/front.scss', 'public/css')
-   .sass('resources/sass/admin.scss', 'public/css')
+   // .sass('resources/sass/admin.scss', 'public/css')
    ;
+
