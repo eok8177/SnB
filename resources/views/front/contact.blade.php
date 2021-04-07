@@ -8,8 +8,8 @@
       <h1 class="title">Контакты</h1>
 
       <h4 class="sub-title-border">Контакты</h4>
-      <a href="" class="link-block">+38 (063) - 012 - 34 - 56</a>
-      <a href="" class="link-block">+38 (099) - 012 - 34 - 56</a>
+      <a href="tel:0986105285" class="link-block">+38 (098) 610 52 85&nbsp;&nbsp;&nbsp; Владислав</a>
+      <a href="tel:0678042663" class="link-block">+38 (067) 804 26 63&nbsp;&nbsp;&nbsp; Александр</a>
       <a href="mailto:sitesnbotssocial@gmail.com" class="link-block">sitesnbotssocial@gmail.com</a>
 
       <h4 class="sub-title-border wow backInLeft" data-wow-delay="0.4s" style="visibility: hidden;">Социальные сети</h4>
@@ -30,7 +30,7 @@
     </div>
     <div class="col-lg-8">
       <div id="map" class="d-none d-lg-block wow zoomIn" data-wow-delay="2.4s" style="visibility: hidden;">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20298.871400318883!2d30.48649989347255!3d50.50888812945788!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4d2146b576c33%3A0xf10debc0e65558a5!2z0J7QsdC-0LvQvtC90YwsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1suk!2sua!4v1613807658062!5m2!1suk!2sua" width="770" height="314" allowfullscreen="" aria-hidden="false" tabindex="0" style="border:0; max-width: 100%;"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2645.6838143608816!2d35.05301231566045!3d48.462595879250706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dbe2db5d9bbbd5%3A0xe907ee33905e9feb!2z0LLRg9C70LjRhtGPINCR0LDRgNC40LrQsNC00L3QsCwgMTYsINCU0L3RltC_0YDQviwg0JTQvdGW0L_RgNC-0L_QtdGC0YDQvtCy0YHRjNC60LAg0L7QsdC70LDRgdGC0YwsIDQ5MDAw!5e0!3m2!1suk!2sua!4v1617794888707!5m2!1suk!2sua" width="770" height="314" allowfullscreen="" aria-hidden="false" tabindex="0" style="border:0; max-width: 100%;"></iframe>
       </div>
     </div>
   </div>
