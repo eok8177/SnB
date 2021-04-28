@@ -1021,6 +1021,8 @@ body.bots footer {
         color: $main-white;
         background: $primary-blue;
         font-weight: 300;
+        padding-top: 19px;
+        padding-bottom: 13px;
         &:active, &.active {
             color: $main-text;
             background: $primary-red;

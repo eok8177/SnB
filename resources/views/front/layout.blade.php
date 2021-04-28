@@ -78,7 +78,7 @@
             </div>
 
             <div class="success" style="display: none;">
-              <h2>спасибо за заявку!</h2>
+              <h2>Спасибо за заявку!</h2>
               <p>Мы свяжемся с вами <br> в ближайшее время!</p>
             </div>
 
@@ -110,15 +110,15 @@
           <form action="/email" method="POST" class="feedback-form">
 
             <div class="form-group required">
-              <input type="text" name="name" placeholder="Имя">
+              <input type="text" name="name" placeholder="Имя" required>
               <span class="error-msg">Заполните это поле</span>
             </div>
             <div class="form-group required">
-              <input type="text" name="email" placeholder="Почта">
+              <input type="email" name="email" placeholder="Почта" required>
               <span class="error-msg">Заполните это поле</span>
             </div>
             <div class="form-group required">
-              <input type="text" name="phone" placeholder="Номер телефона">
+              <input type="tel" name="phone" placeholder="Номер телефона" required>
               <span class="error-msg">Заполните это поле</span>
             </div>
 
@@ -152,7 +152,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-2 p-md-4 text-center">
-          <h5 class="modal-title">спасибо за заявку! <br> Мы свяжемся с вами в ближайшее время!</h5>
+          <h5 class="modal-title">Спасибо за заявку! <br> Мы свяжемся с вами в ближайшее время!</h5>
 
           <button type="button" data-bs-dismiss="modal" class="button mt-5"><span>OK</span></button>
         </div>

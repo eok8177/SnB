@@ -158,10 +158,11 @@
           <h2 class="text-center d-lg-none">Dynasty</h2>
 
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/dinasty/01.jpg"></div>
-            <div class="item"><img src="/images/dinasty/02.jpg"></div>
-            <div class="item"><img src="/images/dinasty/03.jpg"></div>
-            <div class="item"><img src="/images/dinasty/04.jpg"></div>
+            <div class="item"><img src="/images/dinasty/01.png"></div>
+            <div class="item"><img src="/images/dinasty/02.png"></div>
+            <div class="item"><img src="/images/dinasty/03.png"></div>
+            <div class="item"><img src="/images/dinasty/04.png"></div>
+            <div class="item"><img src="/images/dinasty/05.jpg"></div>
           </div>
 
         </div>
@@ -216,10 +217,10 @@
         nav: true,
         dots: false,
         // autoplayHoverPause: true,
-        autoplay: true,
-        autoplayTimeout: 10000,
-        // autoplaySpeed: 2000,
-        smartSpeed: 10000,
+        autoplay: false,
+        autoplayTimeout: 5000,
+        autoplaySpeed: 2000,
+        // smartSpeed: 10000,
         // fluidSpeed: 25000
         responsive : {
             // breakpoint from 0 up
