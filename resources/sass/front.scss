@@ -603,12 +603,9 @@ ul {
 }
 .bots footer {
     .form-group.error {
-       label {
-        color: #fff;
-      }
-      input {
-        border-color: #fff;
-      }
+       label {color: #fff;}
+      input {border-color: #fff;}
+      .error-msg {color: #fff;}
     }
 }
 
