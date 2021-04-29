@@ -601,6 +601,16 @@ ul {
   }
   .error-msg {display: block;}
 }
+.bots footer {
+    .form-group.error {
+       label {
+        color: #fff;
+      }
+      input {
+        border-color: #fff;
+      }
+    }
+}
 
 // custom Radio button
 .custom-input {
