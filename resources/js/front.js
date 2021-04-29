@@ -1,6 +1,7 @@
 try {
     // window.Popper = require('popper.js').default;
     window.$ = window.jQuery = require('jquery');
+    window.mask = $.mask = require('jquery-mask-plugin');
 
     require('bootstrap');
 } catch (e) {}
@@ -36,24 +37,32 @@ $(function () {
   $('.feedback-form').submit(function(e){
     e.preventDefault();
     let form = $(this);
-    postForm(form, function(response) {
-      console.log(response);
-      form.trigger("reset");
-      changeModalContent(form);
-    });
+    if (validateForm(form))
+      postForm(form, function(response) {
+        console.log(response);
+        form.trigger("reset");
+        changeModalContent(form);
+      });
     return false;
   }); 
 
   $('.footer-form').submit(function(e){
     e.preventDefault();
     let form = $(this);
-    postForm(form, function(response) {
-      console.log(response);
-      form.trigger("reset");
-      changeFooterContent(form);
-    });
+    if (validateForm(form))
+      postForm(form, function(response) {
+        console.log(response);
+        form.trigger("reset");
+        changeFooterContent(form);
+      });
     return false;
   }); 
+
+  $(".only-text").keyup(function(event){
+      this.value = this.value.replace(/[^а-яёіїєa-z'\s]/ig, "");
+  });
+
+  $('.phone').mask('+ (00) 000 000-00-00', {placeholder: "+ (38) ___ ___-__-__"});
 
 window.wow.init();
 });
@@ -89,4 +98,75 @@ function changeModalContent(form) {
 function changeFooterContent(form) {
   form.find('.form-block').hide();
   form.find('.success').show();
+}
+
+window.validateForm = function(form) {
+
+  // let form = $(this);
+  let valid = true;
+
+  form.find('.error').removeClass('error');
+
+  form.find('div.required').each(function(){
+    let field = $(this);
+    let input = field.find('input');
+    if (input.length < 1) {
+      input = field.find('textarea');
+    }
+
+    if (input.prop('type') == 'checkbox' && !input.prop('checked')) {
+      field.addClass('error');
+      valid = false;
+    } else if (!input.val()) {
+      field.addClass('error');
+      valid = false;
+    }
+
+    if (input.hasClass('phone')) {
+      if (input.val().length < 20) { //phone number with whitespaces
+        field.addClass('error');
+        valid = false;
+      }
+    }
+  });
+
+  let email = form.find('.email');
+  if (email.length) {
+    if(!validateEmail(email.find('input').val())) {
+      email.addClass('error');
+      valid = false;
+    }
+  }
+
+  let pass = form.find('.pass');
+  if (pass.length) {
+    if (pass.find('input').val().length < 8) {
+      pass.addClass('error');
+      valid = false;
+    }
+  }
+
+  let rePass = form.find('.re-pass');
+  if (rePass.length) {
+    if (rePass.find('input').val() != pass.find('input').val()) {
+      rePass.addClass('error');
+      valid = false;
+    }
+  }
+
+  let emailVerify = form.find('.email-verify');
+  if (emailVerify.length) {
+    let email = emailVerify.find('input').val();
+    if(!validateEmail(email)) {
+      emailVerify.addClass('error');
+      valid = false;
+    }
+  }
+
+  return valid;
+};
+
+function validateEmail(email) {
+    const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return re.test(String(email).toLowerCase());
 }

@@ -40,18 +40,18 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6 order-2 hide-sm">
-          <form action="/email" method="POST" class="footer-form">
+          <form action="/email" method="POST" class="footer-form validate">
             <div class="form-block">
               <div class="form-group required">
-                <input type="text" name="name" placeholder="Имя" required>
+                <input type="text" name="name" placeholder="Имя" class="only-text">
+                <span class="error-msg">Заполните это поле</span>
+              </div>
+              <div class="form-group required email">
+                <input type="text" name="email" placeholder="Почта" >
                 <span class="error-msg">Заполните это поле</span>
               </div>
               <div class="form-group required">
-                <input type="text" name="email" placeholder="Почта" required>
-                <span class="error-msg">Заполните это поле</span>
-              </div>
-              <div class="form-group required">
-                <input type="text" name="phone" placeholder="Номер телефона" required>
+                <input type="text" name="phone" placeholder="Номер телефона" class="phone">
                 <span class="error-msg">Заполните это поле</span>
               </div>
 
@@ -107,18 +107,18 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-2 p-md-4">
-          <form action="/email" method="POST" class="feedback-form">
+          <form action="/email" method="POST" class="feedback-form validate">
 
             <div class="form-group required">
-              <input type="text" name="name" placeholder="Имя" required>
+              <input type="text" name="name" placeholder="Имя" class="only-text">
+              <span class="error-msg">Заполните это поле</span>
+            </div>
+            <div class="form-group required email">
+              <input type="email" name="email" placeholder="Почта" >
               <span class="error-msg">Заполните это поле</span>
             </div>
             <div class="form-group required">
-              <input type="email" name="email" placeholder="Почта" required>
-              <span class="error-msg">Заполните это поле</span>
-            </div>
-            <div class="form-group required">
-              <input type="tel" name="phone" placeholder="Номер телефона" required>
+              <input type="tel" name="phone" placeholder="Номер телефона" class="phone">
               <span class="error-msg">Заполните это поле</span>
             </div>
 
