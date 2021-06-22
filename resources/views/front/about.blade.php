@@ -45,51 +45,51 @@
       <div class="row first-line">
         <span class="ico-start"></span>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="0s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">01</div>
           <div class="text"><span>Встречаем вас, слушаем ваши идеи</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="0.5s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">02</div>
           <div class="text"><span>Вместе заполняем бриф и план проекта</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="1s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">03</div>
           <div class="text"><span>Пишем и утверждаем детальное техзадание</span></div>
         </div>
       </div>
 
       <div class="row second-line">
-        <div class="col-lg-4 item wow backInRight order-lg-3" data-wow-delay="0s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn order-lg-3" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">04</div>
           <div class="text"><span>Создаем прототип и разрабатываем дизайн</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInRight order-lg-2" data-wow-delay="0.5s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn order-lg-2" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">05</div>
           <div class="text"><span>Пишем код для проекта и оптимизируем его</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInRight order-lg-1" data-wow-delay="1s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn order-lg-1" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">06</div>
           <div class="text"><span>Выполняем все уровни тестирования, исправляем баги</span></div>
         </div>
       </div>
 
       <div class="row third-line">
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="0s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">07</div>
           <div class="text"><span>Передаем проект вам и разворачиваем на вашем сервере</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="0.5s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">08</div>
           <div class="text"><span>Остаемся на связи и поддерживаем проект</span></div>
         </div>
 
-        <div class="col-lg-4 item wow backInLeft" data-wow-delay="1s" data-wow-offset="200">
+        <div class="col-lg-4 item wow zoomIn" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">09</div>
           <div class="text"><span>Участвуем в жизни проекта, добавляем новые функции</span></div>
         </div>

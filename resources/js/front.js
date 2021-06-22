@@ -62,7 +62,7 @@ $(function () {
       this.value = this.value.replace(/[^а-яёіїєa-z'\s]/ig, "");
   });
 
-  $('.phone').mask('+ (00) 000 000-00-00', {placeholder: "+ (38) ___ ___-__-__"});
+  $('.phone').mask('+ (00) 000 000-00-00', {placeholder: "+ (38) 0__ ___-__-__"});
 
 window.wow.init();
 });

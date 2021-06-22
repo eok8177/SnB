@@ -130,6 +130,7 @@ button:focus {
         border: 1px solid $main-bg;
         color: $primary-red;
         font-weight: 300;
+        background: $main-white;
         &:hover, &:active {
             background: $primary-red;
             color: $main-white;
