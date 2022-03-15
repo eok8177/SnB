@@ -19,12 +19,12 @@
       <div class="container">
         <a class="logo" href="{{ url('/') }}"></a>
 
-        <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/about" title="@lang('msg.about')">@lang('msg.about')</a>
-        <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="contact" title="@lang('msg.contacts')">@lang('msg.contacts')</a>
+        <a class="nav-link {{ Request::is('about') ? 'active' : '' }}" href="/{{$lang}}about" title="@lang('About us')">@lang('About us')</a>
+        <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/{{$lang}}contact" title="@lang('Contacts')">@lang('Contacts')</a>
 
         <span class="ms-auto blocks {{ (Request::is('bots') || Request::is('sites')) ? 'single' : 'dual' }}">
-          <a class="nav-link bots {{ Request::is('bots') ? 'd-none' : '' }}" href="/bots" title="@lang('msg.boots')">@lang('msg.boots')</a>
-          <a class="nav-link sites {{ Request::is('sites') ? 'd-none' : '' }}" href="/sites" title="@lang('msg.sites')">@lang('msg.sites')</a>
+          <a class="nav-link bots {{ Request::is('bots') ? 'd-none' : '' }}" href="/{{$lang}}bots" title="@lang('Boots')">@lang('Boots')</a>
+          <a class="nav-link sites {{ Request::is('sites') ? 'd-none' : '' }}" href="/{{$lang}}sites" title="@lang('Sites')">@lang('Sites')</a>
         </span>
       </div>
     </nav>
@@ -43,19 +43,19 @@
           <form action="/email" method="POST" class="footer-form validate">
             <div class="form-block">
               <div class="form-group required">
-                <input type="text" name="name" placeholder="Имя" class="only-text">
-                <span class="error-msg">Заполните это поле</span>
+                <input type="text" name="name" placeholder="@lang('Name')" class="only-text">
+                <span class="error-msg">@lang('Required')</span>
               </div>
               <div class="form-group required email">
-                <input type="text" name="email" placeholder="Почта" >
-                <span class="error-msg">Заполните это поле</span>
+                <input type="text" name="email" placeholder="@lang('Email')" >
+                <span class="error-msg">@lang('Required')</span>
               </div>
               <div class="form-group required">
-                <input type="text" name="phone" placeholder="Номер телефона" class="phone">
-                <span class="error-msg">Заполните это поле</span>
+                <input type="text" name="phone" placeholder="@lang('Phone number')" class="phone">
+                <span class="error-msg">@lang('Required')</span>
               </div>
 
-              <span class="d-block pt-2 pb-3">Предпочтительный канал связи</span>
+              <span class="d-block pt-2 pb-3">@lang('Preferable communication channel')</span>
               <div class="radio-list">
                 <div class="custom-input">
                   <input type="radio" name="type" id="type_1" value="Email" required>
@@ -66,29 +66,29 @@
                   <label for="type_2">Viber</label>
                 </div>
                 <div class="custom-input">
-                  <input type="radio" name="type" id="type_3" value="Телефон" required>
-                  <label for="type_3">Телефон</label>
+                  <input type="radio" name="type" id="type_3" value="@lang('Phone')" required>
+                  <label for="type_3">@lang('Phone')</label>
                 </div>
                 <div class="custom-input">
                   <input type="radio" name="type" id="type_4" value="Telegram" required>
                   <label for="type_4">Telegram</label>
                 </div>
               </div>
-              <button type="submit" class="button btn-submit">связаться с нами</button>
+              <button type="submit" class="button btn-submit">@lang('contact us')</button>
             </div>
 
             <div class="success" style="display: none;">
-              <h2>Спасибо за заявку!</h2>
-              <p>Мы свяжемся с вами <br> в ближайшее время!</p>
+              <h2>@lang('Thanks for the application!')</h2>
+              <p>@lang('We will contact <br> you shortly!')</p>
             </div>
 
           </form>
         </div>
         <div class="col-md-6 order-1">
           <div class="text-block">
-            <h2>расскажите нам о своем проекте!</h2>
-            <p>Будем рады пообщаться и обсудить подробности по вашему проекту</p>
-            <button class="button d-md-none btn-submit" data-bs-toggle="modal" data-bs-target="#contactModal">связаться с нами</button>
+            <h2>@lang('tell us about your project!')</h2>
+            <p>@lang('We will be glad to discuss the peculiarities of your project in more detail.')</p>
+            <button class="button d-md-none btn-submit" data-bs-toggle="modal" data-bs-target="#contactModal">@lang('contact us')</button>
           </div>
           <p class="copyright">Sites&Bots, 2020</p>
         </div>
@@ -103,26 +103,26 @@
 
       <div class="modal-content request-form">
         <div class="modal-header p-2 p-md-4">
-          <h5 class="modal-title" id="contactModalLabel">Обратная связь</h5>
+          <h5 class="modal-title" id="contactModalLabel">@lang('Feedback')</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-2 p-md-4">
           <form action="/email" method="POST" class="feedback-form validate">
 
             <div class="form-group required">
-              <input type="text" name="name" placeholder="Имя" class="only-text">
-              <span class="error-msg">Заполните это поле</span>
+              <input type="text" name="name" placeholder="@lang('Name')" class="only-text">
+              <span class="error-msg">@lang('Required')</span>
             </div>
             <div class="form-group required email">
-              <input type="email" name="email" placeholder="Почта" >
-              <span class="error-msg">Заполните это поле</span>
+              <input type="email" name="email" placeholder="@lang('Email')" >
+              <span class="error-msg">@lang('Required')</span>
             </div>
             <div class="form-group required">
-              <input type="tel" name="phone" placeholder="Номер телефона" class="phone">
-              <span class="error-msg">Заполните это поле</span>
+              <input type="tel" name="phone" placeholder="@lang('Phone number')" class="phone">
+              <span class="error-msg">@lang('Required')</span>
             </div>
 
-            <span class="d-block pt-2 pb-3 pl-3">Предпочтительный канал связи</span>
+            <span class="d-block pt-2 pb-3 pl-3">@lang('Preferable communication channel')</span>
             <div class="radio-list pl-3">
               <div class="custom-input">
                 <input type="radio" name="type" id="modal_type_1" value="Email" required>
@@ -133,8 +133,8 @@
                 <label for="modal_type_2">Viber</label>
               </div>
               <div class="custom-input">
-                <input type="radio" name="type" id="modal_type_3" value="Телефон" required>
-                <label for="modal_type_3">Телефон</label>
+                <input type="radio" name="type" id="modal_type_3" value="@lang('Phone')" required>
+                <label for="modal_type_3">@lang('Phone')</label>
               </div>
               <div class="custom-input">
                 <input type="radio" name="type" id="modal_type_4" value="Telegram" required>
@@ -142,7 +142,7 @@
               </div>
             </div>
 
-            <button type="submit" class="button"><span>связаться с нами</span></button>
+            <button type="submit" class="button"><span>@lang('contact us')</span></button>
           </form>
         </div>
       </div>
@@ -152,7 +152,7 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body p-2 p-md-4 text-center">
-          <h5 class="modal-title">Спасибо за заявку! <br> Мы свяжемся с вами в ближайшее время!</h5>
+          <h5 class="modal-title">@lang('Thanks for the application! <br> We will contact you shortly!')</h5>
 
           <button type="button" data-bs-dismiss="modal" class="button mt-5"><span>OK</span></button>
         </div>

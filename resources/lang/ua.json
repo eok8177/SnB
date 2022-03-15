@@ -1,0 +1,112 @@
+{
+    "Vladislav" : "Владислав",
+    "Aleksandr" : "Олександр",
+    "About us" : "Про нас",
+    "Contacts" : "Контакти",
+    "Boots" : "Боти",
+    "Sites" : "Сайти",
+    "Phone" : "Телефон",
+    "Read more" : "Читати далі",
+    "Hide" : "Приховати",
+    "Go to the website" : "Перейти до сайту",
+
+    "tell us about your project!" : "",
+    "We will be glad to discuss the peculiarities of your project in more detail." : "",
+    "Name" : "Ім'я",
+    "Email" : "Пошта",
+    "Preferable communication channel" : "",
+    "Phone number" : "Номер телефону",
+    "Required" : "Заповніть",
+    "contact us" : "Зв'язатися з нами",
+    "Feedback" : "Зворотній зв'язок",
+    "Thanks for the application! <br> We will contact you shortly!" : "Дякуємо за заявку! <br> Ми зв'яжемося з вами найближчим часом!",
+    "Thanks for the application!" : "Дякуємо за заявку!",
+    "We will contact <br> you shortly!" : "Ми зв'яжемося з вами <br> найближчим часом!",
+
+    "Social networks" : "Соціальні мережі",
+
+"Сайти" : "_comment",
+
+    "We create <br> sites" : "Ми створюємо <br> сайти",
+    "Our sites can solve the most complicated business tasks" : "",
+    "We do not offer the most basic options as well as site builders. Our company goal is concentrated on product quality, and we tend to satisfy customers’ needs." : "",
+    "Our sites bringing up the numbers. Moreover, our sites can surely guarantee the long term customers" : "",
+    "You get the end-product, prompt technical support, and highly qualified team that is always ready to implement the tasks." : "",
+    "Estimate a project" : "",
+    "We develop unique online stores, complex corporate sites with lots of integrations, and projects created on Wordpress & Shopify." : "",
+    "You are welcome to meet our customers" : "",
+
+"Annafoxy" : "_comment",
+
+    "A full-fledged mono-brand online store for those who value unique garments, and accessories, aimed mainly at the European audience." : "",
+    "Multilingual (UA, RU, ENG) online store with the extended functionalities of admin panel with a focus on increasing the conversion rate. Developed via Symfony framework." : "",
+    "Dynamic sliders on a main page, convenient kit/editor for the independent updates of a site content." : "",
+    "Wide range of unique product attributes: color, height, size" : "",
+    "Role system which allows you to distribute multiple access levels to various functionalities and admin panel content." : "",
+    "Сumulative loyalty program for further purchases. Prompt promos launch and discount activations as the built-in features." : "",
+    "Payment integrations are performed via API. Payment methods are Visa, Mastercard, Apple Pay, Google Pay. Custom checkouts are implemented without the third-party involvement to increase the conversion rate." : "",
+    "AmoCRM integration to perform efficient order processing." : "",
+
+"Ermolaev" : "_comment",
+
+    "We developed a website for Vadym Iermolaiev, a well-known Ukrainian businessman. The main goal of the website is to share the interesting ideas, news, his company’s business projects along with the interviews." : "",
+    "Multilingual (UA, RU, ENG) blog developed on the WordPress platform." : "",
+    "Unique, rigorous, and modern design." : "",
+    "Fast website for sharing the information as well as communication with the audience/visitors." : "",
+    "Article publishing with external resource linking system to retain content authorship." : "",
+    "Easy-to-use admin panel." : "",
+    "Convenient feedback system." : "",
+
+"Dynasty" : "_comment",
+
+    "A self-made website for a law company with multiple roles account for storing and processing the data, document management, multifunctional administrative panel, and custom file system." : "",
+    "Multilingual (UA, RU, ENG) website with the extended functionalities of admin panel, with a focus on increasing the conversion rate." : "",
+    "The pages of the website can be easily edited and published" : "",
+    "Multifunctional account for multiple user types/roles: customer, trainee, lawyer, administrator." : "",
+    "Internal file system for the lawyers’ and customers’ documents management" : "",
+    "Automated internal and external testing system for the lawyers and trainees." : "",
+    "Visitors tracking system." : "",
+    "Payment for the legal services." : "",
+
+"Ortomedica" : "_comment",
+
+    "The E-commerce project for selling the orthopedic products, a self-made website developed via the Laravel framework. It includes high-speed customers’ interface and multifunctional admin panel for the site management." : "",
+    "Multilingual (UA, RU) website with more than 16000 unique products." : "",
+    "Branching product building structure for the categories with the unlimited levels of nesting." : "",
+    "Custom filtering and triage system for the prompt product displaying." : "",
+    "Implementation of the local shops mapping via the Google Maps integration." : "",
+    "Integration with the multiple payment processors in order to prevent the high load. Includes such payment methods as Visa, Mastercard, ApplePay, GooglePay, Privat24." : "",
+    "Flexible import & export system for the products and attributes that provides large-scale product updates." : "",
+    "Multiple third-party integrations: Google Analytics, Facebook Analytics, heatmaps for the on-site activity." : "",
+    "Features for the SEO optimization: Sitemap, SEO templates and presets, redirect setup, strict URL formatting rules for various types of pages, metadata editing, automatic FAQ generation, schema.org data mark-up." : "",
+    "Messaging system via Mail and SMS to inform clients" : "",
+
+"Про нас" : "_comment",
+
+    "We prefer to create specialized products ro serve any needs perfectly instead of the temporary and mediocre solutions." : "",
+    "how we work" : "як ми працюємо",
+
+    "Who we are" : "",
+    "We are a team of professionals, and we are ready to implement the most complex ideas. <br> Our team consists of the qualified developers, quality assurance specialists, creative designers, analysts, SEO and niche experts for whom there are no impossible tasks." : "",
+
+    "What we do" : "",
+    "We create self-made online stores and corporate sites aimed to satisfy customers’ needs. <br> We develop chatbots on Telegram, WhatsApp and Viber platforms, that includes multiple third-party services." : "",
+
+    "Why us" : "",
+    "While working with us you will not require any other contractors. We will turn your idea into a сomprehensive product. We will support it and develop, create the necessary features for your business." : "",
+
+    "Meet-and-greet with you." : "",
+    "Briefing and planning." : "",
+    "Forming the technical requirements." : "",
+    "Creating a mockup, develop a design." : "",
+    "Code writing and optimisation." : "",
+    "Performing quality assurance and bug fixing" : "",
+    "Passing the project to you and deploying it on your server." : "",
+    "Keeping in touch and supporting the project." : "",
+    "Participating in the project lifecycle, adding new features”" : "",
+
+"Боти" : "_comment",
+
+    "0" : ""
+
+}

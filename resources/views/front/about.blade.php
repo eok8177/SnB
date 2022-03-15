@@ -3,17 +3,17 @@
 @section('content')
 {{-- First screen --}}
 <div class="container">
-  <h1 class="title-about">О НАС</h1>
+  <h1 class="title-about">@lang('About us')</h1>
   <p class="sub-text">
-    Вместо посредственного инструмента для выполнения множества задач мы предпочитаем создавать специализированный продукт под узкую нишу, который выполнит одну задачу, но идеально.
+    @lang('We prefer to create specialized products ro serve any needs perfectly instead of the temporary and mediocre solutions.')
   </p>
 
   <ul class="nav nav-tabs pills" id="pills-tab" role="tablist">
     <li class="nav-item" role="presentation">
-      <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">О НАС</a>
+      <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" href="#pills-home" role="tab" aria-controls="pills-home" aria-selected="true">@lang('About us')</a>
     </li>
     <li class="nav-item" role="presentation">
-      <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">КАК МЫ РАБОТАЕМ</a>
+      <a class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">@lang('how we work')</a>
     </li>
   </ul>
   <div class="tab-content" id="pills-tabContent">
@@ -22,18 +22,18 @@
 
       <div class="row">
         <div class="col-md-4">
-          <h4 class="sub-title">Кто мы такие</h4>
-          <p>Команда профессионалов, готовая выполнить самые сложные идеи. <br>Мы - команда разработчиков, тестировщиков, дизайнеров, аналитиков, seo специалистов и нишевых экспертов, для которых нет нерешаемых задач.</p>
+          <h4 class="sub-title">@lang('Who we are')</h4>
+          <p>@lang('We are a team of professionals, and we are ready to implement the most complex ideas. <br> Our team consists of the qualified developers, quality assurance specialists, creative designers, analysts, SEO and niche experts for whom there are no impossible tasks.')</p>
         </div>
 
         <div class="col-md-4">
-          <h4 class="sub-title">Что умеем</h4>
-          <p>Создавать самописные интернет-магазины и корпоративные сайты, полностью заточенные под потребности заказчика. <br> Писать ботов для Telegram, Facebook WhatsApp и Viber, со сложными интеграциями с другими сервисами клиента. </p>
+          <h4 class="sub-title">@lang('What we do')</h4>
+          <p>@lang('We create self-made online stores and corporate sites aimed to satisfy customers’ needs. <br> We develop chatbots on Telegram, WhatsApp and Viber platforms, that includes multiple third-party services.')</p>
         </div>
 
         <div class="col-md-4">
-          <h4 class="sub-title">Почему мы</h4>
-          <p>Работая с нами, вам не будут нужны другие подрядчики. Мы превратим вашу идею в работающий продукт, будем его поддерживать и дорабатывать, добавлять нужные вашему бизнесу функции.</p>
+          <h4 class="sub-title">@lang('Why us')</h4>
+          <p>@lang('While working with us you will not require any other contractors. We will turn your idea into a сomprehensive product. We will support it and develop, create the necessary features for your business.')</p>
         </div>
 
       </div>
@@ -47,51 +47,51 @@
 
         <div class="col-lg-4 item wow zoomIn" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">01</div>
-          <div class="text"><span>Встречаем вас, слушаем ваши идеи</span></div>
+          <div class="text"><span>@lang('Meet-and-greet with you.')</span></div>
         </div>
 
         <div class="col-lg-4 item wow zoomIn" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">02</div>
-          <div class="text"><span>Вместе заполняем бриф и план проекта</span></div>
+          <div class="text"><span>@lang('Briefing and planning.')</span></div>
         </div>
 
         <div class="col-lg-4 item wow zoomIn" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">03</div>
-          <div class="text"><span>Пишем и утверждаем детальное техзадание</span></div>
+          <div class="text"><span>@lang('Forming the technical requirements.')</span></div>
         </div>
       </div>
 
       <div class="row second-line">
         <div class="col-lg-4 item wow zoomIn order-lg-3" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">04</div>
-          <div class="text"><span>Создаем прототип и разрабатываем дизайн</span></div>
+          <div class="text"><span>@lang('Creating a mockup, develop a design.')</span></div>
         </div>
 
         <div class="col-lg-4 item wow zoomIn order-lg-2" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">05</div>
-          <div class="text"><span>Пишем код для проекта и оптимизируем его</span></div>
+          <div class="text"><span>@lang('Code writing and optimisation.')</span></div>
         </div>
 
         <div class="col-lg-4 item wow zoomIn order-lg-1" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">06</div>
-          <div class="text"><span>Выполняем все уровни тестирования, исправляем баги</span></div>
+          <div class="text"><span>@lang('Performing quality assurance and bug fixing')</span></div>
         </div>
       </div>
 
       <div class="row third-line">
         <div class="col-lg-4 item wow zoomIn" data-wow-delay="0s" data-wow-offset="200">
           <div class="number">07</div>
-          <div class="text"><span>Передаем проект вам и разворачиваем на вашем сервере</span></div>
+          <div class="text"><span>@lang('Passing the project to you and deploying it on your server.')</span></div>
         </div>
 
         <div class="col-lg-4 item wow zoomIn" data-wow-delay="0.5s" data-wow-offset="200">
           <div class="number">08</div>
-          <div class="text"><span>Остаемся на связи и поддерживаем проект</span></div>
+          <div class="text"><span>@lang('Keeping in touch and supporting the project.')</span></div>
         </div>
 
         <div class="col-lg-4 item wow zoomIn" data-wow-delay="1s" data-wow-offset="200">
           <div class="number">09</div>
-          <div class="text"><span>Участвуем в жизни проекта, добавляем новые функции</span></div>
+          <div class="text"><span>@lang('Participating in the project lifecycle, adding new features”')</span></div>
         </div>
 
         <span class="ico-finish"></span>

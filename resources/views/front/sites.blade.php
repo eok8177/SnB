@@ -7,23 +7,23 @@
   <div class="row align-items-center">
 
     <div class="col-lg-6">
-      <h1 class="title">Мы создаем <br> сайты</h1>
+      <h1 class="title">@lang('We create <br> sites')</h1>
       <div class="image d-lg-none sites-mobile-image" style="overflow-x: hidden;"><img src="/img/m-sites.svg" alt="сайты" class="img-fluid wow backInRight" style="visibility: hidden;"></div>
 
       <div class="row">
         <div class="col-sm-6">
-          <h4>Наши сайты решают самые сложные задачи бизнеса<br><br></h4>
+          <h4>@lang('Our sites can solve the most complicated business tasks')<br><br></h4>
           <hr>
-          <p>Мы не навязываем шаблонные решения и конструкторы. Наша компания сосредоточена на качестве продукта и удовлетворении потребностей клиента.</p>
+          <p>@lang('We do not offer the most basic options as well as site builders. Our company goal is concentrated on product quality, and we tend to satisfy customers’ needs.')</p>
         </div>
         <div class="col-sm-6">
-          <h4>Наши сайты гарантируют динамику роста прибыли и долгосрочных клиентов</h4>
+          <h4>@lang('Our sites bringing up the numbers. Moreover, our sites can surely guarantee the long term customers')</h4>
           <hr>
-          <p>Вы получаете готовый продукт, оперативную техническую поддержку и команду высококвалифицированных сотрудников, готовых выполнить любые поставленные задачи.</p>
+          <p>@lang('You get the end-product, prompt technical support, and highly qualified team that is always ready to implement the tasks.')</p>
         </div>
       </div>
 
-      <button class="button fixed" data-bs-toggle="modal" data-bs-target="#contactModal">Рассчитать проект</button>
+      <button class="button fixed" data-bs-toggle="modal" data-bs-target="#contactModal">@lang('Estimate a project')</button>
     </div>
 
     <div class="col-lg-6 d-none d-lg-block text-center">
@@ -38,7 +38,7 @@
 
 <section class="wide-text">
   <div class="container text-center">
-    <h3>Разрабатываем уникальные интернет-магазины, сложные корпоративные сайты с множеством интеграций, проекты на Wordpress и Opencart.</h3>
+    <h3>@lang('We develop unique online stores, complex corporate sites with lots of integrations, and projects created on Wordpress & Shopify.')</h3>
   </div>
 </section>
 
@@ -47,7 +47,7 @@
 <section class="works">
 
   <div class="container">
-    <h3 class="text-center text-lg-left">Познакомьтесь с некоторыми нашими клиентами</h3>
+    <h3 class="text-center text-lg-left">@lang('You are welcome to meet our customers')</h3>
   </div>
 
   <div class="work-block">
@@ -74,9 +74,9 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block">annafoxy</h2>
 
-            <p>Полноценный монобрендовый интернет-магазин для ценителей уникальных предметов одежды и аксессуаров, ориентированный в основном на европейскую аудиторию.</p>
+            <p>@lang('A full-fledged mono-brand online store for those who value unique garments, and accessories, aimed mainly at the European audience.')</p>
 
-            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+            <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
           </div>
         </div>
       </div>
@@ -84,15 +84,15 @@
       <div class="block-more">
         <div class="block-inner">
           <ul class="list">
-            <li class="list-item">Мультиязычный (UA, RU, ENG) интернет-магазин с расширенным функционалом административной панели и упором на повышение конверсии.</li>
-            <li class="list-item">Динамические слайдеры на главной странице, удобный конструктор для самостоятельного наполнения страниц сайта.</li>
-            <li class="list-item">Широкий список уникальных свойств для каждого товара: цвет, рост, размер</li>
-            <li class="list-item">Система ролей, позволяющая раздавать только необходимые права доступа тем, кто работает с сайтом.</li>
-            <li class="list-item">Гибкая система лояльности с начислением баллов за покупки. Модуль акций для легкого запуска промо и активации скидок. </li>
-            <li class="list-item">Подключен прием оплат со всего мира с помощью Visa, Mastercard, Apple Pay, Google Pay. Кастомный чекаут без перехода на сторонний ресурс для увеличения конверсии.</li>
-            <li class="list-item">Интеграция с AmoCRM для эффективной обработки заказов.</li>
+            <li class="list-item">@lang('Multilingual (UA, RU, ENG) online store with the extended functionalities of admin panel with a focus on increasing the conversion rate. Developed via Symfony framework.')</li>
+            <li class="list-item">@lang('Dynamic sliders on a main page, convenient kit/editor for the independent updates of a site content.')</li>
+            <li class="list-item">@lang('Wide range of unique product attributes: color, height, size')</li>
+            <li class="list-item">@lang('Role system which allows you to distribute multiple access levels to various functionalities and admin panel content.')</li>
+            <li class="list-item">@lang('Сumulative loyalty program for further purchases. Prompt promos launch and discount activations as the built-in features.')</li>
+            <li class="list-item">@lang('Payment integrations are performed via API. Payment methods are Visa, Mastercard, Apple Pay, Google Pay. Custom checkouts are implemented without the third-party involvement to increase the conversion rate.')</li>
+            <li class="list-item">@lang('AmoCRM integration to perform efficient order processing.')</li>
           </ul>
-          <a href="https://annafoxy.com" class="button more" target="_blank">Перейти на сайт</a>
+          <a href="https://annafoxy.com" class="button more" target="_blank">@lang('Go to the website')</a>
         </div>
       </div>
 
@@ -125,9 +125,9 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block"><span class="">Personal Blog</span><br>VADYM IERMOLAIEV</h2>
 
-            <p>Мы разработали сайт для Вадима Владимировича, известного украинского бизнесмена, на котором он охотно делится интересными мыслями, новостями бизнес-проектов своей компании и видеороликами с обществом.</p>
+            <p>@lang('We developed a website for Vadym Iermolaiev, a well-known Ukrainian businessman. The main goal of the website is to share the interesting ideas, news, his company’s business projects along with the interviews.')</p>
 
-            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+            <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
           </div>
         </div>
       </div>
@@ -135,14 +135,14 @@
       <div class="block-more">
         <div class="block-inner">
           <ul class="list">
-            <li class="list-item">Мультиязычный (UA, RU, ENG)  сайт-блог на платформе WordPress</li>
-            <li class="list-item">Уникальный, строгий и современный дизайн</li>
-            <li class="list-item">Легкий и быстрый сайт для информирования и коммуникации с общественностью</li>
-            <li class="list-item">Размещение статей с посторонних ресурсов для сохранения авторства контента</li>
-            <li class="list-item">Удобная административная панель</li>
-            <li class="list-item">Коммуникация по обратной связи</li>
+            <li class="list-item">@lang('Multilingual (UA, RU, ENG) blog developed on the WordPress platform.')</li>
+            <li class="list-item">@lang('Unique, rigorous, and modern design.')</li>
+            <li class="list-item">@lang('Fast website for sharing the information as well as communication with the audience/visitors.')</li>
+            <li class="list-item">@lang('Article publishing with external resource linking system to retain content authorship.')</li>
+            <li class="list-item">@lang('Easy-to-use admin panel.')</li>
+            <li class="list-item">@lang('Convenient feedback system.')</li>
           </ul>
-          <a href="https://vadymiermolaiev.info" class="button more" target="_blank">Перейти на сайт</a>
+          <a href="https://vadymiermolaiev.info" class="button more" target="_blank">@lang('Go to the website')</a>
         </div>
       </div>
 
@@ -170,9 +170,9 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block">Dynasty</h2>
 
-            <p>Cамописный веб-сайт юридической фирмы с мультиролевым кабинетом для хранения и работы с документацией, документооборота, многофункциональной административной панелью и кастомной файловой системой.</p>
+            <p>@lang('A self-made website for a law company with multiple roles account for storing and processing the data, document management, multifunctional administrative panel, and custom file system.')</p>
 
-            <button class="button more btn-more closed" data-open="Читать полностью" data-close="Скрыть">Читать полностью</button>
+            <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
           </div>
         </div>
       </div>
@@ -180,21 +180,65 @@
       <div class="block-more">
         <div class="block-inner">
           <ul class="list">
-            <li class="list-item">Мультиязычный (UA, RU, ENG) сайт с расширенным функционалом административной панели и упором на повышение конверсии.</li>
-            <li class="list-item">Фронт-часть сайта с функционалом редактирования страниц и публикаций</li>
-            <li class="list-item">Мультифункциональный кабинет для нескольких типов пользователей: клиент, стажер, юрист, администратор.</li>
-            <li class="list-item">Внутренний функционал файловой системы для работы с документами юристов и клиентов</li>
-            <li class="list-item">Система внутреннего тестирования для стажеров и юристов</li>
-            <li class="list-item">Система просмотра посетителей сайта: юристов, стажеров, клиентов</li>
-            <li class="list-item">Возможность оплаты услуг внутри кабинета.</li>
+            <li class="list-item">@lang('Multilingual (UA, RU, ENG) website with the extended functionalities of admin panel, with a focus on increasing the conversion rate.')</li>
+            <li class="list-item">@lang('The pages of the website can be easily edited and published')</li>
+            <li class="list-item">@lang('Multifunctional account for multiple user types/roles: customer, trainee, lawyer, administrator.')</li>
+            <li class="list-item">@lang('Internal file system for the lawyers’ and customers’ documents management')</li>
+            <li class="list-item">@lang('Automated internal and external testing system for the lawyers and trainees.')</li>
+            <li class="list-item">@lang('Visitors tracking system.')</li>
+            <li class="list-item">@lang('Payment for the legal services.')</li>
           </ul>
-          <a href="https://dynasty.legal" class="button more" target="_blank">Перейти на сайт</a>
+          <a href="https://dynasty.legal" class="button more" target="_blank">@lang('Go to the website')</a>
+        </div>
+      </div>
+
+      <hr>
+    </div>
+  </div>
+
+
+  <div class="work-block d-none">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-lg-8">
+          <h2 class="text-center d-lg-none">Ortomedica</h2>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="/images/dinasty/05.jpg"></div>
+            <div class="item"><img src="/images/dinasty/04.png"></div>
+          </div>
+
+        </div>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block">Ortomedica</h2>
+
+            <p>@lang('The E-commerce project for selling the orthopedic products, a self-made website developed via the Laravel framework. It includes high-speed customers’ interface and multifunctional admin panel for the site management.')</p>
+
+            <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-more">
+        <div class="block-inner">
+          <ul class="list">
+            <li class="list-item">@lang('Multilingual (UA, RU) website with more than 16000 unique products.')</li>
+            <li class="list-item">@lang('Branching product building structure for the categories with the unlimited levels of nesting.')</li>
+            <li class="list-item">@lang('Custom filtering and triage system for the prompt product displaying.')</li>
+            <li class="list-item">@lang('Implementation of the local shops mapping via the Google Maps integration.')</li>
+            <li class="list-item">@lang('Integration with the multiple payment processors in order to prevent the high load. Includes such payment methods as Visa, Mastercard, ApplePay, GooglePay, Privat24.')</li>
+            <li class="list-item">@lang('Flexible import & export system for the products and attributes that provides large-scale product updates.')</li>
+            <li class="list-item">@lang('Multiple third-party integrations: Google Analytics, Facebook Analytics, heatmaps for the on-site activity.')</li>
+            <li class="list-item">@lang('Features for the SEO optimization: Sitemap, SEO templates and presets, redirect setup, strict URL formatting rules for various types of pages, metadata editing, automatic FAQ generation, schema.org data mark-up.')</li>
+            <li class="list-item">@lang('Messaging system via Mail and SMS to inform clients')</li>
+          </ul>
+          <a href="https://ortomedica.ua/" class="button more" target="_blank">@lang('Go to the website')</a>
         </div>
       </div>
 
     </div>
   </div>
-
 </section>
 
 

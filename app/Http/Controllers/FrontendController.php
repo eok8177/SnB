@@ -11,6 +11,11 @@ use App\Page;
 
 class FrontendController extends Controller
 {
+    public function __construct(Request $request)
+    {
+        view()->share('lang', app()->getLocale() == 'en' ? 'en/' : '');
+    }
+
     public function index()
     {
         return view('front.home');

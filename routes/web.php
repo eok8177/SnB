@@ -35,14 +35,37 @@ Route::group([
 
 });
 
+
+
 // Frontend
-Route::get('/', ['as' => 'front.index', 'uses' => 'FrontendController@index']);
-Route::get('/sites', ['as' => 'front.sites', 'uses' => 'FrontendController@sites']);
-Route::get('/bots', ['as' => 'front.bots', 'uses' => 'FrontendController@bots']);
-Route::get('/about', ['as' => 'front.about', 'uses' => 'FrontendController@about']);
-Route::get('/contact', ['as' => 'front.contact', 'uses' => 'FrontendController@contact']);
+// GET routes
+$optionalLanguageRoutes = function() {
+    $locale = Request::segment(1) == 'en' ? 'en' : 'ua';
+    App::setLocale($locale);
 
-Route::post('/email', ['as' => 'front.email', 'uses' => 'FrontendController@email']);
+    Route::get('/', ['as' => 'index', 'uses' => 'FrontendController@index']);
+    Route::get('/sites', ['as' => 'sites', 'uses' => 'FrontendController@sites']);
+    Route::get('/bots', ['as' => 'bots', 'uses' => 'FrontendController@bots']);
+    Route::get('/about', ['as' => 'about', 'uses' => 'FrontendController@about']);
+    Route::get('/contact', ['as' => 'contact', 'uses' => 'FrontendController@contact']);
+    Route::get('/{slug}', ['as' => 'page', 'uses' => 'FrontendController@page']);
+};
 
-Route::get('/{slug}', ['as' => 'front.page', 'uses' => 'FrontendController@page']);
+// POST routes
+Route::group([
+    'as' => 'front.',
+    // 'namespace' => 'Front'
+], function() {
+  Route::post('/email', ['as' => 'email', 'uses' => 'FrontendController@email']);
+});
 
+Route::group([
+    'prefix' => 'en',
+    'as' => 'en.front.',
+    // 'namespace' => 'Front'
+],$optionalLanguageRoutes);
+
+Route::group([
+    'as' => 'front.',
+    // 'namespace' => 'Front'
+], $optionalLanguageRoutes);
