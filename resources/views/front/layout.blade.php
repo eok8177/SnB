@@ -24,7 +24,7 @@
 
         <span class="ms-auto blocks {{ (Request::is('bots') || Request::is('sites')) ? 'single' : 'dual' }}">
           {{-- <a class="nav-link bots {{ Request::is('bots') ? 'd-none' : '' }}" href="/{{$lang}}bots" title="@lang('Boots')">@lang('Boots')</a> --}}
-          <a class="nav-link sites {{ Request::is('sites') ? 'd-none' : '' }}" href="/{{$lang}}sites" title="@lang('Sites')">@lang('Sites')</a>
+          <a class="nav-link sites {{ Request::is('*sites') ? 'd-none' : '' }}" href="/{{$lang}}sites" title="@lang('Sites')">@lang('Sites')</a>
         </span>
       </div>
     </nav>
