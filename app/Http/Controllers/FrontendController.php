@@ -13,7 +13,7 @@ class FrontendController extends Controller
 {
     public function __construct(Request $request)
     {
-        view()->share('lang', app()->getLocale() == 'en' ? 'en/' : '');
+        view()->share('lang', app()->getLocale() == 'ua' ? 'ua/' : '');
     }
 
     public function index()
@@ -46,9 +46,9 @@ class FrontendController extends Controller
         $text = implode(', ', $request->all());
 
         Mail::send('email.callme', ['text' => $text], function ($m) use ($text) {
-          $m->from('eok1877@gmail.com', 'snb.ks.ua');
+          $m->from('eok8177@gmail.com', 'sitesandbots.com');
 
-          $m->to('eok1877@gmail.com')->subject('S&B обращение клиента');
+          $m->to('eok8177@gmail.com')->subject('S&B обращение клиента');
         });
 
         return 'success';

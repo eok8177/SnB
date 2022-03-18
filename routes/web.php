@@ -40,7 +40,7 @@ Route::group([
 // Frontend
 // GET routes
 $optionalLanguageRoutes = function() {
-    $locale = Request::segment(1) == 'en' ? 'en' : 'ua';
+    $locale = Request::segment(1) == 'ua' ? 'ua' : 'en';
     App::setLocale($locale);
 
     Route::get('/', ['as' => 'index', 'uses' => 'FrontendController@index']);
@@ -60,8 +60,8 @@ Route::group([
 });
 
 Route::group([
-    'prefix' => 'en',
-    'as' => 'en.front.',
+    'prefix' => 'ua',
+    'as' => 'ua.front.',
     // 'namespace' => 'Front'
 ],$optionalLanguageRoutes);
 
