@@ -26,6 +26,19 @@
           {{-- <a class="nav-link bots {{ Request::is('bots') ? 'd-none' : '' }}" href="/{{$lang}}bots" title="@lang('Boots')">@lang('Boots')</a> --}}
           <a class="nav-link sites {{ Request::is('*sites') ? 'd-none' : '' }}" href="/{{$lang}}sites" title="@lang('Sites')">@lang('Sites')</a>
         </span>
+
+        @if($lang == 'ua/')
+        <a class="nav-link" href="/{{preg_replace("/ua\//","",request()->path())}}" title="English">
+          <span class="d-md-none">EN</span>
+          <span class="hide-sm">English</span>
+        </a>
+        @else
+        <a class="nav-link" href="/ua/{{request()->path()}}" title="Українською">
+          <span class="d-md-none">UA</span>
+          <span class="hide-sm">Українською</span>
+        </a>
+        @endif
+
       </div>
     </nav>
 

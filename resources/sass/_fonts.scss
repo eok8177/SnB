@@ -2,9 +2,9 @@
     font-family: 'BebasNeue';
     src: local('Bebas Neue Book'),
         local('BebasNeueBook'),
-        url('../fonts/bebasneuebook.woff2') format('woff2'),
-        url('../fonts/bebasneuebook.woff') format('woff'),
-        url('../fonts/bebasneuebook.ttf') format('truetype');
+        // url('../fonts/bebasneuebook.woff2') format('woff2'),
+        url('../fonts/bebasneuebook.woff?v=2') format('woff'),
+        url('../fonts/bebasneuebook.ttf?v=2') format('truetype');
     font-weight: 300;
     font-style: normal;
 }
@@ -13,9 +13,9 @@
   font-family: 'BebasNeue';
   src: local('Bebas Neue Bold'),
     local('BebasNeueBold'),
-    url('../fonts/bebasneuebold.woff2') format('woff2'),
-    url('../fonts/bebasneuebold.woff') format('woff'),
-    url('../fonts/bebasneuebold.ttf') format('truetype');
+    // url('../fonts/bebasneuebold.woff2') format('woff2'),
+    url('../fonts/bebasneuebold.woff?v=2') format('woff'),
+    url('../fonts/bebasneuebold.ttf?v=2') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
