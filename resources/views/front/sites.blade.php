@@ -237,6 +237,45 @@
           <a href="https://ortomedica.ua/" class="button more" target="_blank">@lang('Go to the website')</a>
         </div>
       </div>
+      <hr>
+    </div>
+  </div>
+
+
+  <div class="work-block">
+    <div class="container">
+      <div class="row align-items-end">
+        <div class="col-lg-8">
+          <h2 class="text-center d-lg-none">Shellcheck</h2>
+
+          <div class="owl-carousel owl-theme">
+            <div class="item"><img src="/images/shell/shellchek.jpg"></div>
+          </div>
+
+        </div>
+        <div class="col-lg-4" style="overflow-x: hidden;">
+          <div class="wow backInRight">
+            <h2 class="d-none d-lg-block">Shellcheck</h2>
+
+            <p>@lang('Unique oil-verification tool provided for Shell official website')</p>
+
+            <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
+          </div>
+        </div>
+      </div>
+
+      <div class="block-more">
+        <div class="block-inner">
+          <ul class="list">
+            <li class="list-item">@lang('Built-in as an iFrame at the official company website')</li>
+            <li class="list-item">@lang('Quick and easy-to-use oil verification process via custom id checker tool.')</li>
+            <li class="list-item">@lang('Native admin panel to update official oil id codes and check users activity')</li>
+            <li class="list-item">@lang('Fully implemented and tested the functionality of accessibility via WCAG 2.1 standards. Tested on NVDA software for Windows and VoiceOver for MacOs, iOs, Android')</li>
+
+          </ul>
+          <a href="https://www.shell.ua/%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D1%96%D0%BB%D1%96%D1%81%D1%82%D0%B0%D0%BC/%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D0%BD%D1%96-%D0%BE%D0%BB%D0%B8%D0%B2%D0%B8-%D1%96-%D0%BC%D0%B0%D1%81%D1%82%D0%B8%D0%BB%D1%8C%D0%BD%D1%96-%D0%BC%D0%B0%D1%82%D0%B5%D1%80%D1%96%D0%B0%D0%BB%D0%B8-%D1%88%D0%B5%D0%BB%D0%BB/%D0%BC%D0%BE%D1%82%D0%BE%D1%80%D0%BD%D1%96-%D0%BE%D0%BB%D0%B8%D0%B2%D0%B8-shell-helix-%D0%B4%D0%BB%D1%8F-%D0%BB%D0%B5%D0%B3%D0%BA%D0%BE%D0%B2%D0%B8%D1%85-%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D1%96%D0%BB%D1%96%D0%B2/%D0%9F%D0%B5%D1%80%D0%B5%D0%BA%D0%BE%D0%BD%D0%B0%D0%B9%D1%82%D0%B5%D1%81%D1%8C-%D0%B2-%D0%B4%D0%BE%D1%81%D1%82%D0%BE%D0%B2%D1%96%D1%80%D0%BD%D0%BE%D1%81%D1%82%D1%96-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%86%D1%96%D1%97-shell-helix.html" class="button more" target="_blank">@lang('Go to the website')</a>
+        </div>
+      </div>
 
     </div>
   </div>
