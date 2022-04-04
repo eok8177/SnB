@@ -197,15 +197,16 @@
   </div>
 
 
-  <div class="work-block d-none">
+  <div class="work-block">
     <div class="container">
       <div class="row align-items-end">
         <div class="col-lg-8">
           <h2 class="text-center d-lg-none">Ortomedica</h2>
 
           <div class="owl-carousel owl-theme">
-            <div class="item"><img src="/images/dinasty/05.jpg"></div>
-            <div class="item"><img src="/images/dinasty/04.png"></div>
+            <div class="item"><img src="/images/ortomedica/01.jpg"></div>
+            <div class="item"><img src="/images/ortomedica/02.jpg"></div>
+            <div class="item"><img src="/images/ortomedica/03.jpg"></div>
           </div>
 
         </div>

@@ -81,6 +81,15 @@
     "Features for the SEO optimization: Sitemap, SEO templates and presets, redirect setup, strict URL formatting rules for various types of pages, metadata editing, automatic FAQ generation, schema.org data mark-up." : "Функції для оптимізації SEO: карта сайту, шаблони та пресети SEO, налаштування перенаправлення, суворі правила форматування URL-адрес для різних типів сторінок, редагування метаданих, автоматичне генерування поширених запитань, розмітка даних schema.org",
     "Messaging system via Mail and SMS to inform clients" : "Система обміну повідомленнями через пошту та SMS для інформування клієнтів",
 
+
+"Shellcheck" : "_comment",
+
+    "Unique oil-verification tool provided for Shell official website" : "Унікальний інструмент перевірки мастила, наданий для офіційного сайту Shell",
+    "Built-in as an iFrame at the official company website" : "Вбудований як iFrame на офіційному веб-сайті компані",
+    "Quick and easy-to-use oil verification process via custom id checker tool." : "Швидкий і простий у використанні процес перевірки мастила за допомогою спеціального інструменту перевірки ідентифікатора придбаного товару",
+    "Native admin panel to update official oil id codes and check users activity" : "Нативна панель адміністратора для оновлення офіційних ідентифікаційних кодів масла та перевірки активності користувачів",
+    "Fully implemented and tested the functionality of accessibility via WCAG 2.1 standards. Tested on NVDA software for Windows and VoiceOver for MacOs, iOs, Android" : "Повністю реалізована та перевірена функціональність доступності за стандартами WCAG 2.1. Перевірено на програмному забезпеченні NVDA для Windows і VoiceOver для MacO, iOS, Android",
+
 "Про нас" : "_comment",
 
     "We prefer to create specialized products ro serve any needs perfectly instead of the temporary and mediocre solutions." : " «Ми вважаємо за краще створювати унікальні продукти, які повністю задовольнять будь-які потреби клієнтів, а не тимчасові та посередні рішення",
