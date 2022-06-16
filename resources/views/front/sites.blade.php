@@ -14,10 +14,10 @@
         <div class="col-sm-6">
           <h4>@lang('Our sites can solve the most complicated business tasks')<br><br></h4>
           <hr>
-          <p>@lang('We do not offer the most basic options as well as site builders. Our company goal is concentrated on product quality, and we tend to satisfy customers’ needs.')</p>
+          <p>@lang('We do not offer the most basic options or site builders. Our company’s focus is on product quality, and we tend to satisfy our customers’ needs.')</p>
         </div>
         <div class="col-sm-6">
-          <h4>@lang('Our sites bringing up the numbers. Moreover, our sites can surely guarantee the long term customers')</h4>
+          <h4>@lang('Our sites bring up the numbers. Moreover, they surely guarantee the long term customers')</h4>
           <hr>
           <p>@lang('You get the end-product, prompt technical support, and highly qualified team that is always ready to implement the tasks.')</p>
         </div>
@@ -74,7 +74,7 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block">annafoxy</h2>
 
-            <p>@lang('A full-fledged mono-brand online store for those who value unique garments, and accessories, aimed mainly at the European audience.')</p>
+            <p>@lang('A fully-fledged mono-brand online store for those who value unique garments, and accessories, targeting mainly the European audience.')</p>
 
             <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
           </div>
@@ -84,12 +84,12 @@
       <div class="block-more">
         <div class="block-inner">
           <ul class="list">
-            <li class="list-item">@lang('Multilingual (UA, RU, ENG) online store with the extended functionalities of admin panel with a focus on increasing the conversion rate. Developed via Symfony framework.')</li>
-            <li class="list-item">@lang('Dynamic sliders on a main page, convenient kit/editor for the independent updates of a site content.')</li>
+            <li class="list-item">@lang('Multilingual (UA, RU, ENG) online store with the extended admin panel functionalities focusing on increasing the conversion rate. Developed via Symfony framework.')</li>
+            <li class="list-item">@lang('Dynamic sliders on the main page, convenient kit/editor for the independent updates of site content.')</li>
             <li class="list-item">@lang('Wide range of unique product attributes: color, height, size')</li>
-            <li class="list-item">@lang('Role system which allows you to distribute multiple access levels to various functionalities and admin panel content.')</li>
-            <li class="list-item">@lang('Сumulative loyalty program for further purchases. Prompt promos launch and discount activations as the built-in features.')</li>
-            <li class="list-item">@lang('Payment integrations are performed via API. Payment methods are Visa, Mastercard, Apple Pay, Google Pay. Custom checkouts are implemented without the third-party involvement to increase the conversion rate.')</li>
+            <li class="list-item">@lang('Role system which allows you to distribute multiple access levels to various functionalities of admin panel content.')</li>
+            <li class="list-item">@lang('Сumulative loyalty program for further purchases. Prompt promos launch and discount activations as the built-in website features.')</li>
+            <li class="list-item">@lang('Payment integrations are performed via API. Payment methods include Visa, Mastercard, Apple Pay, Google Pay. Custom checkouts are implemented without the third-party involvement to increase the conversion rate.')</li>
             <li class="list-item">@lang('AmoCRM integration to perform efficient order processing.')</li>
           </ul>
           <a href="https://annafoxy.com" class="button more" target="_blank">@lang('Go to the website')</a>
@@ -137,7 +137,7 @@
           <ul class="list">
             <li class="list-item">@lang('Multilingual (UA, RU, ENG) blog developed on the WordPress platform.')</li>
             <li class="list-item">@lang('Unique, rigorous, and modern design.')</li>
-            <li class="list-item">@lang('Fast website for sharing the information as well as communication with the audience/visitors.')</li>
+            <li class="list-item">@lang('Fast website for sharing the information as well as communicating with the audience/visitors.')</li>
             <li class="list-item">@lang('Article publishing with external resource linking system to retain content authorship.')</li>
             <li class="list-item">@lang('Easy-to-use admin panel.')</li>
             <li class="list-item">@lang('Convenient feedback system.')</li>
@@ -170,7 +170,7 @@
           <div class="wow backInRight">
             <h2 class="d-none d-lg-block">Dynasty</h2>
 
-            <p>@lang('A self-made website for a law company with multiple roles account for storing and processing the data, document management, multifunctional administrative panel, and custom file system.')</p>
+            <p>@lang('A self-made website for a law company with multiple roles account for storing and processing data, document management, multifunctional administrative panel, and custom file system.')</p>
 
             <button class="button more btn-more closed" data-open="@lang('Read more')" data-close="@lang('Hide')">@lang('Read more')</button>
           </div>
@@ -186,7 +186,7 @@
             <li class="list-item">@lang('Internal file system for the lawyers’ and customers’ documents management')</li>
             <li class="list-item">@lang('Automated internal and external testing system for the lawyers and trainees.')</li>
             <li class="list-item">@lang('Visitors tracking system.')</li>
-            <li class="list-item">@lang('Payment for the legal services.')</li>
+            <li class="list-item">@lang('Payment for legal services.')</li>
           </ul>
           <a href="https://dynasty.legal" class="button more" target="_blank">@lang('Go to the website')</a>
         </div>
@@ -225,8 +225,8 @@
         <div class="block-inner">
           <ul class="list">
             <li class="list-item">@lang('Multilingual (UA, RU) website with more than 16000 unique products.')</li>
-            <li class="list-item">@lang('Branching product building structure for the categories with the unlimited levels of nesting.')</li>
-            <li class="list-item">@lang('Custom filtering and triage system for the prompt product displaying.')</li>
+            <li class="list-item">@lang('Branching product building structure for the categories with the unlimited nesting levels.')</li>
+            <li class="list-item">@lang('Custom filtering and sorting system for instant product display.')</li>
             <li class="list-item">@lang('Implementation of the local shops mapping via the Google Maps integration.')</li>
             <li class="list-item">@lang('Integration with the multiple payment processors in order to prevent the high load. Includes such payment methods as Visa, Mastercard, ApplePay, GooglePay, Privat24.')</li>
             <li class="list-item">@lang('Flexible import & export system for the products and attributes that provides large-scale product updates.')</li>

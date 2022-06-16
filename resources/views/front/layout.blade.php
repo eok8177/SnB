@@ -87,7 +87,7 @@
                   <label for="type_4">Telegram</label>
                 </div>
               </div>
-              <button type="submit" class="button btn-submit">@lang('contact us')</button>
+              <button type="submit" class="button btn-submit">@lang('Contact us')</button>
             </div>
 
             <div class="success" style="display: none;">
@@ -99,9 +99,9 @@
         </div>
         <div class="col-md-6 order-1">
           <div class="text-block">
-            <h2>@lang('tell us about your project!')</h2>
-            <p>@lang('We will be glad to discuss the peculiarities of your project in more detail.')</p>
-            <button class="button d-md-none btn-submit" data-bs-toggle="modal" data-bs-target="#contactModal">@lang('contact us')</button>
+            <h2>@lang('Tell us about your project!')</h2>
+            <p>@lang('We will gladly discuss the peculiarities of your project in more detail.')</p>
+            <button class="button d-md-none btn-submit" data-bs-toggle="modal" data-bs-target="#contactModal">@lang('Contact us')</button>
           </div>
           <p class="copyright">Sites&Bots, 2020</p>
         </div>
@@ -155,7 +155,7 @@
               </div>
             </div>
 
-            <button type="submit" class="button"><span>@lang('contact us')</span></button>
+            <button type="submit" class="button"><span>@lang('Contact us')</span></button>
           </form>
         </div>
       </div>

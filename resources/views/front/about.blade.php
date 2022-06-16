@@ -5,7 +5,7 @@
 <div class="container">
   <h1 class="title-about">@lang('About us')</h1>
   <p class="sub-text">
-    @lang('We prefer to create specialized products ro serve any needs perfectly instead of the temporary and mediocre solutions.')
+    @lang('We prefer to create specialized products that serve any needs perfectly instead of temporary and mediocre solutions.')
   </p>
 
   <ul class="nav nav-tabs pills" id="pills-tab" role="tablist">
@@ -28,12 +28,12 @@
 
         <div class="col-md-4">
           <h4 class="sub-title">@lang('What we do')</h4>
-          <p>@lang('We create self-made online stores and corporate sites aimed to satisfy customers’ needs. <br> We develop chatbots on Telegram, WhatsApp and Viber platforms, that includes multiple third-party services.')</p>
+          <p>@lang('We create self-made online stores and corporate sites aimed to satisfy customers’ needs. <br> We develop chatbots on Telegram, WhatsApp and Viber platforms, including multiple third-party services.')</p>
         </div>
 
         <div class="col-md-4">
           <h4 class="sub-title">@lang('Why us')</h4>
-          <p>@lang('While working with us you will not require any other contractors. We will turn your idea into a сomprehensive product. We will support it and develop, create the necessary features for your business.')</p>
+          <p>@lang('While working with us you won't need any other contractors. We will turn your idea into a сomprehensive product. We will support and develop it, and create the necessary features for your business.')</p>
         </div>
 
       </div>
