@@ -1,87 +1,77 @@
 {
-"Ми створюємо <br> ботів" : "We develop <br> bots",
+   "Ми створюємо <br> ботів" : "We develop <br> bots",
 
-"Наші роботи автоматизують складні процеси в компаніях" : "Our bots automate complex company tasks",
+   "Наші роботи автоматизують складні процеси в компаніях" : "Our bots automate complex company tasks",
 
-"Прискорюють формування звітів, вивантажують дані у 1С чи CRM-систему, збирають зворотний зв'язок від співробітників компанії." : "Streamline reports generation, export data to 1C or CRM systems, gather feedback from company employees.",
-"Наші боти допомагають обслуговувати клієнтів у звичному середовищі спілкування" : "Our bots assist in serving the clients in their usual communication environment",
+   "Прискорюють формування звітів, вивантажують дані у 1С чи CRM-систему, збирають зворотний зв'язок від співробітників компанії." : "Streamline reports generation, export data to 1C or CRM systems, gather feedback from company employees.",
+   "Наші боти допомагають обслуговувати клієнтів у звичному середовищі спілкування" : "Our bots assist in serving the clients in their usual communication environment",
 
-"Приймають замовлення і оплати, відповідають на питання, що часто ставляться, допомагають краще дізнатися продукт. Збирають відгуки клієнтів, розсилають їм спеціальні пропозиції та акції." : "Accept orders and payments, answer frequently asked questions, help describe the product better. Gather client's feedback, send out special offers and promotions",
+   "Приймають замовлення і оплати, відповідають на питання, що часто ставляться, допомагають краще дізнатися продукт. Збирають відгуки клієнтів, розсилають їм спеціальні пропозиції та акції." : "Accept orders and payments, answer frequently asked questions, help describe the product better. Gather client's feedback, send out special offers and promotions",
 
-"Боти функціонують 24/7, підтримуючи та оптимізуючи процеси без зовнішнього втручання. Виконують рутинну роботу менеджерів, бухгалтерів, технічної підтримки." : "Bots are operational 24/7, supporting and optimizing tasks without the need for outside maintenance. They perform the routine duties of managers, accountants, technical assistants.",
+   "Боти функціонують 24/7, підтримуючи та оптимізуючи процеси без зовнішнього втручання. Виконують рутинну роботу менеджерів, бухгалтерів, технічної підтримки." : "Bots are operational 24/7, supporting and optimizing tasks without the need for outside maintenance. They perform the routine duties of managers, accountants, technical assistants.",
 
-"Проекти, які ми запустили" : "Projects we launched",
+   "Проекти, які ми запустили" : "Projects we launched",
 
-"Бухгалтер Чарлі" : "Charlie The Accountant",
+   "Бухгалтер Чарлі" : "Charlie The Accountant",
 
-"Чат-бот фірми, що займається шиттям шуб. Бот-бухгалтер для ведення звітності про замовлення та продажі. Дає можливість вносити нові продажі та замовлення постачання товарів у всі магазини компанії, щодня формує звіти для 1С." : "Chatbot of the fur coat manufacturer. Accountant bot to keep records of orders and sales. Enables the addition of new sales and the commission of goods supply to all company stores, forms everyday reports for 1C",
+   "Чат-бот фірми, що займається шиттям шуб. Бот-бухгалтер для ведення звітності про замовлення та продажі. Дає можливість вносити нові продажі та замовлення постачання товарів у всі магазини компанії, щодня формує звіти для 1С." : "Chatbot of the fur coat manufacturer. Accountant bot to keep records of orders and sales. Enables the addition of new sales and the commission of goods supply to all company stores, forms everyday reports for 1C",
 
-"Можливості" : "Features",
+   "Можливості" : "Features",
 
-"платформа: Telegram" : "platform: Telegram",
-"передача інформації співробітникам та дублювання повідомлень у чат компанії для збору звіту про отримані відгуки." : "Transfer of information to employees and duplication of messages to company's chat for feedback reports aggreagation",
-"формування листа подяки одному або декільком співробітникам компанії" : "a thank-you letter composition for one or more employees",
-"інтеграція із сервісом SMS-Fly для передачі подяк у вигляді SMS-повідомлень" : "SMS-Fly service integration to send out messages of thanks via SMS",
-"підтримка вкладення файлів та зображень" : "images and files attachment support",
+   "платформа: Telegram" : "platform: Telegram",
+   "передача інформації співробітникам та дублювання повідомлень у чат компанії для збору звіту про отримані відгуки." : "Transfer of information to employees and duplication of messages to company's chat for feedback reports aggreagation",
+   "формування листа подяки одному або декільком співробітникам компанії" : "a thank-you letter composition for one or more employees",
+   "інтеграція із сервісом SMS-Fly для передачі подяк у вигляді SMS-повідомлень" : "SMS-Fly service integration to send out messages of thanks via SMS",
+   "підтримка вкладення файлів та зображень" : "images and files attachment support",
 
-"Результат:" : "Result",
-"значне зростання мотивації співробітників та рівня їх задоволення виконаною роботою за рахунок отримання подяк від клієнтів." : "highly increased motivation of employees and completed job satisfaction because of client's gratitude",
+   "Результат:" : "Result",
+   "значне зростання мотивації співробітників та рівня їх задоволення виконаною роботою за рахунок отримання подяк від клієнтів." : "highly increased motivation of employees and completed job satisfaction because of client's gratitude",
 
-"Бот програми лояльності" : "Loyalty program bot",
+   "Бот програми лояльності" : "Loyalty program bot",
 
-"Закритий чат-бот для компанії-виробника автомобільних шин" : "Closed chatbot for automobile tire manufacturing company",
+   "Закритий чат-бот для компанії-виробника автомобільних шин" : "Closed chatbot for automobile tire manufacturing company",
 
-"Основною метою робота є впровадження програми лояльності для заохочення працьовитих співробітників компанії. Допомагає співробітнику вивести бонусні бали від продажу шин методом сканування QR-кодів із фізичних чеків. Також має інтеграцію з API клієнта, яка дозволяє вести діалог з техпідтримкою, залишати заявки на комунікацію, уточнювати свій статус та баланс за програмою лояльності." : "The bot's main goal is loyalty program implementation to encourage the hardworking employees. It helps to calculate bonus points gained through tire sales via physical checks QR-code scanning. Integrates with client's API to establish a dialogue with tech support, leave communication request, check status and balance according to loyalty program.",
+   "Основною метою робота є впровадження програми лояльності для заохочення працьовитих співробітників компанії. Допомагає співробітнику вивести бонусні бали від продажу шин методом сканування QR-кодів із фізичних чеків. Також має інтеграцію з API клієнта, яка дозволяє вести діалог з техпідтримкою, залишати заявки на комунікацію, уточнювати свій статус та баланс за програмою лояльності." : "The bot's main goal is loyalty program implementation to encourage the hardworking employees. It helps to calculate bonus points gained through tire sales via physical checks QR-code scanning. Integrates with client's API to establish a dialogue with tech support, leave communication request, check status and balance according to loyalty program.",
 
-"Можливості" : "Features",
+   "інтегрована взаємодія з техпідтримкою у форматі «питання-відповідь» та можливістю вкладення закодованих файлів у будь-якому форматі" : "integrated tech support communication through \"question-answer\" style with the support for the attachment of encrypted files in any format",
+   "інтеграція з багатофункціональним API" : "multifunctional API integration",
+   "розпізнавання QR-кодів та подальша їх передача по API" : "QR-code recognition with further API transfer",
+   "реєстрація та авторизація користувача з кількома ступенями верифікації та підтримкою редагування профілю" : "user registration and authorization with 2-step verification and the support for profile editing",
+   "перевірка балансу за проведеними сканами кодів та загальний підрахунок бонусних балів за робочий квартал" : "checking the balance of scanned codes and general bonus points calculation throughout working quarter",
 
-"платформа: Telegram" : "platform: Telegram",
-"інтегрована взаємодія з техпідтримкою у форматі «питання-відповідь» та можливістю вкладення закодованих файлів у будь-якому форматі" : "integrated tech support communication through "question-answer" style with the support for the attachment of encrypted files in any format",
-"інтеграція з багатофункціональним API" : "multifunctional API integration",
-"розпізнавання QR-кодів та подальша їх передача по API" : "QR-code recognition with further API transfer",
-"реєстрація та авторизація користувача з кількома ступенями верифікації та підтримкою редагування профілю" : "user registration and authorization with 2-step verification and the support for profile editing",
-"перевірка балансу за проведеними сканами кодів та загальний підрахунок бонусних балів за робочий квартал" : "checking the balance of scanned codes and general bonus points calculation throughout working quarter",
+   "прозора система лояльності для продавців компанії працює на більш ніж 500 торгових точках по всій країні. Зросла мотивація продавців, з'явився елемент змагання, середній чек по місту збільшився на 15%." : "transparent loyalty system for employees is operational at more than 500 retail outlets throughout the country. Vendors' motivation has increased, competitive spirit introdused, average bill in the city has increased 15%",
 
-"Результат:" : "Result:",
-"прозора система лояльності для продавців компанії працює на більш ніж 500 торгових точках по всій країні. Зросла мотивація продавців, з'явився елемент змагання, середній чек по місту збільшився на 15%." : "transparent loyalty system for employees is operational at more than 500 retail outlets throughout the country. Vendors' motivation has increased, competitive spirit introdused, average bill in the city has increased 15%",
+   "Rest bot" : "Rest bot",
 
-"Rest bot" : "Rest bot",
+   "Віртуальний менеджер ресторану." : "Virtual restaurant manager",
 
-"Віртуальний менеджер ресторану." : "Virtual restaurant manager",
+   "Розповідає гостям, скільки вільних місць у закладі, показує меню, допомогає вибрати їжу та напої. Має можливість зарезервувати будь-який столик на ваш вибір або навіть усі заклади для великого свята. Приймає відгуки щодо роботи ресторану" : "Tells the guests how many seats are available, displays menu, helps to pick the food and drinks. Is able to reserve any table of your choice, or even all of the facilities for bigger event. Accepts feedback on restaurant's performance.",
 
-"Розповідає гостям, скільки вільних місць у закладі, показує меню, допомогає вибрати їжу та напої. Має можливість зарезервувати будь-який столик на ваш вибір або навіть усі заклади для великого свята. Приймає відгуки щодо роботи ресторану" : "Tells the guests how many seats are available, displays menu, helps to pick the food and drinks. Is able to reserve any table of your choice, or even all of the facilities for bigger event. Accepts feedback on restaurant's performance.",
 
-"Можливості" : "Features",
+   "передача даних клієнта з Telegram-профілю (ім'я, прізвище, номер телефону) до адмін панелі сервісу в один клік" : "client data transfer from Telegram profile (name, surname, telephone number) to admin service panel in a single click",
+   "можливість забронювати столик у ресторані: вибір часу, дати, кількості людей" : "the ability to reserve a table at the restaurant: time, date, number of attendees selection",
+   "система інформаційних розсилок для тих, хто розпочав діалог з ботом" : "newsletter distribution system for those who started bot dialogue",
+   "зручна та проста адміністративна панель для збору інформації про замовлення" : "easy to use administrative panel for booking information collection",
+   "редагування інформації про роботу через адміністративну панель" : "work information editing through admin panel",
 
-"платформа: Telegram" : "platform: Telegram",
-"передача даних клієнта з Telegram-профілю (ім'я, прізвище, номер телефону) до адмін панелі сервісу в один клік" : "client data transfer from Telegram profile (name, surname, telephone number) to admin service panel in a single click",
-"можливість забронювати столик у ресторані: вибір часу, дати, кількості людей" : "the ability to reserve a table at the restaurant: time, date, number of attendees selection",
-"система інформаційних розсилок для тих, хто розпочав діалог з ботом" : "newsletter distribution system for those who started bot dialogue",
-"зручна та проста адміністративна панель для збору інформації про замовлення" : "easy to use administrative panel for booking information collection",
-"редагування інформації про роботу через адміністративну панель" : "work information editing through admin panel",
+   "підвищилася швидкість обробки замовлень - кожне шосте замовлення ресторан отримує через бота. Дані клієнтів передаються в CRM-систему для подальших розсилок про акції та пропозиції ресторану" : "order processing speed is improved - every sixth order is made using bot. Client data is transfered to CRM system for further newsletter distribution about restaurant's promotions",
 
-"Результат:" : "Result",
-"підвищилася швидкість обробки замовлень - кожне шосте замовлення ресторан отримує через бота. Дані клієнтів передаються в CRM-систему для подальших розсилок про акції та пропозиції ресторану" : "order processing speed is improved - every sixth order is made using bot. Client data is transfered to CRM system for further newsletter distribution about restaurant's promotions",
+   "Бот з продажу масел Shell" : "Shell oil selling bot",
 
-"Бот з продажу масел Shell" : "Shell oil selling bot",
+   "Дозволяє підібрати та придбати масло для вашого автомобіля." : "Lets you choose and purchase oil for your automobile.",
 
-"Дозволяє підібрати та придбати масло для вашого автомобіля." : "Lets you choose and purchase oil for your automobile.",
+   "Призначений для допомоги у виборі олії для клієнтів компанії Shell. Дозволяє знайти потрібну олію та придбати її. Розсилає повідомлення та запрошує брати участь в акціях. Бот працює за функціоналом широкого API з отриманням великих масивів даних кожного клієнта." : "Is designed to help choose the oil for Shell company clients. Allows to find and buy the necessary oil. Sends out newsletters and invites to participate in promotions. Bot uses wide API functionality and receives massive amounts of data on each client.",
 
-"Призначений для допомоги у виборі олії для клієнтів компанії Shell. Дозволяє знайти потрібну олію та придбати її. Розсилає повідомлення та запрошує брати участь в акціях. Бот працює за функціоналом широкого API з отриманням великих масивів даних кожного клієнта." : "Is designed to help choose the oil for Shell company clients. Allows to find and buy the necessary oil. Sends out newsletters and invites to participate in promotions. Bot uses wide API functionality and receives massive amounts of data on each client.",
 
-"Можливості" : "Features",
+   "Реєстрація за номерами телефонів з підтвердженням API" : "Registration using phone numbers with API confirmation",
+   "Глобальний каталог товарів з персональними цінами" : "Global product catalogue with personalized prices",
+   "Мультифункціональний кошик з можливістю редагування замовлення та прорахунком ціни" : "Multifunctional wallet with the ability to edit the order and calculate the prices",
+   "Оформлення замовлення на адреси та методи оплати клієнта, що передаються за API" : "Order processing according to client's address and payment method, transfered via API",
+   "Мапа масел, що надає можливість підбору оптимального масла для автомобіля за декількома параметрами" : "Oil selection map, to pick the optimal oil by multiple properties",
+   "Адміністративна панель для редагування наповнення бота" : "Admin panel to edit bot contents",
+   "Система FAQ та підтримки клієнта з інтеграцією з API" : "FAQ system and client support with API integration",
 
-"платформа: Telegram" : "platform: Telegram",
-"Реєстрація за номерами телефонів з підтвердженням API" : "Registration using phone numbers with API confirmation",
-"Глобальний каталог товарів з персональними цінами" : "Global product catalogue with personalized prices",
-"Мультифункціональний кошик з можливістю редагування замовлення та прорахунком ціни" : "Multifunctional wallet with the ability to edit the order and calculate the prices",
-"Оформлення замовлення на адреси та методи оплати клієнта, що передаються за API" : "Order processing according to client's address and payment method, transfered via API",
-"Мапа масел, що надає можливість підбору оптимального масла для автомобіля за декількома параметрами" : "Oil selection map, to pick the optimal oil by multiple properties",
-"Адміністративна панель для редагування наповнення бота" : "Admin panel to edit bot contents",
-"Система FAQ та підтримки клієнта з інтеграцією з API" : "FAQ system and client support with API integration",
-
-"Результат:" : "Result",
-"Зростання продажів моторних масел, зниження навантаження на відділ підтримки завдяки інформативності наповнення бота. Зростання мотивації придбання моторних масел завдяки системі оповіщень про акції та унікальні пропозиції." : "Sales growth of motor oils, burden redution of support department thanks to informative bot contents. The increased motivation for buying motor oils because of newslettes and promotion notifications.",
+   "Зростання продажів моторних масел, зниження навантаження на відділ підтримки завдяки інформативності наповнення бота. Зростання мотивації придбання моторних масел завдяки системі оповіщень про акції та унікальні пропозиції." : "Sales growth of motor oils, burden redution of support department thanks to informative bot contents. The increased motivation for buying motor oils because of newslettes and promotion notifications.",
 
    "0" : "0"
 
