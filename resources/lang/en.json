@@ -16,7 +16,11 @@
 
    "Бухгалтер Чарлі" : "Charlie The Accountant",
 
-   "Чат-бот фірми, що займається шиттям шуб. Бот-бухгалтер для ведення звітності про замовлення та продажі. Дає можливість вносити нові продажі та замовлення постачання товарів у всі магазини компанії, щодня формує звіти для 1С." : "Chatbot of the fur coat manufacturer. Accountant bot to keep records of orders and sales. Enables the addition of new sales and the commission of goods supply to all company stores, forms everyday reports for 1C",
+   "Чат-бот фірми, що займається шиттям шуб." : "Chatbot of the fur coat manufacturer.", 
+   "Бот-бухгалтер для ведення звітності про замовлення та продажі." : "Accountant bot to keep records of orders and sales.",
+   "Дає можливість вносити нові продажі та замовлення постачання товарів у всі магазини компанії, щодня формує звіти для 1С." : "Enables the addition of new sales and the commission of goods supply to all company stores, forms everyday reports for 1C",
+
+   "Читати далі" : "Read more",
 
    "Можливості" : "Features",
 
@@ -35,7 +39,7 @@
 
    "Основною метою робота є впровадження програми лояльності для заохочення працьовитих співробітників компанії. Допомагає співробітнику вивести бонусні бали від продажу шин методом сканування QR-кодів із фізичних чеків. Також має інтеграцію з API клієнта, яка дозволяє вести діалог з техпідтримкою, залишати заявки на комунікацію, уточнювати свій статус та баланс за програмою лояльності." : "The bot's main goal is loyalty program implementation to encourage the hardworking employees. It helps to calculate bonus points gained through tire sales via physical checks QR-code scanning. Integrates with client's API to establish a dialogue with tech support, leave communication request, check status and balance according to loyalty program.",
 
-   "інтегрована взаємодія з техпідтримкою у форматі «питання-відповідь» та можливістю вкладення закодованих файлів у будь-якому форматі" : "integrated tech support communication through \"question-answer\" style with the support for the attachment of encrypted files in any format",
+   "інтегрована взаємодія з техпідтримкою у форматі «питання-відповідь» та можливістю вкладення закодованих файлів у будь-якому форматі" : "integrated tech support communication through «question-answer» style with the support for the attachment of encrypted files in any format",
    "інтеграція з багатофункціональним API" : "multifunctional API integration",
    "розпізнавання QR-кодів та подальша їх передача по API" : "QR-code recognition with further API transfer",
    "реєстрація та авторизація користувача з кількома ступенями верифікації та підтримкою редагування профілю" : "user registration and authorization with 2-step verification and the support for profile editing",
