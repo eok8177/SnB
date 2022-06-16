@@ -7,7 +7,7 @@
   <div class="row align-items-center">
 
     <div class="col-lg-6">
-      <h1 class="title">Мы создаем <br> ботов</h1>
+      <h1 class="title">@lang("Ми створюємо <br> ботів")</h1>
       <div class="image d-lg-none bots-mobile-image" style="overflow-x: hidden;"><img src="/img/m-bots.svg" alt="сайты" class="img-fluid wow backInRight" style="visibility: hidden;"></div>
 
       <div class="row">
