@@ -2,7 +2,9 @@
 
 @push('styles')
 <script>
-  window.location.href = '/sites';
+  if (screen.width < 768) {
+    window.location.href = '/sites';
+  }
 </script>
 @endpush
 
