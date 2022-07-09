@@ -20,7 +20,7 @@
   </div>
   <div class="bots">
     <div class="block">
-      <h1 class="title">@lang('Boots')</h1>
+      <h1 class="title">@lang('Bots')</h1>
       <span class="main-bots"></span>
       <a href="/{{$lang}}bots" class="button">@lang('Watch')</a>
     </div>

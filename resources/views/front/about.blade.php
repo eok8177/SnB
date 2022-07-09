@@ -33,7 +33,7 @@
 
         <div class="col-md-4">
           <h4 class="sub-title">@lang('Why us')</h4>
-          <p>@lang('While working with us you won't need any other contractors. We will turn your idea into a сomprehensive product. We will support and develop it, and create the necessary features for your business.')</p>
+          <p>@lang("While working with us you won't need any other contractors. We will turn your idea into a сomprehensive product. We will support and develop it, and create the necessary features for your business.")</p>
         </div>
 
       </div>

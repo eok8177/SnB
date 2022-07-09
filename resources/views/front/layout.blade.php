@@ -23,7 +23,7 @@
         <a class="nav-link {{ Request::is('contact') ? 'active' : '' }}" href="/{{$lang}}contact" title="@lang('Contacts')">@lang('Contacts')</a>
 
         <span class="ms-auto blocks {{ (Request::is('bots') || Request::is('sites')) ? 'single' : 'dual' }}">
-          <a class="nav-link bots {{ Request::is('*bots') ? 'd-none' : '' }}" href="/{{$lang}}bots" title="@lang('Boots')">@lang('Bots')</a>
+          <a class="nav-link bots {{ Request::is('*bots') ? 'd-none' : '' }}" href="/{{$lang}}bots" title="@lang('Bots')">@lang('Bots')</a>
           <a class="nav-link sites {{ Request::is('*sites') ? 'd-none' : '' }}" href="/{{$lang}}sites" title="@lang('Sites')">@lang('Sites')</a>
         </span>
 
