@@ -1,5 +1,5 @@
 {
-   "Ми створюємо <br> ботів" : "We develop <br> bots",
+   "Створення <br> ботів" : "We develop <br> bots",
 
    "Наші роботи автоматизують складні процеси в компаніях" : "Our bots automate complex company tasks",
 
@@ -8,19 +8,19 @@
 
    "Приймають замовлення і оплати, відповідають на питання, що часто ставляться, допомагають краще дізнатися продукт. Збирають відгуки клієнтів, розсилають їм спеціальні пропозиції та акції." : "Accept orders and payments, answer frequently asked questions, help describe the product better. Gather client's feedback, send out special offers and promotions",
 
-   "Розрахувати проект" : "Calculate project",
+   "Оцінити проект" : "Calculate project",
 
    "Боти функціонують 24/7, підтримуючи та оптимізуючи процеси без зовнішнього втручання. Виконують рутинну роботу менеджерів, бухгалтерів, технічної підтримки." : "Bots are operational 24/7, supporting and optimizing tasks without the need for outside maintenance. They perform the routine duties of managers, accountants, technical assistants.",
 
    "Проекти, які ми запустили" : "Projects we launched",
 
-   "Бухгалтер Чарлі" : "Charlie The Accountant",
+   "Бухгалтер Чарлi" : "Charlie The Accountant",
 
    "Чат-бот фірми, що займається шиттям шуб." : "Chatbot of the fur coat manufacturer.", 
    "Бот-бухгалтер для ведення звітності про замовлення та продажі." : "Accountant bot to keep records of orders and sales.",
    "Дає можливість вносити нові продажі та замовлення постачання товарів у всі магазини компанії, щодня формує звіти для 1С." : "Enables the addition of new sales and the commission of goods supply to all company stores, forms everyday reports for 1C",
 
-   "Читати далі" : "Read more",
+   "Читати далi" : "Read more",
 
    "Можливості" : "Features",
 
@@ -33,7 +33,7 @@
    "Результат:" : "Result",
    "значне зростання мотивації співробітників та рівня їх задоволення виконаною роботою за рахунок отримання подяк від клієнтів." : "highly increased motivation of employees and completed job satisfaction because of client's gratitude",
 
-   "Бот програми лояльності" : "Loyalty program bot",
+   "Бот програми лояльностi" : "Loyalty program bot",
 
    "Закритий чат-бот для компанії-виробника автомобільних шин" : "Closed chatbot for automobile tire manufacturing company",
 
@@ -78,6 +78,8 @@
    "Система FAQ та підтримки клієнта з інтеграцією з API" : "FAQ system and client support with API integration",
 
    "Зростання продажів моторних масел, зниження навантаження на відділ підтримки завдяки інформативності наповнення бота. Зростання мотивації придбання моторних масел завдяки системі оповіщень про акції та унікальні пропозиції." : "Sales growth of motor oils, burden redution of support department thanks to informative bot contents. The increased motivation for buying motor oils because of newslettes and promotion notifications.",
+
+   "Приховати" : "Hide",
 
    "0" : "0"
 

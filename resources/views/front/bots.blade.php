@@ -7,7 +7,7 @@
   <div class="row align-items-center">
 
     <div class="col-lg-6">
-      <h1 class="title">@lang("Ми створюємо <br> ботів")</h1>
+      <h1 class="title">@lang("Створення <br> ботів")</h1>
       <div class="image d-lg-none bots-mobile-image" style="overflow-x: hidden;"><img src="/img/m-bots.svg" alt="сайты" class="img-fluid wow backInRight" style="visibility: hidden;"></div>
 
       <div class="row">
@@ -23,7 +23,7 @@
         </div>
       </div>
 
-      <button class="button fixed" data-bs-toggle="modal" data-bs-target="#contactModal">@lang("Розрахувати проект")</button>
+      <button class="button fixed" data-bs-toggle="modal" data-bs-target="#contactModal">@lang("Оцінити проект")</button>
     </div>
 
     <div class="col-lg-6 d-none d-lg-block text-center">
@@ -53,7 +53,7 @@
     <div class="container">
       <div class="row align-items-end">
         <div class="col-lg-8">
-          <h2 class="text-center d-lg-none">@lang("Бухгалтер Чарлі")</h2>
+          <h2 class="text-center d-lg-none">@lang("Бухгалтер Чарлi")</h2>
 
           <div class="owl-carousel owl-theme" data-pause="0">
             <div class="item"><img src="/images/charly/01.jpg" alt="" class="img-fluid"></div>
@@ -65,11 +65,11 @@
         </div>
         <div class="col-lg-4" style="overflow-x: hidden;">
           <div class="wow backInRight">
-            <h2 class="d-none d-lg-block">@lang("Бухгалтер Чарлі")</h2>
+            <h2 class="d-none d-lg-block">@lang("Бухгалтер Чарлi")</h2>
             <p><b>@lang("Чат-бот фірми, що займається шиттям шуб.")</b></p>
             <p>@lang("Бот-бухгалтер для ведення звітності про замовлення та продажі.")</p>
             <p>@lang("Дає можливість вносити нові продажі та замовлення постачання товарів у всі магазини компанії, щодня формує звіти для 1С.")</p>
-            <button class="button more btn-more closed" data-open="@lang('Читати далі')" data-close="Скрыть">@lang("Читати далі")</button>
+            <button class="button more btn-more closed" data-open="@lang('Читати далi')" data-close="@lang('Приховати')">@lang("Читати далi")</button>
           </div>
         </div>
       </div>
@@ -97,7 +97,7 @@
     <div class="container">
       <div class="row align-items-end">
         <div class="col-lg-8">
-          <h2 class="text-center d-lg-none"><span class="">@lang("Бот програми лояльності")</h2>
+          <h2 class="text-center d-lg-none"><span class="">@lang("Бот програми лояльностi")</h2>
 
           <div class="owl-carousel owl-theme" data-pause="1000">
             <div class="item"><img src="/images/loyalty/01.jpg" alt="" class="img-fluid"></div>
@@ -109,10 +109,10 @@
         </div>
         <div class="col-lg-4" style="overflow-x: hidden;">
           <div class="wow backInRight">
-            <h2 class="d-none d-lg-block"><span class="">@lang("Бот програми лояльності")</h2>
+            <h2 class="d-none d-lg-block"><span class="">@lang("Бот програми лояльностi")</h2>
             <p>@lang("Закритий чат-бот для компанії-виробника автомобільних шин")</p>
             <p>@lang("Основною метою робота є впровадження програми лояльності для заохочення працьовитих співробітників компанії. Допомагає співробітнику вивести бонусні бали від продажу шин методом сканування QR-кодів із фізичних чеків. Також має інтеграцію з API клієнта, яка дозволяє вести діалог з техпідтримкою, залишати заявки на комунікацію, уточнювати свій статус та баланс за програмою лояльності.")</p>
-            <button class="button more btn-more closed" data-open="@lang('Читати далі')" data-close="Скрыть">@lang("Читати далі")</button>
+            <button class="button more btn-more closed" data-open="@lang('Читати далi')" data-close="@lang('Приховати')">@lang("Читати далi")</button>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@
             <h2 class="d-none d-lg-block"><span class="">@lang("Rest bot")</h2>
             <p>@lang("Віртуальний менеджер ресторану.")</p>
             <p>@lang("Розповідає гостям, скільки вільних місць у закладі, показує меню, допомогає вибрати їжу та напої. Має можливість зарезервувати будь-який столик на ваш вибір або навіть усі заклади для великого свята. Приймає відгуки щодо роботи ресторану")</p>
-            <button class="button more btn-more closed" data-open="@lang('Читати далі')" data-close="Скрыть">@lang("Читати далі")</button>
+            <button class="button more btn-more closed" data-open="@lang('Читати далi')" data-close="@lang('Приховати')">@lang("Читати далi")</button>
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@
             <h2 class="d-none d-lg-block"><span class="">@lang("Бот з продажу масел Shell")</h2>
             <p>@lang("Дозволяє підібрати та придбати масло для вашого автомобіля.")</p>
             <p>@lang("Призначений для допомоги у виборі олії для клієнтів компанії Shell. Дозволяє знайти потрібну олію та придбати її. Розсилає повідомлення та запрошує брати участь в акціях. Бот працює за функціоналом широкого API з отриманням великих масивів даних кожного клієнта.")</p>
-            <button class="button more btn-more closed" data-open="@lang('Читати далі')" data-close="Скрыть">@lang("Читати далі")</button>
+            <button class="button more btn-more closed" data-open="@lang('Читати далi')" data-close="@lang('Приховати')">@lang("Читати далi")</button>
           </div>
         </div>
       </div>
