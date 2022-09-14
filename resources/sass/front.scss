@@ -345,6 +345,9 @@ body.home-page {
                 color: $primary-red;
             }
             &.active {display: none;}
+            @media (max-width: 400px) {
+                font-size: 21px;
+            }
         }
         .blocks {
             .nav-link {
@@ -358,6 +361,9 @@ body.home-page {
                 padding: 20px 30px;
                 &:active, &.active {
                     color: $primary-blue;
+                }
+                @media (max-width: 400px) {
+                    padding: 20px 12px;
                 }
             }
             &.dual {
