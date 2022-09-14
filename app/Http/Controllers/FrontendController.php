@@ -48,7 +48,7 @@ class FrontendController extends Controller
         Mail::send('email.callme', ['text' => $text], function ($m) use ($text) {
           $m->from('eok8177@gmail.com', 'sitesandbots.com');
 
-          $m->to('eok8177@gmail.com')->subject('S&B обращение клиента');
+          $m->to('dasat107@gmail.com')->subject('S&B обращение клиента');
         });
 
         return 'success';
