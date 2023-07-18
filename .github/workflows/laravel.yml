@@ -1,0 +1,51 @@
+name: Laravel
+
+on:
+  push:
+    branches: [ "master" ]
+
+jobs:
+  laravel-deploy:
+
+    runs-on: self-hosted
+
+    steps:
+    - name: Checkout branch
+      run: |
+        cd /var/www/snb;
+        git checkout master;
+        
+    - name: Pull master branch
+      run: |
+        cd /var/www/snb;
+        git pull origin master;
+        
+    - name: Install Dependencies
+      run: |
+        cd /var/www/snb;
+        composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+    
+    - name: Migrations
+      run: |
+        cd /var/www/snb;
+        php artisan migrate
+        
+    - name: Flush the application cache
+      run: |
+        cd /var/www/snb;
+        php artisan cache:clear
+    
+    - name: Remove the configuration cache file
+      run: |
+        cd /var/www/snb;
+        php artisan config:clear
+    
+    - name: Remove the configuration cache file
+      run: |
+        cd /var/www/snb;
+        php artisan view:clear
+        
+    - name: Remove the route cache file
+      run: |
+        cd /var/www/snb;
+        php artisan route:clear
