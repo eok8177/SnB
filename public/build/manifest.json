@@ -1,0 +1,82 @@
+{
+  "resources/css/app.css": {
+    "file": "app.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/css/front.scss": {
+    "file": "front.css",
+    "isEntry": true,
+    "src": "resources/css/front.scss"
+  },
+  "resources/fonts/bebasneuebold.ttf": {
+    "file": "fonts/bebasneuebold.ttf",
+    "src": "resources/fonts/bebasneuebold.ttf"
+  },
+  "resources/fonts/bebasneuebold.woff": {
+    "file": "fonts/bebasneuebold.woff",
+    "src": "resources/fonts/bebasneuebold.woff"
+  },
+  "resources/fonts/bebasneuebook.ttf": {
+    "file": "fonts/bebasneuebook.ttf",
+    "src": "resources/fonts/bebasneuebook.ttf"
+  },
+  "resources/fonts/bebasneuebook.woff": {
+    "file": "fonts/bebasneuebook.woff",
+    "src": "resources/fonts/bebasneuebook.woff"
+  },
+  "resources/fonts/jurabook.ttf": {
+    "file": "fonts/jurabook.ttf",
+    "src": "resources/fonts/jurabook.ttf"
+  },
+  "resources/fonts/jurabook.woff": {
+    "file": "fonts/jurabook.woff",
+    "src": "resources/fonts/jurabook.woff"
+  },
+  "resources/fonts/jurabook.woff2": {
+    "file": "fonts/jurabook.woff2",
+    "src": "resources/fonts/jurabook.woff2"
+  },
+  "resources/fonts/jurademi-bold.ttf": {
+    "file": "fonts/jurademi-bold.ttf",
+    "src": "resources/fonts/jurademi-bold.ttf"
+  },
+  "resources/fonts/jurademi-bold.woff": {
+    "file": "fonts/jurademi-bold.woff",
+    "src": "resources/fonts/jurademi-bold.woff"
+  },
+  "resources/fonts/jurademi-bold.woff2": {
+    "file": "fonts/jurademi-bold.woff2",
+    "src": "resources/fonts/jurademi-bold.woff2"
+  },
+  "resources/fonts/juramedium.ttf": {
+    "file": "fonts/juramedium.ttf",
+    "src": "resources/fonts/juramedium.ttf"
+  },
+  "resources/fonts/juramedium.woff": {
+    "file": "fonts/juramedium.woff",
+    "src": "resources/fonts/juramedium.woff"
+  },
+  "resources/fonts/juramedium.woff2": {
+    "file": "fonts/juramedium.woff2",
+    "src": "resources/fonts/juramedium.woff2"
+  },
+  "resources/img/main-bots.svg": {
+    "file": "img/main-bots.svg",
+    "src": "resources/img/main-bots.svg"
+  },
+  "resources/img/main-sites.svg": {
+    "file": "img/main-sites.svg",
+    "src": "resources/img/main-sites.svg"
+  },
+  "resources/js/app.js": {
+    "file": "app2.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/front.js": {
+    "file": "front2.js",
+    "isEntry": true,
+    "src": "resources/js/front.js"
+  }
+}
