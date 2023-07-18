@@ -1,54 +1,36 @@
 <?php
 
-Auth::routes(['verify' => true]);
-Route::get('/redirect-to', ['as' => 'redirect', 'uses' => 'Admin\UserController@redirectTo']);
+use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\FrontendController;
+use Illuminate\Support\Facades\Route;
 
-// Social login
-Route::get('/login/{social}','Auth\LoginController@socialLogin')->where('social','twitter|facebook|linkedin|google|github|bitbucket');
-Route::get('/login/{social}/callback','Auth\LoginController@handleProviderCallback')->where('social','twitter|facebook|linkedin|google|github|bitbucket');
 
-//Image resize & crop on view:  http://image.intervention.io/
-Route::get('/resize/{w}/{h}',function($w=null, $h=null){
-  $img = Illuminate\Support\Facades\Request::input("img");
-  return \Image::make(public_path(urldecode($img)))->fit($w, $h, function ($constraint) {
-      $constraint->upsize();
-  })->response('jpg');
+
+Route::get('/dashboard', function () {
+    return view('dashboard');
+})->middleware(['auth', 'verified'])->name('dashboard');
+
+Route::middleware('auth')->group(function () {
+    Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');
+    Route::patch('/profile', [ProfileController::class, 'update'])->name('profile.update');
+    Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
-// Backend
-Route::group([
-    'prefix' => 'admin',
-    'namespace' => 'Admin',
-    'as' => 'admin.',
-    'middleware' => 'roles',
-    'roles' => ['admin']
-  ], function() {
-
-    Route::get('/', ['uses' => 'PageController@index']);
-
-    Route::resource('user', 'UserController');
-
-    Route::resource('page', 'PageController');
-
-    Route::get('block/{block}/setting', ['as' => 'block.setting', 'uses' => 'BlockController@setting']);
-    Route::resource('block', 'BlockController');
-
-});
-
+require __DIR__.'/auth.php';
 
 
 // Frontend
 // GET routes
 $optionalLanguageRoutes = function() {
-    $locale = Request::segment(1) == 'ua' ? 'ua' : 'en';
-    App::setLocale($locale);
+    $locale = request()->segment(1) == 'ua' ? 'ua' : 'en';
+    app()->setLocale($locale);
 
-    Route::get('/', ['as' => 'index', 'uses' => 'FrontendController@index']);
-    Route::get('/sites', ['as' => 'sites', 'uses' => 'FrontendController@sites']);
-    Route::get('/bots', ['as' => 'bots', 'uses' => 'FrontendController@bots']);
-    Route::get('/about', ['as' => 'about', 'uses' => 'FrontendController@about']);
-    Route::get('/contact', ['as' => 'contact', 'uses' => 'FrontendController@contact']);
-    Route::get('/{slug}', ['as' => 'page', 'uses' => 'FrontendController@page']);
+    Route::get('/', [FrontendController::class, 'index'])->name('index');
+    Route::get('/sites', [FrontendController::class, 'sites'])->name('sites');
+    Route::get('/bots', [FrontendController::class, 'bots'])->name('bots');
+    Route::get('/about', [FrontendController::class, 'about'])->name('about');
+    Route::get('/contact', [FrontendController::class, 'contact'])->name('contact');
+    Route::get('/{slug}', [FrontendController::class, 'page'])->name('page');
 };
 
 // POST routes
@@ -56,7 +38,7 @@ Route::group([
     'as' => 'front.',
     // 'namespace' => 'Front'
 ], function() {
-  Route::post('/email', ['as' => 'email', 'uses' => 'FrontendController@email']);
+  Route::post('/email', [FrontendController::class, 'email'])->name('email');
 });
 
 Route::group([

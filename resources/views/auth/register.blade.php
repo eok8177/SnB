@@ -1,134 +1,52 @@
-@extends('auth.layout')
+<x-guest-layout>
+    <form method="POST" action="{{ route('register') }}">
+        @csrf
 
-@section('content')
-<div class="container">
-    <div class="row justify-content-md-center mt-5">
-        <div class="col-md-8">
-            <div class="card">
-                <div class="card-header">Register</div>
-                <div class="card-body">
-                    <form role="form" method="POST" action="{{ url('/register') }}">
-                        {!! csrf_field() !!}
-
-                        <div class="form-group row">
-                            <label class="col-lg-4 col-form-label text-lg-right">First Name</label>
-
-                            <div class="col-lg-6">
-                                @if(!empty($first_name))
-                                <input id="first_name" type="text" class="form-control{{ $errors->has('first_name') ? ' is-invalid' : '' }}" name="first_name" value="{{$first_name}}" required>
-                                @else
-                                <input id="first_name" type="text" class="form-control{{ $errors->has('first_name') ? ' is-invalid' : '' }}" name="first_name" value="{{ old('first_name') }}" required>
-                                @endif
-
-                                @if ($errors->has('first_name'))
-                                    <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('first_name') }}</strong>
-                                    </div>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-lg-4 col-form-label text-lg-right">Last Name</label>
-
-                            <div class="col-lg-6">
-                                @if(!empty($last_name))
-                                <input id="last_name" type="text" class="form-control{{ $errors->has('last_name') ? ' is-invalid' : '' }}" name="last_name" value="{{$last_name}}" required>
-                                @else
-                                <input id="last_name" type="text" class="form-control{{ $errors->has('last_name') ? ' is-invalid' : '' }}" name="last_name" value="{{ old('last_name') }}" required>
-                                @endif
-
-                                @if ($errors->has('last_name'))
-                                    <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('last_name') }}</strong>
-                                    </div>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-lg-4 col-form-label text-lg-right">E-Mail Address</label>
-
-                            <div class="col-lg-6">
-                                @if(!empty($email))
-                                <input id="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{$email}}" required>
-                                @else
-                                <input id="email" type="text" class="form-control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required>
-                                @endif
-
-                                @if ($errors->has('email'))
-                                    <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('email') }}</strong>
-                                    </div>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-lg-4 col-form-label text-lg-right">Login</label>
-
-                            <div class="col-lg-6">
-                                <input id="login" type="text" class="form-control{{ $errors->has('login') ? ' is-invalid' : '' }}" name="login" value="{{ old('login') }}" required>
-
-                                @if ($errors->has('login'))
-                                    <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('login') }}</strong>
-                                    </div>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-lg-4 col-form-label text-lg-right">Password</label>
-
-                            <div class="col-lg-6">
-                                <input
-                                        type="password"
-                                        class="form-control{{ $errors->has('password') ? ' is-invalid' : '' }}"
-                                        name="password"
-                                        required
-                                >
-                                @if ($errors->has('password'))
-                                    <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('password') }}</strong>
-                                    </div>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <label class="col-lg-4 col-form-label text-lg-right">Confirm Password</label>
-
-                            <div class="col-lg-6">
-                                <input
-                                        type="password"
-                                        class="form-control{{ $errors->has('password_confirmation') ? ' is-invalid' : '' }}"
-                                        name="password_confirmation"
-                                        required
-                                >
-                                @if ($errors->has('password_confirmation'))
-                                    <div class="invalid-feedback">
-                                        <strong>{{ $errors->first('password_confirmation') }}</strong>
-                                    </div>
-                                @endif
-                            </div>
-                        </div>
-
-                        <div class="form-group row">
-                            <div class="col-lg-6 offset-lg-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Register
-                                </button>
-                            </div>
-                        </div>
-
-                        <input type="hidden" name="social_id" value="{{$social_id ?? ''}}">
-                        <input type="hidden" name="avatar" value="{{$avatar ?? ''}}">
-
-                    </form>
-                </div>
-            </div>
+        <!-- Name -->
+        <div>
+            <x-input-label for="name" :value="__('Name')" />
+            <x-text-input id="name" class="block mt-1 w-full" type="text" name="name" :value="old('name')" required autofocus autocomplete="name" />
+            <x-input-error :messages="$errors->get('name')" class="mt-2" />
         </div>
-    </div>
-</div>
-@endsection
+
+        <!-- Email Address -->
+        <div class="mt-4">
+            <x-input-label for="email" :value="__('Email')" />
+            <x-text-input id="email" class="block mt-1 w-full" type="email" name="email" :value="old('email')" required autocomplete="username" />
+            <x-input-error :messages="$errors->get('email')" class="mt-2" />
+        </div>
+
+        <!-- Password -->
+        <div class="mt-4">
+            <x-input-label for="password" :value="__('Password')" />
+
+            <x-text-input id="password" class="block mt-1 w-full"
+                            type="password"
+                            name="password"
+                            required autocomplete="new-password" />
+
+            <x-input-error :messages="$errors->get('password')" class="mt-2" />
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="mt-4">
+            <x-input-label for="password_confirmation" :value="__('Confirm Password')" />
+
+            <x-text-input id="password_confirmation" class="block mt-1 w-full"
+                            type="password"
+                            name="password_confirmation" required autocomplete="new-password" />
+
+            <x-input-error :messages="$errors->get('password_confirmation')" class="mt-2" />
+        </div>
+
+        <div class="flex items-center justify-end mt-4">
+            <a class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500" href="{{ route('login') }}">
+                {{ __('Already registered?') }}
+            </a>
+
+            <x-primary-button class="ml-4">
+                {{ __('Register') }}
+            </x-primary-button>
+        </div>
+    </form>
+</x-guest-layout>

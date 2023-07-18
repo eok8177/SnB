@@ -18,7 +18,7 @@ class UserController extends Controller
 
         $roles = [
             'admin' => 'Administrator',
-            'user' => 'Client',
+            'user' => 'User',
         ];
 
         $role = $request->input('role', false);
@@ -81,7 +81,6 @@ class UserController extends Controller
     {
         $request->validate([
             'email' => Rule::unique('users')->ignore($user->id),
-            'login' => Rule::unique('users')->ignore($user->id),
         ]);
 
         $data = $request->except('groups');

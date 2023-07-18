@@ -8,7 +8,7 @@
   <title>{{ config('app.name', 'Laravel') }}</title>
 
   @stack('pre-styles')
-  <link href="{{ asset('css/front.css') }}?v={{time()}}" rel="stylesheet">
+  <link href="{{ asset('build/front.css') }}?v={{time()}}" rel="stylesheet">
 
   @stack('styles')
 </head>
@@ -174,7 +174,7 @@
   </div>
 
   <!-- Scripts -->
-  <script src="{{ asset('js/front.js') }}?v={{time()}}"></script>
+  <script src="{{ asset('build/front2.js') }}?v={{time()}}"></script>
   @stack('scripts')
 </body>
 </html>

@@ -1,13 +1,10 @@
-try {
-    // window.Popper = require('popper.js').default;
-    window.$ = window.jQuery = require('jquery');
-    window.mask = $.mask = require('jquery-mask-plugin');
+import * as bootstrap from 'bootstrap'
+import $ from 'jquery'
+window.jQuery = window.$ = $
+import 'jquery-mask-plugin'
+import 'wowjs'
 
-    require('bootstrap');
-} catch (e) {}
-
-  const WOW = require('wowjs');
-  window.wow = new WOW.WOW({ live: false });
+window.wow = new WOW({ live: false });
 
 $(function () {
 
@@ -34,7 +31,7 @@ $(function () {
 
 
   //Submit ajax form
-  $('.feedback-form').submit(function(e){
+  $('.feedback-form').on('submit',function(e){
     e.preventDefault();
     let form = $(this);
     if (validateForm(form))
@@ -46,7 +43,7 @@ $(function () {
     return false;
   }); 
 
-  $('.footer-form').submit(function(e){
+  $('.footer-form').on('submit',function(e){
     e.preventDefault();
     let form = $(this);
     if (validateForm(form))
@@ -58,7 +55,7 @@ $(function () {
     return false;
   }); 
 
-  $(".only-text").keyup(function(event){
+  $(".only-text").on('keyup',function(event){
       this.value = this.value.replace(/[^а-яёіїєa-z'\s]/ig, "");
   });
 
