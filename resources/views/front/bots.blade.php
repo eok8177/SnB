@@ -72,7 +72,7 @@
       </div>
 
       <div class="block-more">
-        <div class="block-inner pb-2">
+        <div class="block-inner">
           <p class="mb-2">@lang("Можливості")</p>
           {!! $block->text !!}
           @if($block->url)
