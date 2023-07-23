@@ -1,0 +1,47 @@
+// Fonts
+@import url('https://fonts.bunny.net/css?family=Nunito');
+
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+.fs-7 {font-size: 0.8em;}
+
+.drag {cursor: move;}
+body.dragging, body.dragging * {
+  cursor: move !important;
+}
+.sorted {
+  .dragged {
+    position: absolute;
+    z-index: 2000;
+    background: rgba(#fff, 0.5);
+    border: 1px solid rgba(#000, 0.13);
+  }
+  .placeholder {
+    position: relative;
+    min-height: 41px;
+  }
+  .placeholder:before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-left-color: red;
+    margin-top: -5px;
+    left: 0;
+    border-right: none;
+    top: 0; bottom: 0;
+    margin: auto;
+  }
+  i.move {cursor: move;}
+}

@@ -1,5 +1,6 @@
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
+// import vue from '@vitejs/plugin-vue';
 import { viteStaticCopy } from 'vite-plugin-static-copy'
 
 export default defineConfig({
@@ -21,18 +22,29 @@ export default defineConfig({
               },
             }
         },
+        emptyOutDir: false,
     },
     plugins: [
         laravel({
             input: [
-                'resources/css/app.css',
-                'resources/js/app.js',
-                'resources/css/front.scss',
-                'resources/js/front.js',
+                // 'resources/css/front.scss',
+                // 'resources/js/front.js',
+
+                'resources/css/admin.scss',
+                'resources/js/admin.js',
+
             ],
-            refresh: true,
+            // refresh: true,
             publicPath: "/public/",
         }),
+        // vue({
+        //     template: {
+        //         transformAssetUrls: {
+        //             base: null,
+        //             includeAbsolute: false,
+        //         },
+        //     },
+        // }),
         viteStaticCopy({
             targets: [
               {
@@ -42,4 +54,21 @@ export default defineConfig({
             ]
         }),
     ],
+    // resolve: {
+    //     // alias: {
+    //     //     vue: 'vue/dist/vue.esm-bundler.js',
+    //     // },
+    //     alias: {
+    //         '@': 'resources/css/'
+    //     },
+    //     extensions: [
+    //         '.js',
+    //         '.json',
+    //         '.jsx',
+    //         '.mjs',
+    //         '.ts',
+    //         '.tsx',
+    //         '.vue',
+    //     ],
+    // },
 });

@@ -3,7 +3,7 @@
 namespace App\Http\Controllers\Admin;
 
 use App\Http\Controllers\Controller;
-use App\Block;
+use App\Models\Block;
 use Illuminate\Http\Request;
 
 class BlockController extends Controller

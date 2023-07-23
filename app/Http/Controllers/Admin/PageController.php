@@ -5,8 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-use App\Page;
-use App\Block;
+use App\Models\Page;
+use App\Models\Block;
 
 
 class PageController extends Controller

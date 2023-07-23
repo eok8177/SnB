@@ -6,9 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Validation\Rule;
 
-use App\User;
-use App\Group;
-use Illuminate\Support\Facades\Auth;
+use App\Models\User;
 
 class UserController extends Controller
 {
@@ -116,7 +114,7 @@ class UserController extends Controller
 
     public function redirectTo(Request $request)
     {
-        $user =Auth::user();
+        $user = auth()->user();
         $user->last_logged_in = date("Y-m-d H:i:s");
         $user->save();
         if ($user->role == 'admin') {

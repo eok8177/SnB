@@ -7,7 +7,9 @@ use Illuminate\Http\Request;
 
 use Mail;
 
-use App\Page;
+use App\Models\Bot;
+use App\Models\Site;
+use App\Models\Page;
 
 class FrontendController extends Controller
 {
@@ -23,12 +25,14 @@ class FrontendController extends Controller
 
     public function sites()
     {
-        return view('front.sites');
+        $blocks = Site::where('show',1)->orderBy('order','asc')->get();
+        return view('front.sites',['blocks'=>$blocks]);
     }
 
     public function bots()
     {
-        return view('front.bots');
+        $blocks = Bot::where('show',1)->orderBy('order','asc')->get();
+        return view('front.bots',['blocks'=>$blocks]);
     }
 
     public function about()
