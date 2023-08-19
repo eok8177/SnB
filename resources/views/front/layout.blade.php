@@ -103,7 +103,7 @@
             <p>@lang('We will gladly discuss the peculiarities of your project in more detail.')</p>
             <button class="button d-md-none btn-submit" data-bs-toggle="modal" data-bs-target="#contactModal">@lang('Contact us')</button>
           </div>
-          <p class="copyright">Sites&Bots, 2020</p>
+          <p class="copyright">SNB Soluions, {{date('Y')}}</p>
         </div>
       </div>
     </div>

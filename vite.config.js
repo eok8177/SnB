@@ -27,11 +27,11 @@ export default defineConfig({
     plugins: [
         laravel({
             input: [
-                // 'resources/css/front.scss',
+                'resources/css/front.scss',
                 // 'resources/js/front.js',
 
-                'resources/css/admin.scss',
-                'resources/js/admin.js',
+                // 'resources/css/admin.scss',
+                // 'resources/js/admin.js',
 
             ],
             // refresh: true,
