@@ -328,12 +328,12 @@ body.home-page {
             margin-right: 10px;
         }
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
+        background: $primary-blue;
         margin-bottom: 40px;
         .container {
             padding: 0;
             min-height: 64px;
-            background: $primary-blue;
         }
         .logo {
             width: 60px;
@@ -393,12 +393,16 @@ body.home-page {
         }
     }
 }
+@media (min-width: 1200px) {
+    .about-us-page, .contact-page {
+        .nav .logo {display: none;}
+    }
+}
+
 .bots {
     .nav {
-        @media (max-width: 991px) {
-            .container {
-                background: $primary-red;
-            }
+        @media (max-width: 1199px) {
+            background: $primary-red;
         }
     }
 }
@@ -1019,7 +1023,11 @@ body.bots footer {
 }
 
 .modal {
-    .modal-dialog {max-width: 360px;}
+    .modal-dialog {
+        max-width: 360px;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .modal-content {
         background-color: #fff;
         border-radius: 0;
