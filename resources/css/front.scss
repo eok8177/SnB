@@ -1027,6 +1027,11 @@ body.bots footer {
         max-width: 360px;
         margin-left: auto;
         margin-right: auto;
+        @media only screen and (max-width:768px) {
+            display: flex;
+            align-items: center;
+            height: 100vh;
+        }
     }
     .modal-content {
         background-color: #fff;
