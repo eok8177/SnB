@@ -8,22 +8,22 @@
       <h1 class="title">@lang('Contacts')</h1>
 
       <h4 class="sub-title-border">@lang('Contacts')</h4>
-      <a href="tel:0986105285" class="link-block">+38 (098) 610 52 85&nbsp;&nbsp;&nbsp; @lang('Vladislav')</a>
+      {{-- <a href="tel:0986105285" class="link-block">+38 (098) 610 52 85&nbsp;&nbsp;&nbsp; @lang('Vladislav')</a> --}}
       <a href="tel:0678042663" class="link-block">+38 (067) 804 26 63&nbsp;&nbsp;&nbsp; @lang('Aleksandr')</a>
       <a href="mailto:sitesnbotssocial@gmail.com" class="link-block">sitesnbotssocial@gmail.com</a>
 
       <h4 class="sub-title-border wow backInLeft" data-wow-delay="0.4s" style="visibility: hidden;">@lang('Social networks')</h4>
       <div class="contact-links">
-        <a href="https://www.facebook.com/groups/250822842966466/" title="Facebook" class=" wow zoomIn" data-wow-delay="1.3s" style="visibility: hidden;">
+        {{-- <a href="https://www.facebook.com/groups/250822842966466/" title="Facebook" class=" wow zoomIn" data-wow-delay="1.3s" style="visibility: hidden;">
           <span class="ico-fb"></span>
-        </a>
-        <a href="https://www.instagram.com/sites_bots/" title="Instagram" class=" wow zoomIn" data-wow-delay="1.5s" style="visibility: hidden;">
+        </a> --}}
+        {{-- <a href="https://www.instagram.com/sites_bots/" title="Instagram" class=" wow zoomIn" data-wow-delay="1.5s" style="visibility: hidden;">
           <span class="ico-inst"></span>
-        </a>
-        <a href="#" title="LinkedIn" class=" wow zoomIn" data-wow-delay="1.7s" style="visibility: hidden;">
+        </a> --}}
+        <a href="https://www.linkedin.com/in/olexandr-vytushko-521138208/" title="LinkedIn" class=" wow zoomIn" data-wow-delay="1.3s" style="visibility: hidden;">
           <span class="ico-ln"></span>
         </a>
-        <a href="#" title="Telegram" class=" wow zoomIn" data-wow-delay="1.9s" style="visibility: hidden;">
+        <a href="https://t.me/alexsnbpm" title="Telegram" class=" wow zoomIn" data-wow-delay="1.5s" style="visibility: hidden;">
           <span class="ico-send"></span>
         </a>
       </div>
