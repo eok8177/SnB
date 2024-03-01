@@ -8,7 +8,7 @@
       <h1 class="title">@lang('Contacts')</h1>
 
       <h4 class="sub-title-border">@lang('Contacts')</h4>
-      {{-- <a href="tel:0986105285" class="link-block">+38 (098) 610 52 85&nbsp;&nbsp;&nbsp; @lang('Vladislav')</a> --}}
+      <a href="tel:0986105285" class="link-block">+38 (098) 610 52 85&nbsp;&nbsp;&nbsp; @lang('Vladislav')</a>
       <a href="tel:0678042663" class="link-block">+38 (067) 804 26 63&nbsp;&nbsp;&nbsp; @lang('Aleksandr')</a>
       <a href="mailto:sitesnbotssocial@gmail.com" class="link-block">sitesnbotssocial@gmail.com</a>
 
